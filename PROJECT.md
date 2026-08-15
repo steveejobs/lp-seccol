@@ -34,6 +34,7 @@ O novo site não será uma reforma do código antigo. Informações e imagens pu
 - Oxlint, TypeScript e build de produção como verificações obrigatórias.
 - Playwright Core reutilizando o Edge local para validação visual responsiva.
 - Python e Pillow para ferramentas de tratamento de assets.
+- Vercel como hospedagem do build estático, com configuração versionada em `vercel.json` e Node.js 24.
 
 Fontes oficiais consultadas na definição da stack:
 
@@ -237,6 +238,14 @@ Foram integradas oito rotas funcionais por hash para compatibilidade com hospeda
 
 A rota `#/instagram` foi criada como experiência autônoma, sem cabeçalho ou rodapé institucional, inspirada na hierarquia móvel das páginas de referência da SOS Ótica e Ótica Moderna. Ela reutiliza tema, logo e mídia já aprovados no projeto. Os destinos seguem o Instabio público da Seccol na ordem publicada: atendimento, website, Facebook e localização; o website antigo foi substituído pela home interna do site atual. Não foram adicionados destinos comerciais não confirmados.
 
+### 2026-08-15 — Deploy na Vercel
+
+O deploy estático passou a ter configuração versionada em `vercel.json`: detecção explícita de Vite, instalação reprodutível com `npm ci`, build por `npm run build` e saída em `dist`. O runtime foi fixado em Node.js 24 pelo campo `engines` do `package.json`, versão suportada pela Vercel e compatível com Vite 8.
+
+A tentativa anterior apontava para `steveejobs/SIVS-Seccol`, enquanto o remoto deste projeto é `steveejobs/lp-seccol`. A conexão Git da Vercel deve usar o repositório atual e a raiz do repositório como Root Directory. O procedimento está documentado em `docs/deploy-vercel.md`.
+
+O primeiro deploy corrigido foi publicado com sucesso em `https://sivs-seccol.vercel.app` a partir deste workspace. A Vercel confirmou instalação limpa e build de produção sem erros. A integração Git do projeto `sivs-seccol` também foi substituída com sucesso e agora aponta para `steveejobs/lp-seccol`, permitindo deploys automáticos por push na branch de produção.
+
 ## Próxima decisão
 
 Revisar as páginas completas com o usuário e refinar ritmo, densidade de conteúdo e escolha das fotografias sem alterar fatos confirmados.
@@ -274,3 +283,4 @@ Revisar as páginas completas com o usuário e refinar ritmo, densidade de conte
 - Relatório integrado: `docs/qa-site.md`.
 - Ferramentas Python: compilação aprovada.
 - Otimizador de imagens: teste funcional, com redução de 114,9 KB para 28,7 KB no asset de teste.
+- Deploy de produção na Vercel: instalação com `npm ci`, build Vite e alias `https://sivs-seccol.vercel.app` aprovados.
