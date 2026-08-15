@@ -1,0 +1,375 @@
+{
+  "source": "https://seccol.com.br/",
+  "captured_at": "2026-08-15",
+  "image_count": 25,
+  "images": [
+    {
+      "path": "images/area_limpa/bg_teste_em_areas_limpas.jpg",
+      "source_url": "https://seccol.com.br/images/area_limpa/bg_teste_em_areas_limpas.jpg",
+      "sha256": "2ddbcd4af3184dd02ce83ddd4b8671f5a5bbdee6f78ccd046f242f1db3d113a1",
+      "bytes": 58367,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 1920,
+      "height": 1280,
+      "aspect_ratio": 1.5,
+      "used_by": [
+        "area-limpa.html"
+      ]
+    },
+    {
+      "path": "images/area_limpa/certificado.png",
+      "source_url": "https://seccol.com.br/images/area_limpa/certificado.png",
+      "sha256": "40233f550be3d0db00df949d7453a7cb65c0cda8c0161c92c0eca90a7c27a286",
+      "bytes": 57831,
+      "format": "PNG",
+      "mode": "P",
+      "width": 550,
+      "height": 240,
+      "aspect_ratio": 2.2917,
+      "used_by": [
+        "area-limpa.html"
+      ]
+    },
+    {
+      "path": "images/banners/banner_area_limpa.jpg",
+      "source_url": "https://seccol.com.br/images/banners/banner_area_limpa.jpg",
+      "sha256": "4b6f4cc31c8fd7d00d0cfb67f78b0cd28e76058942d6fc628270528b1dd0d851",
+      "bytes": 94171,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 1920,
+      "height": 1280,
+      "aspect_ratio": 1.5,
+      "used_by": [
+        "area-limpa.html"
+      ]
+    },
+    {
+      "path": "images/banners/banner_contatos.jpg",
+      "source_url": "https://seccol.com.br/images/banners/banner_contatos.jpg",
+      "sha256": "deb9aa97b88e769c9dbdadf37064bed0cf1950ca72bbe181cf63593d80ef7a04",
+      "bytes": 130201,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 1920,
+      "height": 1280,
+      "aspect_ratio": 1.5,
+      "used_by": [
+        "contatos.html"
+      ]
+    },
+    {
+      "path": "images/banners/banner_equipamentos.jpg",
+      "source_url": "https://seccol.com.br/images/banners/banner_equipamentos.jpg",
+      "sha256": "da251ba404469c88a931616535f4201fe796494c740af4d7890f2e4986a0eb06",
+      "bytes": 218138,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 1920,
+      "height": 1280,
+      "aspect_ratio": 1.5,
+      "used_by": [
+        "equipamentos.html"
+      ]
+    },
+    {
+      "path": "images/banners/banner_faq.jpg",
+      "source_url": "https://seccol.com.br/images/banners/banner_faq.jpg",
+      "sha256": "506d399848a873b2c0b9e47a394f2761a1c94a83f57b6432ed7235658add16fe",
+      "bytes": 110130,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 1920,
+      "height": 1280,
+      "aspect_ratio": 1.5,
+      "used_by": [
+        "faq.html"
+      ]
+    },
+    {
+      "path": "images/banners/banner_quem.jpg",
+      "source_url": "https://seccol.com.br/images/banners/banner_quem.jpg",
+      "sha256": "ebdd40a27db78929585f6635bfcc593221ad63095512d1db506776272c10fbe8",
+      "bytes": 106971,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 1920,
+      "height": 1280,
+      "aspect_ratio": 1.5,
+      "used_by": [
+        "quem.html"
+      ]
+    },
+    {
+      "path": "images/banners/banner_teste_equipamentos.jpg",
+      "source_url": "https://seccol.com.br/images/banners/banner_teste_equipamentos.jpg",
+      "sha256": "1f0218e9c955967e36f9a9b824da74033a70ad85e3bd12af5a7bf5eb608c1d1d",
+      "bytes": 133601,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 1920,
+      "height": 1280,
+      "aspect_ratio": 1.5,
+      "used_by": [
+        "teste-equipamento.html"
+      ]
+    },
+    {
+      "path": "images/favicon.png",
+      "source_url": "https://seccol.com.br/images/favicon.png",
+      "sha256": "1cda22755b6a267921cc064dffedcb9ee9b1ba2291797a564d25b9e899a21d72",
+      "bytes": 15211,
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 16,
+      "height": 16,
+      "aspect_ratio": 1.0,
+      "used_by": [
+        "area-limpa.html",
+        "contatos.html",
+        "equipamentos.html",
+        "faq.html",
+        "index.html",
+        "quem.html",
+        "teste-equipamento.html"
+      ]
+    },
+    {
+      "path": "images/home/1.png",
+      "source_url": "https://seccol.com.br/images/home/1.png",
+      "sha256": "b970606a2767cc9d8ad97b846b2be21c401602b5cf07ceef010bfff5708ac828",
+      "bytes": 88934,
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 256,
+      "height": 256,
+      "aspect_ratio": 1.0,
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "images/home/2.png",
+      "source_url": "https://seccol.com.br/images/home/2.png",
+      "sha256": "1b64bb740d4ddc66f29e61e577bda212222f67def30676539603783846dea45e",
+      "bytes": 39286,
+      "format": "PNG",
+      "mode": "P",
+      "width": 256,
+      "height": 256,
+      "aspect_ratio": 1.0,
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "images/home/3.png",
+      "source_url": "https://seccol.com.br/images/home/3.png",
+      "sha256": "6198d57dceffdc3f578e95e120a5fc65a9f70e23baae6610d92e6896ed41a023",
+      "bytes": 48307,
+      "format": "PNG",
+      "mode": "P",
+      "width": 256,
+      "height": 256,
+      "aspect_ratio": 1.0,
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "images/home/4.png",
+      "source_url": "https://seccol.com.br/images/home/4.png",
+      "sha256": "e53d3d5950972acf7cb660c2ee2bc39ab6b04ec2b4718c1565d0ab73cef5d6c5",
+      "bytes": 100385,
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 256,
+      "height": 256,
+      "aspect_ratio": 1.0,
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "images/home/bg_estrutura.jpg",
+      "source_url": "https://seccol.com.br/images/home/bg_estrutura.jpg",
+      "sha256": "233bbff317e3bef3403f2412e3eb4eb894976cbd0a711bf6db926ac98868b836",
+      "bytes": 53675,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 1920,
+      "height": 1280,
+      "aspect_ratio": 1.5,
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "images/home/slides/grafismo_quadrado.png",
+      "source_url": "https://seccol.com.br/images/home/slides/grafismo_quadrado.png",
+      "sha256": "ccf5598a4b65777ce1637b855873edef61bb066488f01aee509782fac2af486c",
+      "bytes": 113,
+      "format": "PNG",
+      "mode": "P",
+      "width": 200,
+      "height": 200,
+      "aspect_ratio": 1.0,
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "images/home/slides/slide_1.jpg",
+      "source_url": "https://seccol.com.br/images/home/slides/slide_1.jpg",
+      "sha256": "4a59d4c52fa4c34096c3a994860d22fd98cae830add550ed563424364a2c319c",
+      "bytes": 117633,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 1920,
+      "height": 1440,
+      "aspect_ratio": 1.3333,
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "images/home/slides/slide_2.jpg",
+      "source_url": "https://seccol.com.br/images/home/slides/slide_2.jpg",
+      "sha256": "4e5ac9b786778d4de4758f666a60fb50609976ebdc04a03afa4a3df0c8964745",
+      "bytes": 212287,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 1920,
+      "height": 1440,
+      "aspect_ratio": 1.3333,
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "images/home/slides/slide_3.jpg",
+      "source_url": "https://seccol.com.br/images/home/slides/slide_3.jpg",
+      "sha256": "fd2a3b4ff15f1b94ee9b2e704b57c3382614aeb46f9b3f1c5ee2656ca7dcc70e",
+      "bytes": 91634,
+      "format": "JPEG",
+      "mode": "RGB",
+      "width": 1920,
+      "height": 1440,
+      "aspect_ratio": 1.3333,
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "images/home/slides/thumb_slide_1.png",
+      "source_url": "https://seccol.com.br/images/home/slides/thumb_slide_1.png",
+      "sha256": "7579f3ff6b406ef322efb3d43924610f111293846588a0f93e2b526ce81126f5",
+      "bytes": 2613,
+      "format": "PNG",
+      "mode": "P",
+      "width": 100,
+      "height": 50,
+      "aspect_ratio": 2.0,
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "images/home/slides/thumb_slide_2.png",
+      "source_url": "https://seccol.com.br/images/home/slides/thumb_slide_2.png",
+      "sha256": "78541f990431e02decb480d5ee31292d25f6db82c5bc77a1a094c9ccee194ed1",
+      "bytes": 2396,
+      "format": "PNG",
+      "mode": "P",
+      "width": 100,
+      "height": 50,
+      "aspect_ratio": 2.0,
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "images/home/slides/thumb_slide_3.png",
+      "source_url": "https://seccol.com.br/images/home/slides/thumb_slide_3.png",
+      "sha256": "90346b641279539cc8555c2b8f3aaaacc2157b06fdbe30ecd1ba030cb53fc64a",
+      "bytes": 1694,
+      "format": "PNG",
+      "mode": "P",
+      "width": 100,
+      "height": 50,
+      "aspect_ratio": 2.0,
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "images/loading.gif",
+      "source_url": "https://seccol.com.br/images/loading.gif",
+      "sha256": "37912118b89e9cec65ce77adc9a52738a99a2524aa35c2ac3b815e2d2f7666c6",
+      "bytes": 8787,
+      "format": "GIF",
+      "mode": "P",
+      "width": 32,
+      "height": 32,
+      "aspect_ratio": 1.0,
+      "used_by": [
+        "css/theme-elements.css"
+      ]
+    },
+    {
+      "path": "images/logo-dark.png",
+      "source_url": "https://seccol.com.br/images/logo-dark.png",
+      "sha256": "94437170b84c7ce218f2ae911de7951e6ac8f847ee75d3a35f5dd203bfe9840a",
+      "bytes": 1361,
+      "format": "PNG",
+      "mode": "P",
+      "width": 128,
+      "height": 90,
+      "aspect_ratio": 1.4222,
+      "used_by": [
+        "area-limpa.html",
+        "contatos.html",
+        "equipamentos.html",
+        "faq.html",
+        "index.html",
+        "quem.html",
+        "teste-equipamento.html"
+      ]
+    },
+    {
+      "path": "images/logo.png",
+      "source_url": "https://seccol.com.br/images/logo.png",
+      "sha256": "cfc7c1ff23cc6ffb0e794a11dedaf1ea1b71a0d6c059c236e8ed73f8f862f20b",
+      "bytes": 1567,
+      "format": "PNG",
+      "mode": "P",
+      "width": 128,
+      "height": 90,
+      "aspect_ratio": 1.4222,
+      "used_by": [
+        "area-limpa.html",
+        "contatos.html",
+        "equipamentos.html",
+        "faq.html",
+        "index.html",
+        "quem.html",
+        "teste-equipamento.html"
+      ]
+    },
+    {
+      "path": "images/overlay-pattern/overlay-pattern-1.png",
+      "source_url": "https://seccol.com.br/images/overlay-pattern/overlay-pattern-1.png",
+      "sha256": "367dacef3f3650058439ad17f01b2b82c9de869cd470ccc068c380d71cae7a06",
+      "bytes": 2804,
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 2,
+      "height": 2,
+      "aspect_ratio": 1.0,
+      "used_by": [
+        "css/theme-elements.css"
+      ]
+    }
+  ]
+}

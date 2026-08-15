@@ -1,0 +1,20 @@
+.perspective {
+  --pointer-x: 0;
+  --pointer-y: 0;
+  perspective: 900px;
+}
+
+.surface {
+  height: 100%;
+  transform: rotateX(calc(var(--pointer-y) * var(--tilt-intensity) * -1))
+    rotateY(calc(var(--pointer-x) * var(--tilt-intensity)));
+  transform-style: preserve-3d;
+  transition: transform var(--motion-duration-ui) var(--motion-ease-ui);
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce), (hover: none), (pointer: coarse) {
+  .surface {
+    transform: none;
+  }
+}

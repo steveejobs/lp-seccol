@@ -1,0 +1,40 @@
+@import '../theme/tokens.css';
+@import '../theme/reset.css';
+@import '../theme/motion.css';
+@import '../theme/utilities.css';
+
+html {
+  color: var(--color-text);
+  background: var(--color-canvas);
+  font-family: var(--font-sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100svh;
+  overflow-x: clip;
+}
+
+#root {
+  min-height: 100svh;
+  isolation: isolate;
+}
+
+::selection {
+  color: var(--color-on-accent);
+  background: var(--color-accent);
+}
+
+:focus-visible {
+  outline: var(--focus-ring-width) solid var(--color-focus);
+  outline-offset: var(--focus-ring-offset);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

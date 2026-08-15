@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "source": "https://seccol.com.br/",
+  "captured_at": "2026-08-15",
+  "accuracy_rule": "Os valores abaixo foram transcritos do site publicado. Em caso de dúvida ou conflito, consultar pages.json e o HTML imutável em reference/site-original.",
+  "company": {
+    "display_name": "SECCOL Controle e Certificação",
+    "specialization": "Controle de Contaminação Ambiental",
+    "founded": 2009,
+    "headquarters_city": "Goiânia - GO",
+    "coverage": "todo o país",
+    "published_experience_claim": "profissionais altamente capacitados com mais de 15 anos de experiência na área",
+    "source_pages": [
+      "index.html",
+      "quem.html"
+    ]
+  },
+  "positioning": {
+    "home_messages": [
+      "ESPECIALISTAS em Controle de Contaminação Ambiental",
+      "SERVIÇOS de manutenção, reforma, venda e certificação em todo o país",
+      "DESDE 2009 atuando com profissionais altamente capacitados"
+    ],
+    "objective_as_published": "A Seccol trabalha com o objetivo de evitar uma parada prolongada nos processos de manipulação, de fabricação e de pesquisas das empresas assessoradas. Seu trabalho consiste em prevenção e em definição de prazos de substituição dos materiais sobressalentes, tais como: filtros absolutos “HEPA” e motores elétricos.",
+    "source_page": "index.html"
+  },
+  "registrations_and_affiliations": [
+    {
+      "name": "Conselho Regional de Engenharia e Agronomia",
+      "abbreviation": "CREA"
+    },
+    {
+      "name": "Sociedade Brasileira de Controle de Contaminação",
+      "abbreviation": "SBCC"
+    },
+    {
+      "name": "Vigilância Sanitária e Ambiental da Secretaria Municipal de Saúde de Goiânia",
+      "abbreviation": ""
+    }
+  ],
+  "core_services": {
+    "activities": [
+      "manutenção",
+      "reforma",
+      "venda",
+      "certificação"
+    ],
+    "service_objects": [
+      "Área Limpa",
+      "Cabine de Segurança biológica",
+      "Capela de Exaustão",
+      "Equipamento de Fluxo Unidirecional",
+      "Elaboração e Execução de Projetos para Área Limpa",
+      "Elaboração e Execução de Projetos para Centro Cirúrgico",
+      "Monitoramento de unidade de descontaminação/ventilação"
+    ],
+    "source_page": "quem.html"
+  },
+  "segments_as_published": {
+    "items": [
+      "Reprodução Assistida",
+      "Análise Laboratorial",
+      "Oncologia",
+      "Ind.Farmacêutica",
+      "Centro Cirúrgico",
+      "Fertilização Animal",
+      "Instituto de Pesquisa",
+      "Nutrição Parenteral e Enteral",
+      "Alimento Químico",
+      "Cosmético",
+      "Empresa de injetáveis",
+      "Empresa de alimentos",
+      "Empresa de produtos químicos",
+      "Indústria agropecuária",
+      "Universidade",
+      "Laboratório P3"
+    ],
+    "source_page": "index.html",
+    "note": "Grafia mantida exatamente como publicada; possíveis correções devem ser aprovadas antes do novo site."
+  },
+  "equipment_tests_as_published": {
+    "items": [
+      "Velocidade e uniformidade do fluxo de ar",
+      "Ensaio de velocidade do fluxo de ar de face (inflow)",
+      "Diferença de pressão do sistema de filtragem HEPA/ULPA (perda de carga dos filtros)",
+      "Ensaio para detecção de ponto de vazamentos em sistema de filtragem instalado HEPA/ULPA",
+      "Ensaio de sentido e visualização do fluxo de ar (fumaça)",
+      "Contagem de particulas em suspensão no ar",
+      "Ensaio de avaliação dos alarmes da CSB",
+      "Ensaio de intensidade de iluminação",
+      "Ensaio de vibração",
+      "Ensaio de ruído",
+      "Ensaios adicionais",
+      "Inspeção e/ou substituição de filtro(s) grosso(s) e de filtro(s) HEPA",
+      "Balanceamento do sistema de insuflamento e de exaustão",
+      "Limpeza da parte interna do equipamento",
+      "Medição da eficiência de radiação de lâmpada(s) germicida(s) (ou) “ultravioleta(s)”",
+      "Medição da pressão diferencial do(s) filtro(s) HEPA, verificando o grau de saturação",
+      "Medição da tensão e da concorrente elétrica do motor",
+      "Reparo no meio filtrante ou na estrtura do(s) filtro(s) HEPA, quando necessário",
+      "Revisão do manômetro de pressão diferencial",
+      "Revisão dos selos de vedação",
+      "Verificação de componentes eletromecânicos"
+    ],
+    "source_page": "teste-equipamento.html",
+    "note": "Grafia mantida exatamente como publicada."
+  },
+  "clean_room_tests_as_published": {
+    "items": [
+      "Teste de integridade e de estanqueidade do(s) filtro(s) HEPA (PAO)*",
+      "Medição da pressão diferencial do(s) filtro(s) HEPA, verificando o grau de saturação.",
+      "Cálculo de vazão do ar insuflado.",
+      "Número de trocas de ar por hora.",
+      "Teste de luminosidade das salas.",
+      "Nível de ruído das salas.",
+      "Balanceamento do sistema de insuflamento e de retorno.",
+      "Contagem eletrônica de partículas em suspensão no ar.",
+      "Medição da vazão do ar insuflado.",
+      "Teste de recuperação.",
+      "Medição da pressão diferencial entre salas."
+    ],
+    "source_page": "area-limpa.html"
+  },
+  "instruments_as_published": {
+    "items": [
+      "Contador de Partículas",
+      "Fotômetro e Gerador de Aerossol (PAO)",
+      "Balometer",
+      "Luxímetro",
+      "Decibelímetro",
+      "Termo anemômetro",
+      "Manômetro digital",
+      "Alicate amperímetro",
+      "Ampola de fumaça",
+      "Termo higrômetro",
+      "Medidor de luz ultravioleta (UVC) “Radiômetro”",
+      "VHP – Vapor de peróxido de hidrogênio para Biodescontaminação"
+    ],
+    "calibration_claim": "Os instrumentos sujeitos à calibração são descritos no site como calibrados anualmente.",
+    "source_page": "equipamentos.html"
+  },
+  "clean_room_deliverables": {
+    "certificate": "Certificado contendo as descrições das solicitações das normas exigidas pela ANVISA e SBCC.",
+    "report": "Relatório detalhado de todos os testes, ajustes e recomendações técnicas.",
+    "source_page": "area-limpa.html"
+  },
+  "structure_as_published": [
+    {
+      "name": "Frota Caminhão Baú",
+      "description": "Para equipamentos pesados"
+    },
+    {
+      "name": "Frota Pick-ups",
+      "description": "Manutenção técnica básica"
+    },
+    {
+      "name": "Equipamentos",
+      "description": "Mais modernos e seguros"
+    },
+    {
+      "name": "Administração",
+      "description": "Escritório para administração geral"
+    }
+  ],
+  "contact": {
+    "address_lines": [
+      "R. C-27, nº 202, quadra 18, Lote 13 - Jardim America",
+      "Goiânia - GO, 74265-170"
+    ],
+    "email": "contato@seccol.com.br",
+    "phones": [
+      "(62) 3275-1272",
+      "(62) 9 8246-8283"
+    ],
+    "business_hours": "Segunda à Sexta: 08h às 18h",
+    "whatsapp_number_e164": "+5562982468283",
+    "whatsapp_published_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+    "instagram": "https://www.instagram.com/seccolcertificacao/",
+    "facebook": "https://www.facebook.com/seccolcertificacao/",
+    "source_page": "contatos.html"
+  },
+  "published_forms": [
+    {
+      "page": "contatos.html",
+      "action": "enviar_email.php",
+      "method": "post"
+    },
+    {
+      "page": "area-limpa.html",
+      "action": "include/contact-form.php",
+      "method": "post"
+    }
+  ],
+  "brand_assets": {
+    "primary_logo": "images/logo.png",
+    "dark_logo": "images/logo-dark.png",
+    "favicon": "images/favicon.png",
+    "image_catalog": "images.json",
+    "visual_contact_sheet": "image-contact-sheet.jpg"
+  }
+}

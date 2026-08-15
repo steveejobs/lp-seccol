@@ -1,0 +1,575 @@
+{
+  "source": "https://seccol.com.br/",
+  "captured_at": "2026-08-15",
+  "policy": "Arquivos originais imutáveis. Não editar reference/site-original.",
+  "file_count": 81,
+  "files": [
+    {
+      "path": "area-limpa.html",
+      "source_url": "https://seccol.com.br/area-limpa.html",
+      "bytes": 20860,
+      "sha256": "a53820383aad5afd313f27f8b80b12155bcfb1bc55008bbaa2aff782765af009",
+      "content_type": "text/html"
+    },
+    {
+      "path": "contatos.html",
+      "source_url": "https://seccol.com.br/contatos.html",
+      "bytes": 12705,
+      "sha256": "aa02d89453b16fad23f9c3d647b5798cfbe06b141b65cb7d32e7d492737da059",
+      "content_type": "text/html"
+    },
+    {
+      "path": "css/color-variations/orange.css",
+      "source_url": "https://seccol.com.br/css/color-variations/orange.css",
+      "bytes": 6110,
+      "sha256": "cda62b018768dc328e81696666bbf11ace7a9353fd0b8dadbc74d2240b2c5420",
+      "content_type": "text/css"
+    },
+    {
+      "path": "css/custom.css",
+      "source_url": "https://seccol.com.br/css/custom.css",
+      "bytes": 32,
+      "sha256": "b5865fa152e963c6820be5bca8c1b44829fa9df3de421f01efb618a866c18b99",
+      "content_type": "text/css"
+    },
+    {
+      "path": "css/responsive.css",
+      "source_url": "https://seccol.com.br/css/responsive.css",
+      "bytes": 18750,
+      "sha256": "ffb540e3a7d14c93aa5fb6d7f02b648f98891a48e67aecdd0b90712cdd79b6fa",
+      "content_type": "text/css"
+    },
+    {
+      "path": "css/rs-plugin-styles.css",
+      "source_url": "https://seccol.com.br/css/rs-plugin-styles.css",
+      "bytes": 25347,
+      "sha256": "3854892f74d9ad3446e5f808d3439e3da44270b112d7eb77b63fb82ba709dc60",
+      "content_type": "text/css"
+    },
+    {
+      "path": "css/theme-base.css",
+      "source_url": "https://seccol.com.br/css/theme-base.css",
+      "bytes": 99069,
+      "sha256": "ff45011415ea66a01ea6d1e8aa854df54333b56505b59ba1e067883eb8770e76",
+      "content_type": "text/css"
+    },
+    {
+      "path": "css/theme-elements.css",
+      "source_url": "https://seccol.com.br/css/theme-elements.css",
+      "bytes": 159876,
+      "sha256": "2b8d80b6a50f8f16251f779e47a1a712e2e6441b924fe03a9b928635564ed3cc",
+      "content_type": "text/css"
+    },
+    {
+      "path": "equipamentos.html",
+      "source_url": "https://seccol.com.br/equipamentos.html",
+      "bytes": 17278,
+      "sha256": "77f02de476d10a7f02cde5ed029c0e72c412f369cf0c27bcd9a85197088e7aeb",
+      "content_type": "text/html"
+    },
+    {
+      "path": "faq.html",
+      "source_url": "https://seccol.com.br/faq.html",
+      "bytes": 15720,
+      "sha256": "9bbfef6c04f02fabf88f158c6a8b3faac5b67a4819e7438082be52aad35c1103",
+      "content_type": "text/html"
+    },
+    {
+      "path": "images/area_limpa/bg_teste_em_areas_limpas.jpg",
+      "source_url": "https://seccol.com.br/images/area_limpa/bg_teste_em_areas_limpas.jpg",
+      "bytes": 58367,
+      "sha256": "2ddbcd4af3184dd02ce83ddd4b8671f5a5bbdee6f78ccd046f242f1db3d113a1",
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "images/area_limpa/certificado.png",
+      "source_url": "https://seccol.com.br/images/area_limpa/certificado.png",
+      "bytes": 57831,
+      "sha256": "40233f550be3d0db00df949d7453a7cb65c0cda8c0161c92c0eca90a7c27a286",
+      "content_type": "image/png"
+    },
+    {
+      "path": "images/banners/banner_area_limpa.jpg",
+      "source_url": "https://seccol.com.br/images/banners/banner_area_limpa.jpg",
+      "bytes": 94171,
+      "sha256": "4b6f4cc31c8fd7d00d0cfb67f78b0cd28e76058942d6fc628270528b1dd0d851",
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "images/banners/banner_contatos.jpg",
+      "source_url": "https://seccol.com.br/images/banners/banner_contatos.jpg",
+      "bytes": 130201,
+      "sha256": "deb9aa97b88e769c9dbdadf37064bed0cf1950ca72bbe181cf63593d80ef7a04",
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "images/banners/banner_equipamentos.jpg",
+      "source_url": "https://seccol.com.br/images/banners/banner_equipamentos.jpg",
+      "bytes": 218138,
+      "sha256": "da251ba404469c88a931616535f4201fe796494c740af4d7890f2e4986a0eb06",
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "images/banners/banner_faq.jpg",
+      "source_url": "https://seccol.com.br/images/banners/banner_faq.jpg",
+      "bytes": 110130,
+      "sha256": "506d399848a873b2c0b9e47a394f2761a1c94a83f57b6432ed7235658add16fe",
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "images/banners/banner_quem.jpg",
+      "source_url": "https://seccol.com.br/images/banners/banner_quem.jpg",
+      "bytes": 106971,
+      "sha256": "ebdd40a27db78929585f6635bfcc593221ad63095512d1db506776272c10fbe8",
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "images/banners/banner_teste_equipamentos.jpg",
+      "source_url": "https://seccol.com.br/images/banners/banner_teste_equipamentos.jpg",
+      "bytes": 133601,
+      "sha256": "1f0218e9c955967e36f9a9b824da74033a70ad85e3bd12af5a7bf5eb608c1d1d",
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "images/favicon.png",
+      "source_url": "https://seccol.com.br/images/favicon.png",
+      "bytes": 15211,
+      "sha256": "1cda22755b6a267921cc064dffedcb9ee9b1ba2291797a564d25b9e899a21d72",
+      "content_type": "image/png"
+    },
+    {
+      "path": "images/home/1.png",
+      "source_url": "https://seccol.com.br/images/home/1.png",
+      "bytes": 88934,
+      "sha256": "b970606a2767cc9d8ad97b846b2be21c401602b5cf07ceef010bfff5708ac828",
+      "content_type": "image/png"
+    },
+    {
+      "path": "images/home/2.png",
+      "source_url": "https://seccol.com.br/images/home/2.png",
+      "bytes": 39286,
+      "sha256": "1b64bb740d4ddc66f29e61e577bda212222f67def30676539603783846dea45e",
+      "content_type": "image/png"
+    },
+    {
+      "path": "images/home/3.png",
+      "source_url": "https://seccol.com.br/images/home/3.png",
+      "bytes": 48307,
+      "sha256": "6198d57dceffdc3f578e95e120a5fc65a9f70e23baae6610d92e6896ed41a023",
+      "content_type": "image/png"
+    },
+    {
+      "path": "images/home/4.png",
+      "source_url": "https://seccol.com.br/images/home/4.png",
+      "bytes": 100385,
+      "sha256": "e53d3d5950972acf7cb660c2ee2bc39ab6b04ec2b4718c1565d0ab73cef5d6c5",
+      "content_type": "image/png"
+    },
+    {
+      "path": "images/home/bg_estrutura.jpg",
+      "source_url": "https://seccol.com.br/images/home/bg_estrutura.jpg",
+      "bytes": 53675,
+      "sha256": "233bbff317e3bef3403f2412e3eb4eb894976cbd0a711bf6db926ac98868b836",
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "images/home/slides/grafismo_quadrado.png",
+      "source_url": "https://seccol.com.br/images/home/slides/grafismo_quadrado.png",
+      "bytes": 113,
+      "sha256": "ccf5598a4b65777ce1637b855873edef61bb066488f01aee509782fac2af486c",
+      "content_type": "image/png"
+    },
+    {
+      "path": "images/home/slides/slide_1.jpg",
+      "source_url": "https://seccol.com.br/images/home/slides/slide_1.jpg",
+      "bytes": 117633,
+      "sha256": "4a59d4c52fa4c34096c3a994860d22fd98cae830add550ed563424364a2c319c",
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "images/home/slides/slide_2.jpg",
+      "source_url": "https://seccol.com.br/images/home/slides/slide_2.jpg",
+      "bytes": 212287,
+      "sha256": "4e5ac9b786778d4de4758f666a60fb50609976ebdc04a03afa4a3df0c8964745",
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "images/home/slides/slide_3.jpg",
+      "source_url": "https://seccol.com.br/images/home/slides/slide_3.jpg",
+      "bytes": 91634,
+      "sha256": "fd2a3b4ff15f1b94ee9b2e704b57c3382614aeb46f9b3f1c5ee2656ca7dcc70e",
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "images/home/slides/thumb_slide_1.png",
+      "source_url": "https://seccol.com.br/images/home/slides/thumb_slide_1.png",
+      "bytes": 2613,
+      "sha256": "7579f3ff6b406ef322efb3d43924610f111293846588a0f93e2b526ce81126f5",
+      "content_type": "image/png"
+    },
+    {
+      "path": "images/home/slides/thumb_slide_2.png",
+      "source_url": "https://seccol.com.br/images/home/slides/thumb_slide_2.png",
+      "bytes": 2396,
+      "sha256": "78541f990431e02decb480d5ee31292d25f6db82c5bc77a1a094c9ccee194ed1",
+      "content_type": "image/png"
+    },
+    {
+      "path": "images/home/slides/thumb_slide_3.png",
+      "source_url": "https://seccol.com.br/images/home/slides/thumb_slide_3.png",
+      "bytes": 1694,
+      "sha256": "90346b641279539cc8555c2b8f3aaaacc2157b06fdbe30ecd1ba030cb53fc64a",
+      "content_type": "image/png"
+    },
+    {
+      "path": "images/loading.gif",
+      "source_url": "https://seccol.com.br/images/loading.gif",
+      "bytes": 8787,
+      "sha256": "37912118b89e9cec65ce77adc9a52738a99a2524aa35c2ac3b815e2d2f7666c6",
+      "content_type": "image/gif"
+    },
+    {
+      "path": "images/logo-dark.png",
+      "source_url": "https://seccol.com.br/images/logo-dark.png",
+      "bytes": 1361,
+      "sha256": "94437170b84c7ce218f2ae911de7951e6ac8f847ee75d3a35f5dd203bfe9840a",
+      "content_type": "image/png"
+    },
+    {
+      "path": "images/logo.png",
+      "source_url": "https://seccol.com.br/images/logo.png",
+      "bytes": 1567,
+      "sha256": "cfc7c1ff23cc6ffb0e794a11dedaf1ea1b71a0d6c059c236e8ed73f8f862f20b",
+      "content_type": "image/png"
+    },
+    {
+      "path": "images/overlay-pattern/overlay-pattern-1.png",
+      "source_url": "https://seccol.com.br/images/overlay-pattern/overlay-pattern-1.png",
+      "bytes": 2804,
+      "sha256": "367dacef3f3650058439ad17f01b2b82c9de869cd470ccc068c380d71cae7a06",
+      "content_type": "image/png"
+    },
+    {
+      "path": "index.html",
+      "source_url": "https://seccol.com.br/index.html",
+      "bytes": 70820,
+      "sha256": "28de1f0a0d82704dd8b27e9bdb28d34b83e66d7fe884c78175bad26cb3d7841f",
+      "content_type": "text/html"
+    },
+    {
+      "path": "js/custom.js",
+      "source_url": "https://seccol.com.br/js/custom.js",
+      "bytes": 39,
+      "sha256": "338aecfb6bc4cb7bfec6793248627b1f02d7bfb19929d3fc8d9c40c546763341",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "js/theme-functions.js",
+      "source_url": "https://seccol.com.br/js/theme-functions.js",
+      "bytes": 48363,
+      "sha256": "19eaea6e6e0c8850691c5fb69f960fb756085bc4c9dc225c02d045b9457e5792",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "quem.html",
+      "source_url": "https://seccol.com.br/quem.html",
+      "bytes": 14106,
+      "sha256": "f0e18301c91e6babe324f7ca29f935783f2a1d4614949bbe0fddc312fa2635eb",
+      "content_type": "text/html"
+    },
+    {
+      "path": "teste-equipamento.html",
+      "source_url": "https://seccol.com.br/teste-equipamento.html",
+      "bytes": 14265,
+      "sha256": "63968de5d92d50d6652232455fd23da9858910feec9e12a257c65022e230f791",
+      "content_type": "text/html"
+    },
+    {
+      "path": "vendor/animateit/animate.min.css",
+      "source_url": "https://seccol.com.br/vendor/animateit/animate.min.css",
+      "bytes": 53432,
+      "sha256": "5a8ccc9fb2fb9e975248e242784534738fa149c6f0cb869950ac082ee277039a",
+      "content_type": "text/css"
+    },
+    {
+      "path": "vendor/bootstrap/css/bootstrap.min.css",
+      "source_url": "https://seccol.com.br/vendor/bootstrap/css/bootstrap.min.css",
+      "bytes": 121260,
+      "sha256": "eece6e0c65b7007ab0eb1b4998d36dafe381449525824349128efc3f86f4c91c",
+      "content_type": "text/css"
+    },
+    {
+      "path": "vendor/bootstrap/fonts/glyphicons-halflings-regular.eot",
+      "source_url": "https://seccol.com.br/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot",
+      "bytes": 20127,
+      "sha256": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407",
+      "content_type": "application/vnd.ms-fontobject"
+    },
+    {
+      "path": "vendor/bootstrap/fonts/glyphicons-halflings-regular.svg",
+      "source_url": "https://seccol.com.br/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg",
+      "bytes": 108738,
+      "sha256": "42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "path": "vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf",
+      "source_url": "https://seccol.com.br/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf",
+      "bytes": 45404,
+      "sha256": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456",
+      "content_type": "font/ttf"
+    },
+    {
+      "path": "vendor/bootstrap/fonts/glyphicons-halflings-regular.woff",
+      "source_url": "https://seccol.com.br/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff",
+      "bytes": 23424,
+      "sha256": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742",
+      "content_type": "font/woff"
+    },
+    {
+      "path": "vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2",
+      "source_url": "https://seccol.com.br/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2",
+      "bytes": 18028,
+      "sha256": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c",
+      "content_type": "font/woff2"
+    },
+    {
+      "path": "vendor/fontawesome/css/font-awesome.min.css",
+      "source_url": "https://seccol.com.br/vendor/fontawesome/css/font-awesome.min.css",
+      "bytes": 26711,
+      "sha256": "936ffccdc35bc55221e669d0e76034af76ba8c080c1b1149144dbbd3b5311829",
+      "content_type": "text/css"
+    },
+    {
+      "path": "vendor/fontawesome/fonts/fontawesome-webfont.eot",
+      "source_url": "https://seccol.com.br/vendor/fontawesome/fonts/fontawesome-webfont.eot",
+      "bytes": 68875,
+      "sha256": "d4f5a99224154f2a808e42a441ddc9248ffe78b7a4083684ce159270b30b912a",
+      "content_type": "application/vnd.ms-fontobject"
+    },
+    {
+      "path": "vendor/fontawesome/fonts/fontawesome-webfont.svg",
+      "source_url": "https://seccol.com.br/vendor/fontawesome/fonts/fontawesome-webfont.svg",
+      "bytes": 355981,
+      "sha256": "7414288c272f6cc10304aa18e89bf24fb30f40afd644623f425c2c3d71fbe06a",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "path": "vendor/fontawesome/fonts/fontawesome-webfont.ttf",
+      "source_url": "https://seccol.com.br/vendor/fontawesome/fonts/fontawesome-webfont.ttf",
+      "bytes": 138204,
+      "sha256": "1b7f3de49d68b01f415574ebb82e6110a1d09cda2071ad8451bdb5124131a292",
+      "content_type": "font/ttf"
+    },
+    {
+      "path": "vendor/fontawesome/fonts/fontawesome-webfont.woff",
+      "source_url": "https://seccol.com.br/vendor/fontawesome/fonts/fontawesome-webfont.woff",
+      "bytes": 81284,
+      "sha256": "a7c7e4930090e038a280fd61d88f0dc03dad4aeaedbd8c9be3dd9aa4c3b6f8d1",
+      "content_type": "font/woff"
+    },
+    {
+      "path": "vendor/fontawesome/fonts/fontawesome-webfont.woff2",
+      "source_url": "https://seccol.com.br/vendor/fontawesome/fonts/fontawesome-webfont.woff2",
+      "bytes": 64464,
+      "sha256": "3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019",
+      "content_type": "font/woff2"
+    },
+    {
+      "path": "vendor/jquery/jquery-1.11.2.min.js",
+      "source_url": "https://seccol.com.br/vendor/jquery/jquery-1.11.2.min.js",
+      "bytes": 95931,
+      "sha256": "2ecd295d295bec062cedebe177e54b9d6b19fc0a841dc5c178c654c9ccff09c0",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "vendor/magnific-popup/magnific-popup.css",
+      "source_url": "https://seccol.com.br/vendor/magnific-popup/magnific-popup.css",
+      "bytes": 7789,
+      "sha256": "d166922c05a36bfca3bc5a366be935351848c9bb75e348aeda537fad6d4b8d59",
+      "content_type": "text/css"
+    },
+    {
+      "path": "vendor/owlcarousel/owl.carousel.css",
+      "source_url": "https://seccol.com.br/vendor/owlcarousel/owl.carousel.css",
+      "bytes": 4614,
+      "sha256": "dd7b97c7ad9d7b3eb79bdc728bcbc6a7ab8e3d5db0421fb0dd16d34f3dc88277",
+      "content_type": "text/css"
+    },
+    {
+      "path": "vendor/owlcarousel/owl.video.play.png",
+      "source_url": "https://seccol.com.br/vendor/owlcarousel/owl.video.play.png",
+      "bytes": 4976,
+      "sha256": "0436045686fddf10ccbbe2568e0cbffb457e7de7d43d1115c0056e81e97149ff",
+      "content_type": "image/png"
+    },
+    {
+      "path": "vendor/partical/partical-animation.js",
+      "source_url": "https://seccol.com.br/vendor/partical/partical-animation.js",
+      "bytes": 2762,
+      "sha256": "b93d63aec677243bef4c5d28f7a634f7f2c1cf2a83966dbd4e47922b59b1b3bb",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "vendor/partical/particles.min.js",
+      "source_url": "https://seccol.com.br/vendor/partical/particles.min.js",
+      "bytes": 23364,
+      "sha256": "faee7815a5fd27e938d1e01c8392b66332024908eb118048f608eee671371df6",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "vendor/plugins-compressed.js",
+      "source_url": "https://seccol.com.br/vendor/plugins-compressed.js",
+      "bytes": 279184,
+      "sha256": "f217fd829b26c129c7a590e470478d3dfb328ffd29dc5300f99d46a7f7d3137f",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "vendor/rs-plugin/assets/coloredbg.png",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/assets/coloredbg.png",
+      "bytes": 184,
+      "sha256": "ef2284224ce3426c26d4caa902989107ba3200dbd24d4ace60ccb2bad033f000",
+      "content_type": "image/png"
+    },
+    {
+      "path": "vendor/rs-plugin/assets/gridtile.png",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/assets/gridtile.png",
+      "bytes": 933,
+      "sha256": "71b8a238b9bd03570c3d2b5a6907d6db6e4ba6e1d8be7b454c69c4abbf31edc2",
+      "content_type": "image/png"
+    },
+    {
+      "path": "vendor/rs-plugin/assets/gridtile_3x3.png",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/assets/gridtile_3x3.png",
+      "bytes": 938,
+      "sha256": "71f4cfe8713e2d57e4cdf8e160f60e8df3cb64ada67962302308d8d32a6cc3f3",
+      "content_type": "image/png"
+    },
+    {
+      "path": "vendor/rs-plugin/assets/gridtile_3x3_white.png",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/assets/gridtile_3x3_white.png",
+      "bytes": 935,
+      "sha256": "27c29032de418b1950dba1efe909414e56142d088e3093307ed161ac072bff85",
+      "content_type": "image/png"
+    },
+    {
+      "path": "vendor/rs-plugin/assets/gridtile_white.png",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/assets/gridtile_white.png",
+      "bytes": 931,
+      "sha256": "993f128db5d43fdb19eda23243db598ab2f5728ba4dee280e9a4739e7bb73fe0",
+      "content_type": "image/png"
+    },
+    {
+      "path": "vendor/rs-plugin/assets/loader.gif",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/assets/loader.gif",
+      "bytes": 2545,
+      "sha256": "9034d5d34015e4b05d2c1d1a8dc9f6ec9d59bd96d305eb9e24e24e65c591a645",
+      "content_type": "image/gif"
+    },
+    {
+      "path": "vendor/rs-plugin/css/layers.css",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/css/layers.css",
+      "bytes": 97874,
+      "sha256": "073e34b150baaa5f597ba5acd60e0cf75ad8dcf25f5aabe14f7155b4a62f59ce",
+      "content_type": "text/css"
+    },
+    {
+      "path": "vendor/rs-plugin/css/navigation.css",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/css/navigation.css",
+      "bytes": 59567,
+      "sha256": "ea132692052eff279b83e112d4f77f9ef37e6c88386032a2162931cf3f0e72e4",
+      "content_type": "text/css"
+    },
+    {
+      "path": "vendor/rs-plugin/css/settings.css",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/css/settings.css",
+      "bytes": 34616,
+      "sha256": "ce3ea01ccbd236fcd471d9f3ead15b51dff0bc64e8399b79f018758cb1bb14ce",
+      "content_type": "text/css"
+    },
+    {
+      "path": "vendor/rs-plugin/fonts/revicons/revicons.eot",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/fonts/revicons/revicons.eot",
+      "bytes": 12136,
+      "sha256": "9e4d4c6813568fdf70c61eca9446d1bb80f84e79e8f2e5ed177365b6d5de5fbf",
+      "content_type": "application/vnd.ms-fontobject"
+    },
+    {
+      "path": "vendor/rs-plugin/fonts/revicons/revicons.svg",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/fonts/revicons/revicons.svg",
+      "bytes": 13638,
+      "sha256": "e828b2635781e3a2526df5fcf6b97075a0c8df0d74ae7ff879c16e1ab0cecdb0",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "path": "vendor/rs-plugin/fonts/revicons/revicons.ttf",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/fonts/revicons/revicons.ttf",
+      "bytes": 11968,
+      "sha256": "4ca02b8a5c8034de8ddb76e33e50e8398758a83bd18a5073493cace46362780a",
+      "content_type": "font/ttf"
+    },
+    {
+      "path": "vendor/rs-plugin/fonts/revicons/revicons.woff",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/fonts/revicons/revicons.woff",
+      "bytes": 7536,
+      "sha256": "f7b9c3065e55fa3b9e320093612e7b30dcb14355a44ec461247b495a3e729686",
+      "content_type": "font/woff"
+    },
+    {
+      "path": "vendor/rs-plugin/js/extensions/revolution.extension.kenburn.min.js",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/js/extensions/revolution.extension.kenburn.min.js",
+      "bytes": 3118,
+      "sha256": "fe5c1ebb0c7895e8e8d476953cc3343f47febaa43fa33c25a921f150269f93e1",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "vendor/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js",
+      "bytes": 29933,
+      "sha256": "7d45f7595d818f4ed33cf0ce19859f2875fe7f3dfb30fabb2a8c3ca0d7dee633",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "vendor/rs-plugin/js/extensions/revolution.extension.navigation.min.js",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/js/extensions/revolution.extension.navigation.min.js",
+      "bytes": 24124,
+      "sha256": "f682c64d549532cc20760e8b6ac4940f908be13db1bd297c45f698ea5b8e168a",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "vendor/rs-plugin/js/extensions/revolution.extension.parallax.min.js",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/js/extensions/revolution.extension.parallax.min.js",
+      "bytes": 8550,
+      "sha256": "b04b219706722645e524630a8dab6b8540081940f6336b1ceaa4cdb272dc834b",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "vendor/rs-plugin/js/extensions/revolution.extension.slideanims.min.js",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/js/extensions/revolution.extension.slideanims.min.js",
+      "bytes": 28122,
+      "sha256": "a70f6cd4d5e2e3feff8f3a41502ae8871c91cfd180ad8db858e7962c515e9e7f",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "vendor/rs-plugin/js/extensions/revolution.extension.video.min.js",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/js/extensions/revolution.extension.video.min.js",
+      "bytes": 20797,
+      "sha256": "8fe904266c889e28a681337cb9ef5fb09e35286712546552ec2d859c2c048a00",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "vendor/rs-plugin/js/jquery.themepunch.revolution.min.js",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js",
+      "bytes": 48501,
+      "sha256": "a6510bb32bdab74926f7d84bdf853aa2c1513925d4400a88d822d685dbcdf726",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "vendor/rs-plugin/js/jquery.themepunch.tools.min.js",
+      "source_url": "https://seccol.com.br/vendor/rs-plugin/js/jquery.themepunch.tools.min.js",
+      "bytes": 104628,
+      "sha256": "92983391bc58be712278f3e3312b8fa888bc44bc6942e7e29b43a1b88868a47b",
+      "content_type": "text/javascript"
+    }
+  ]
+}

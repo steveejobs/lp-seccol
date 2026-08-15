@@ -1,0 +1,2779 @@
+{
+  "source": "https://seccol.com.br/",
+  "captured_at": "2026-08-15",
+  "page_count": 7,
+  "pages": [
+    {
+      "page": "area-limpa.html",
+      "source_url": "https://seccol.com.br/area-limpa.html",
+      "sha256": "a53820383aad5afd313f27f8b80b12155bcfb1bc55008bbaa2aff782765af009",
+      "title": "SECCOL | Controle e Certificação - Uma empresa especializada em Controle de Contaminação Ambiental",
+      "meta": [
+        {
+          "key": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1"
+        },
+        {
+          "key": "author",
+          "content": "seccol.com.br"
+        },
+        {
+          "key": "description",
+          "content": "A Seccol é uma empresa especializada em Controle de Contaminação Ambiental presta serviços de manutenção, reforma, venda e certificação em Equipamentos e/ou Área Limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "seccol, controle e certificação, Gôiania, Goiás, Área limpa em Goiânia, Testes de área limpa, controle de contaminação ambiental, controle de contaminação ambiental em Goiânia. Certificação em área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "venda e certificação em equipamentos e área limpa, serviços de manutenção, refeorma e venda em equipamentos e área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Cabine de Segurança Biológica, cabine de segurança biológica Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Qualificação em Equipamento de Fluxo Unidirecional, fluxo laminar, fluxo unidirecional laminar."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Capela de Exaustão, capela de exaustão, Certificação em Área Limpa Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Elaboração e Execução de Projetos para Área Limpa e Centro Cirúrgico, manutenção e venda."
+        },
+        {
+          "key": "keywords",
+          "content": "Reprodução Assistida, análise laboratorial, oncologia, farmácia, centro cirúrgico, fertilização animal, instituto de pesquisa, nutrição parenteral e enteral."
+        },
+        {
+          "key": "keywords",
+          "content": "Contador eletrônico de Partículas, Fotômetro e Gerador de Aerosol “PAO”, Balometer, luxímetro, decibelímetro, alicate amperímetro, anemômetro, Termoanemômetro digital, Ampola de fumaça, Manômetro diferencial, Termo-higrômetro, Medidor de luz Ultravioleta."
+        }
+      ],
+      "content_blocks": [
+        {
+          "element": "li",
+          "text": "A Seccol"
+        },
+        {
+          "element": "li",
+          "text": "Em Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Serviços Técnicos e Testes Em Equipamentos Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "FAQ"
+        },
+        {
+          "element": "li",
+          "text": "Contatos"
+        },
+        {
+          "element": "h4",
+          "text": "Serviços Técnicos e Testes em"
+        },
+        {
+          "element": "h1",
+          "text": "Áreas Limpas"
+        },
+        {
+          "element": "h1",
+          "text": "Áreas Limpas ou Salas Limpas"
+        },
+        {
+          "element": "h2",
+          "text": "CERTIFICADO"
+        },
+        {
+          "element": "p",
+          "text": "Ao final do trabalho os clientes Seccol recebem um certificado, contendo as descrições das solicitações das normas exigidas pela ANVISA e SBCC."
+        },
+        {
+          "element": "p",
+          "text": "Recebem também um relatório detalhado de todos os testes, ajustes e recomendações técnicas."
+        },
+        {
+          "element": "h1",
+          "text": "Testes em Áreas Limpas"
+        },
+        {
+          "element": "h3",
+          "text": "Testes"
+        },
+        {
+          "element": "p",
+          "text": "Teste de integridade e de estanqueidade do(s) filtro(s) HEPA (PAO)*"
+        },
+        {
+          "element": "h3",
+          "text": "Medição dos filtros"
+        },
+        {
+          "element": "p",
+          "text": "Medição da pressão diferencial do(s) filtro(s) HEPA, verificando o grau de saturação."
+        },
+        {
+          "element": "h3",
+          "text": "Cálculo de vazão"
+        },
+        {
+          "element": "p",
+          "text": "Cálculo de vazão do ar insuflado."
+        },
+        {
+          "element": "h3",
+          "text": "Número de trocas"
+        },
+        {
+          "element": "p",
+          "text": "Número de trocas de ar por hora."
+        },
+        {
+          "element": "h3",
+          "text": "Teste de luminosidade"
+        },
+        {
+          "element": "p",
+          "text": "Teste de luminosidade das salas."
+        },
+        {
+          "element": "h3",
+          "text": "Nível de ruído"
+        },
+        {
+          "element": "p",
+          "text": "Nível de ruído das salas."
+        },
+        {
+          "element": "h3",
+          "text": "Balanceamento"
+        },
+        {
+          "element": "p",
+          "text": "Balanceamento do sistema de insuflamento e de retorno."
+        },
+        {
+          "element": "h3",
+          "text": "Contagem de partículas"
+        },
+        {
+          "element": "p",
+          "text": "Contagem eletrônica de partículas em suspensão no ar."
+        },
+        {
+          "element": "h3",
+          "text": "Vazão do ar"
+        },
+        {
+          "element": "p",
+          "text": "Medição da vazão do ar insuflado."
+        },
+        {
+          "element": "h3",
+          "text": "Teste de recuperação"
+        },
+        {
+          "element": "p",
+          "text": "Teste de recuperação."
+        },
+        {
+          "element": "h3",
+          "text": "Medição entre salas"
+        },
+        {
+          "element": "p",
+          "text": "Medição da pressão diferencial entre salas."
+        },
+        {
+          "element": "h1",
+          "text": "Orçamento"
+        },
+        {
+          "element": "p",
+          "text": "Faça com a SECCOL seu orçamento sem compromisso."
+        }
+      ],
+      "images": [
+        {
+          "src": "images/logo.png",
+          "alt": "Seccol"
+        },
+        {
+          "src": "images/scrolldown.png"
+        },
+        {
+          "src": "images/area_limpa/certificado.png"
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "A Seccol",
+          "href": "quem.html",
+          "absolute_url": "https://seccol.com.br/quem.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Serviços Técnicos e Testes",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Equipamentos",
+          "href": "teste-equipamento.html",
+          "absolute_url": "https://seccol.com.br/teste-equipamento.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Área Limpa",
+          "href": "area-limpa.html",
+          "absolute_url": "https://seccol.com.br/area-limpa.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Equipamentos",
+          "href": "equipamentos.html",
+          "absolute_url": "https://seccol.com.br/equipamentos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "faq.html",
+          "absolute_url": "https://seccol.com.br/faq.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Contatos",
+          "href": "contatos.html",
+          "absolute_url": "https://seccol.com.br/contatos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Saiba Mais",
+          "href": "#section_al",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#section_al",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Orçamento",
+          "href": "#section_orc",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#section_orc",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#easy-fast",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#easy-fast",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "ANVISA",
+          "href": "https://www.gov.br/anvisa/pt-br",
+          "absolute_url": "https://www.gov.br/anvisa/pt-br",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "SBCC",
+          "href": "https://www.sbcc.com.br/",
+          "absolute_url": "https://www.sbcc.com.br/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "DESENVOLVIDO POR VICTORREZENDE.COM.BR",
+          "href": "http://www.victorrezende.com.br",
+          "absolute_url": "http://www.victorrezende.com.br",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/area-limpa.html#",
+          "external": false,
+          "title": ""
+        }
+      ],
+      "forms": [
+        {
+          "action": "include/contact-form.php",
+          "method": "post",
+          "id": "widget-contact-form",
+          "fields": [
+            {
+              "element": "input",
+              "type": "text",
+              "name": "widget-contact-form-name",
+              "placeholder": "Coloque seu Nome",
+              "value": "",
+              "required": false
+            },
+            {
+              "element": "input",
+              "type": "email",
+              "name": "widget-contact-form-email",
+              "placeholder": "Seu Email",
+              "value": "",
+              "required": false
+            },
+            {
+              "element": "input",
+              "type": "text",
+              "name": "widget-contact-form-phone",
+              "placeholder": "Número de telefone",
+              "value": "",
+              "required": false
+            },
+            {
+              "element": "input",
+              "type": "text",
+              "name": "widget-contact-form-company",
+              "placeholder": "Coloque o nome de sua Empresa",
+              "value": "",
+              "required": false
+            },
+            {
+              "element": "textarea",
+              "name": "widget-contact-form-message",
+              "placeholder": "Digite sua mensagem",
+              "required": false,
+              "default_text": ""
+            },
+            {
+              "element": "input",
+              "type": "text",
+              "name": "widget-contact-form-antispam",
+              "placeholder": "",
+              "value": "",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "contatos.html",
+      "source_url": "https://seccol.com.br/contatos.html",
+      "sha256": "aa02d89453b16fad23f9c3d647b5798cfbe06b141b65cb7d32e7d492737da059",
+      "title": "SECCOL | Controle e Certificação - Uma empresa especializada em Controle de Contaminação Ambiental",
+      "meta": [
+        {
+          "key": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1"
+        },
+        {
+          "key": "author",
+          "content": "seccol.com.br"
+        },
+        {
+          "key": "description",
+          "content": "A Seccol é uma empresa especializada em Controle de Contaminação Ambiental presta serviços de manutenção, reforma, venda e certificação em Equipamentos e/ou Área Limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "seccol, controle e certificação, Gôiania, Goiás, Área limpa em Goiânia, Testes de área limpa, controle de contaminação ambiental, controle de contaminação ambiental em Goiânia. Certificação em área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "venda e certificação em equipamentos e área limpa, serviços de manutenção, refeorma e venda em equipamentos e área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Cabine de Segurança Biológica, cabine de segurança biológica Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Qualificação em Equipamento de Fluxo Unidirecional, fluxo laminar, fluxo unidirecional laminar."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Capela de Exaustão, capela de exaustão, Certificação em Área Limpa Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Elaboração e Execução de Projetos para Área Limpa e Centro Cirúrgico, manutenção e venda."
+        },
+        {
+          "key": "keywords",
+          "content": "Reprodução Assistida, análise laboratorial, oncologia, farmácia, centro cirúrgico, fertilização animal, instituto de pesquisa, nutrição parenteral e enteral."
+        },
+        {
+          "key": "keywords",
+          "content": "Contador eletrônico de Partículas, Fotômetro e Gerador de Aerosol “PAO”, Balometer, luxímetro, decibelímetro, alicate amperímetro, anemômetro, Termoanemômetro digital, Ampola de fumaça, Manômetro diferencial, Termo-higrômetro, Medidor de luz Ultravioleta."
+        }
+      ],
+      "content_blocks": [
+        {
+          "element": "li",
+          "text": "A Seccol"
+        },
+        {
+          "element": "li",
+          "text": "Em Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Serviços Técnicos e Testes Em Equipamentos Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "FAQ"
+        },
+        {
+          "element": "li",
+          "text": "Contatos"
+        },
+        {
+          "element": "h1",
+          "text": "Contatos"
+        },
+        {
+          "element": "p",
+          "text": "Será um prazer lhe atender!"
+        },
+        {
+          "element": "h3",
+          "text": "Entre em Contato"
+        },
+        {
+          "element": "li",
+          "text": "Endereço: R. C-27, nº 202, quadra 18, Lote 13 - Jardim America Goiânia - GO, 74265-170"
+        },
+        {
+          "element": "li",
+          "text": "Email: contato@seccol.com.br"
+        },
+        {
+          "element": "li",
+          "text": "(62) 3275-1272"
+        },
+        {
+          "element": "li",
+          "text": "(62) 9 8246-8283"
+        },
+        {
+          "element": "li",
+          "text": "Horário de Funcionamento: Segunda à Sexta: 08h às 18h"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/logo.png",
+          "alt": "Seccol"
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "A Seccol",
+          "href": "quem.html",
+          "absolute_url": "https://seccol.com.br/quem.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Serviços Técnicos e Testes",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/contatos.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Equipamentos",
+          "href": "teste-equipamento.html",
+          "absolute_url": "https://seccol.com.br/teste-equipamento.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Área Limpa",
+          "href": "area-limpa.html",
+          "absolute_url": "https://seccol.com.br/area-limpa.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Equipamentos",
+          "href": "equipamentos.html",
+          "absolute_url": "https://seccol.com.br/equipamentos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "faq.html",
+          "absolute_url": "https://seccol.com.br/faq.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Contatos",
+          "href": "contatos.html",
+          "absolute_url": "https://seccol.com.br/contatos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "contato@seccol.com.br",
+          "href": "mailto:contato@seccol.com.br",
+          "absolute_url": "mailto:contato@seccol.com.br",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "DESENVOLVIDO POR VICTORREZENDE.COM.BR",
+          "href": "http://www.victorrezende.com.br",
+          "absolute_url": "http://www.victorrezende.com.br",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/contatos.html#",
+          "external": false,
+          "title": ""
+        }
+      ],
+      "forms": [
+        {
+          "action": "enviar_email.php",
+          "method": "post",
+          "id": "",
+          "fields": [
+            {
+              "element": "input",
+              "type": "text",
+              "name": "nome",
+              "placeholder": "",
+              "value": "",
+              "required": false
+            },
+            {
+              "element": "input",
+              "type": "text",
+              "name": "telefone",
+              "placeholder": "",
+              "value": "",
+              "required": false
+            },
+            {
+              "element": "input",
+              "type": "email",
+              "name": "email",
+              "placeholder": "",
+              "value": "",
+              "required": false
+            },
+            {
+              "element": "input",
+              "type": "text",
+              "name": "assunto",
+              "placeholder": "",
+              "value": "",
+              "required": false
+            },
+            {
+              "element": "textarea",
+              "name": "mensagem",
+              "placeholder": "",
+              "required": false,
+              "default_text": ""
+            },
+            {
+              "element": "input",
+              "type": "text",
+              "name": "widget-contact-form-antispam",
+              "placeholder": "",
+              "value": "Enviar",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "equipamentos.html",
+      "source_url": "https://seccol.com.br/equipamentos.html",
+      "sha256": "77f02de476d10a7f02cde5ed029c0e72c412f369cf0c27bcd9a85197088e7aeb",
+      "title": "SECCOL | Controle e Certificação - Uma empresa especializada em Controle de Contaminação Ambiental",
+      "meta": [
+        {
+          "key": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1"
+        },
+        {
+          "key": "author",
+          "content": "seccol.com.br"
+        },
+        {
+          "key": "description",
+          "content": "A Seccol é uma empresa especializada em Controle de Contaminação Ambiental presta serviços de manutenção, reforma, venda e certificação em Equipamentos e/ou Área Limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "seccol, controle e certificação, Gôiania, Goiás, Área limpa em Goiânia, Testes de área limpa, controle de contaminação ambiental, controle de contaminação ambiental em Goiânia. Certificação em área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "venda e certificação em equipamentos e área limpa, serviços de manutenção, refeorma e venda em equipamentos e área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Cabine de Segurança Biológica, cabine de segurança biológica Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Qualificação em Equipamento de Fluxo Unidirecional, fluxo laminar, fluxo unidirecional laminar."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Capela de Exaustão, capela de exaustão, Certificação em Área Limpa Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Elaboração e Execução de Projetos para Área Limpa e Centro Cirúrgico, manutenção e venda."
+        },
+        {
+          "key": "keywords",
+          "content": "Reprodução Assistida, análise laboratorial, oncologia, farmácia, centro cirúrgico, fertilização animal, instituto de pesquisa, nutrição parenteral e enteral."
+        },
+        {
+          "key": "keywords",
+          "content": "Contador eletrônico de Partículas, Fotômetro e Gerador de Aerosol “PAO”, Balometer, luxímetro, decibelímetro, alicate amperímetro, anemômetro, Termoanemômetro digital, Ampola de fumaça, Manômetro diferencial, Termo-higrômetro, Medidor de luz Ultravioleta."
+        }
+      ],
+      "content_blocks": [
+        {
+          "element": "li",
+          "text": "A Seccol"
+        },
+        {
+          "element": "li",
+          "text": "Em Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Serviços Técnicos e Testes Em Equipamentos Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "FAQ"
+        },
+        {
+          "element": "li",
+          "text": "Contatos"
+        },
+        {
+          "element": "h1",
+          "text": "Equipamentos"
+        },
+        {
+          "element": "p",
+          "text": "Os mais modernos e confiáveis do mundo"
+        },
+        {
+          "element": "h4",
+          "text": "Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "Contador de Partículas"
+        },
+        {
+          "element": "li",
+          "text": "Fotômetro e Gerador de Aerossol (PAO)"
+        },
+        {
+          "element": "li",
+          "text": "Balometer"
+        },
+        {
+          "element": "li",
+          "text": "Luxímetro"
+        },
+        {
+          "element": "li",
+          "text": "Decibelímetro"
+        },
+        {
+          "element": "li",
+          "text": "Termo anemômetro"
+        },
+        {
+          "element": "li",
+          "text": "Manômetro digital"
+        },
+        {
+          "element": "li",
+          "text": "Alicate amperímetro"
+        },
+        {
+          "element": "li",
+          "text": "Ampola de fumaça"
+        },
+        {
+          "element": "li",
+          "text": "Termo higrômetro"
+        },
+        {
+          "element": "li",
+          "text": "Medidor de luz ultravioleta (UVC) “Radiômetro”"
+        },
+        {
+          "element": "li",
+          "text": "VHP – Vapor de peróxido de hidrogênio para Biodescontaminação"
+        },
+        {
+          "element": "h2",
+          "text": "Contador de Partículas"
+        },
+        {
+          "element": "p",
+          "text": "Contador de partículas é um instrumento que tem a capacidade de contar e discriminar individualmente as partículas em suspensão no ar e relatar os dados de tamanho em termos de diâmetro óptico equivalente."
+        },
+        {
+          "element": "p",
+          "text": "O contador de partículas deve possuir um certificado de calibração válido: convém que a frequência e o método de calibração sejam baseados nas práticas atualmente aceitas, conforme especificado na ISO 21501-4."
+        },
+        {
+          "element": "p",
+          "text": "* Todos os contadores de partículas que a SECCOL possui são calibrados anualmente de acordo conforme a ISO 21501-4."
+        },
+        {
+          "element": "h2",
+          "text": "Fotômetro e Gerador de Aerossol (PAO)"
+        },
+        {
+          "element": "p",
+          "text": "Fotômetro é o Instrumento utilizado junto com o gerador de PAO para garantir a integridade dos filtros Hepa."
+        },
+        {
+          "element": "p",
+          "text": "A SECCOL possui atualmente o fotômetro digital de aerossol mais avançado, inovador e fácil de usar disponível atualmente, o Fotômetro é o instrumento ideal para testes de integridade de sistemas de filtragem no local."
+        },
+        {
+          "element": "p",
+          "text": "* Todos os fotômetros que a SECCOL possui são calibrados anualmente."
+        },
+        {
+          "element": "h2",
+          "text": "Balometer"
+        },
+        {
+          "element": "p",
+          "text": "Os Balometer são instrumentos leves e fáceis de usar equipados com vários acessórios para medir vazão do ar, pressão, temperatura, umidade e a velocidade do ar."
+        },
+        {
+          "element": "p",
+          "text": "* Todos os balometer que a SECCOL possui são calibrados anualmente."
+        },
+        {
+          "element": "h2",
+          "text": "Luxímetro"
+        },
+        {
+          "element": "p",
+          "text": "O luxímetro é um aparelho que mede a intensidade da luz que chega a seu sensor. Com isso, pode-se determinar uma grandeza denominada iluminância de um determinado local."
+        },
+        {
+          "element": "p",
+          "text": "* Todos os luxímetros que a SECCOL possui são calibrados anualmente."
+        },
+        {
+          "element": "h2",
+          "text": "Decibelímetro"
+        },
+        {
+          "element": "p",
+          "text": "O decibelímetro é usado para medir a pressão sonora e, consequentemente, a intensidade e volume do som que está sendo emitido."
+        },
+        {
+          "element": "p",
+          "text": "Todos os decibelímetros tem um microfone interno bastante sensível acoplado na sua estrutura, que é o dispositivo que detecta o som e o transforma em decibéis (dB). Tudo isso acontece através de um fenômeno chamado de ressonância."
+        },
+        {
+          "element": "p",
+          "text": "* Todos os decibelímetro que a SECCOL possui são calibrados anualmente."
+        },
+        {
+          "element": "h2",
+          "text": "Termo anemômetro"
+        },
+        {
+          "element": "p",
+          "text": "Todos os termos anemômetros que a SECCOL possui são de fio quente, que permite uma maior exatidão na hora que fazer o teste de velocidade."
+        },
+        {
+          "element": "p",
+          "text": "Basicamente, um anemômetro de fio-quente consiste de um filamento aquecido que fica exposto ao escoamento de um baixo fluxo de ar. Este filamento fica conectado a um circuito eletrônico que é capaz de monitorar a sua variação de resistência elétrica pela ação de velocidade do ar."
+        },
+        {
+          "element": "p",
+          "text": "* Todos os termos anemômetros que a SECCOL possui são calibrados anualmente."
+        },
+        {
+          "element": "h2",
+          "text": "Manômetro digital"
+        },
+        {
+          "element": "p",
+          "text": "Equipamento utilizado para medir o diferencial de pressão entre ambientes e nível de saturação de filtros."
+        },
+        {
+          "element": "p",
+          "text": "A SECCOL possui os aparelhos de medição com sensor para pressão absoluta número um, pequeno e preciso."
+        },
+        {
+          "element": "p",
+          "text": "* Todos os manômetros digitais que a SECCOL possui são calibrados anualmente."
+        },
+        {
+          "element": "h2",
+          "text": "Alicate amperímetro"
+        },
+        {
+          "element": "p",
+          "text": "Alicate amperímetro é um instrumento de medição que, tecnicamente é um multímetro que possui um formato de alicate e também a função de medir corrente indiretamente. Ele também pode ser definido como um aparelho que tem internamente a função de amperímetro e voltímetro. É utilizado por muitos eletricistas ao redor do mundo, pois ele possibilita a medição de corrente elétrica sem a interrupção do circuito elétrico."
+        },
+        {
+          "element": "p",
+          "text": "* Todos os alicates amperímetros que a SECCOL possui são calibrados anualmente."
+        },
+        {
+          "element": "h2",
+          "text": "Ampola de fumaça"
+        },
+        {
+          "element": "p",
+          "text": "A Ampola de Fumaça para teste de fluxo é indicada para testes visuais da movimentação e/ou fluxo de ar em salas, cabines, frestas, etc."
+        },
+        {
+          "element": "h2",
+          "text": "Termo higrômetro"
+        },
+        {
+          "element": "p",
+          "text": "É um instrumento medidor de temperatura interna/externa e umidade relativa do ar no ambiente/ equipamento onde trabalha. Este equipamento medidor de temperatura e umidade relativa do ar varia em precisão, ambiente e tipo de aplicação."
+        },
+        {
+          "element": "p",
+          "text": "* Todos os termos higrômetros que a SECCOL possui são calibrados anualmente."
+        },
+        {
+          "element": "h2",
+          "text": "Medidor de luz ultra violeta (UVC) “Radiômetro”"
+        },
+        {
+          "element": "p",
+          "text": "O Medidor de luz ultravioleta é um radiômetro para medir a fonte de luz ultravioleta UV-C usadas para esterilizar superfícies e equipamentos através da radiação."
+        },
+        {
+          "element": "p",
+          "text": "Mede com precisão a emissão de luz ultravioleta que emitem UV-C."
+        },
+        {
+          "element": "p",
+          "text": "* Todos os radiômetros que a SECCOL possui são calibrados anualmente."
+        },
+        {
+          "element": "h2",
+          "text": "VHP – Vapor de peróxido de hidrogênio para Biodescontaminação"
+        },
+        {
+          "element": "p",
+          "text": "Pode ser usado com a maioria dos materiais, incluindo metais, plásticos e componentes eletrônicos."
+        },
+        {
+          "element": "h3",
+          "text": "Você mais perto da Seccol!"
+        },
+        {
+          "element": "p",
+          "text": "Entre em contato com um de nossos atendentes para dúvidas ou orçamentos. Teremos o maior prazer em lhe atender!"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/logo.png",
+          "alt": "Seccol"
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "A Seccol",
+          "href": "quem.html",
+          "absolute_url": "https://seccol.com.br/quem.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Serviços Técnicos e Testes",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Equipamentos",
+          "href": "teste-equipamento.html",
+          "absolute_url": "https://seccol.com.br/teste-equipamento.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Área Limpa",
+          "href": "area-limpa.html",
+          "absolute_url": "https://seccol.com.br/area-limpa.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Equipamentos",
+          "href": "equipamentos.html",
+          "absolute_url": "https://seccol.com.br/equipamentos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "faq.html",
+          "absolute_url": "https://seccol.com.br/faq.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Contatos",
+          "href": "contatos.html",
+          "absolute_url": "https://seccol.com.br/contatos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Contador de Partículas",
+          "href": "#section-1",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#section-1",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Fotômetro e Gerador de Aerossol (PAO)",
+          "href": "#section-2",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#section-2",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Balometer",
+          "href": "#section-3",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#section-3",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Luxímetro",
+          "href": "#section-4",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#section-4",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Decibelímetro",
+          "href": "#section-5",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#section-5",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Termo anemômetro",
+          "href": "#section-6",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#section-6",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Manômetro digital",
+          "href": "#section-7",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#section-7",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Alicate amperímetro",
+          "href": "#section-8",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#section-8",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Ampola de fumaça",
+          "href": "#section-9",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#section-9",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Termo higrômetro",
+          "href": "#section-10",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#section-10",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Medidor de luz ultravioleta (UVC) “Radiômetro”",
+          "href": "#section-11",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#section-11",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "VHP – Vapor de peróxido de hidrogênio para Biodescontaminação",
+          "href": "#section-12",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#section-12",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Iniciar Chat",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "DESENVOLVIDO POR VICTORREZENDE.COM.BR",
+          "href": "http://www.victorrezende.com.br",
+          "absolute_url": "http://www.victorrezende.com.br",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/equipamentos.html#",
+          "external": false,
+          "title": ""
+        }
+      ],
+      "forms": []
+    },
+    {
+      "page": "faq.html",
+      "source_url": "https://seccol.com.br/faq.html",
+      "sha256": "9bbfef6c04f02fabf88f158c6a8b3faac5b67a4819e7438082be52aad35c1103",
+      "title": "SECCOL | Controle e Certificação - Uma empresa especializada em Controle de Contaminação Ambiental",
+      "meta": [
+        {
+          "key": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1"
+        },
+        {
+          "key": "author",
+          "content": "seccol.com.br"
+        },
+        {
+          "key": "description",
+          "content": "A Seccol é uma empresa especializada em Controle de Contaminação Ambiental presta serviços de manutenção, reforma, venda e certificação em Equipamentos e/ou Área Limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "seccol, controle e certificação, Gôiania, Goiás, Área limpa em Goiânia, Testes de área limpa, controle de contaminação ambiental, controle de contaminação ambiental em Goiânia. Certificação em área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "venda e certificação em equipamentos e área limpa, serviços de manutenção, refeorma e venda em equipamentos e área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Cabine de Segurança Biológica, cabine de segurança biológica Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Qualificação em Equipamento de Fluxo Unidirecional, fluxo laminar, fluxo unidirecional laminar."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Capela de Exaustão, capela de exaustão, Certificação em Área Limpa Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Elaboração e Execução de Projetos para Área Limpa e Centro Cirúrgico, manutenção e venda."
+        },
+        {
+          "key": "keywords",
+          "content": "Reprodução Assistida, análise laboratorial, oncologia, farmácia, centro cirúrgico, fertilização animal, instituto de pesquisa, nutrição parenteral e enteral."
+        },
+        {
+          "key": "keywords",
+          "content": "Contador eletrônico de Partículas, Fotômetro e Gerador de Aerosol “PAO”, Balometer, luxímetro, decibelímetro, alicate amperímetro, anemômetro, Termoanemômetro digital, Ampola de fumaça, Manômetro diferencial, Termo-higrômetro, Medidor de luz Ultravioleta."
+        }
+      ],
+      "content_blocks": [
+        {
+          "element": "li",
+          "text": "A Seccol"
+        },
+        {
+          "element": "li",
+          "text": "Em Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Serviços Técnicos e Testes Em Equipamentos Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "FAQ"
+        },
+        {
+          "element": "li",
+          "text": "Contatos"
+        },
+        {
+          "element": "h1",
+          "text": "Faq"
+        },
+        {
+          "element": "p",
+          "text": "Dúvidas Frequentes"
+        },
+        {
+          "element": "h3",
+          "text": "Sobre a Seccol"
+        },
+        {
+          "element": "p",
+          "text": "Aqui você pode tirar todas suas dúvidas"
+        },
+        {
+          "element": "h5",
+          "text": "Quando foi fundada a Seccol?"
+        },
+        {
+          "element": "h5",
+          "text": "Qual a especialidade da Seccol?"
+        },
+        {
+          "element": "h5",
+          "text": "Qual a área de atuação da Seccol?"
+        },
+        {
+          "element": "h5",
+          "text": "Quais os serviços prestados?"
+        },
+        {
+          "element": "h5",
+          "text": "Por quê escolher a Seccol?"
+        },
+        {
+          "element": "h5",
+          "text": "A Seccol é registrada nos órgãos responsáveis?"
+        },
+        {
+          "element": "h5",
+          "text": "Qual principal objetivo da empresa?"
+        },
+        {
+          "element": "h5",
+          "text": "Quais os diferenciais da empresa?"
+        },
+        {
+          "element": "h5",
+          "text": "O que é o teste em área Limpa?"
+        },
+        {
+          "element": "h5",
+          "text": "Como faço para me tornar um parceiro Seccol?"
+        },
+        {
+          "element": "h3",
+          "text": "Você mais perto da Seccol!"
+        },
+        {
+          "element": "p",
+          "text": "Entre em contato com um de nossos atendentes para dúvidas ou orçamentos. Teremos o maior prazer em lhe atender!"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/logo.png",
+          "alt": "Seccol"
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "A Seccol",
+          "href": "quem.html",
+          "absolute_url": "https://seccol.com.br/quem.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Serviços Técnicos e Testes",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/faq.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Equipamentos",
+          "href": "teste-equipamento.html",
+          "absolute_url": "https://seccol.com.br/teste-equipamento.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Área Limpa",
+          "href": "area-limpa.html",
+          "absolute_url": "https://seccol.com.br/area-limpa.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Equipamentos",
+          "href": "equipamentos.html",
+          "absolute_url": "https://seccol.com.br/equipamentos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "faq.html",
+          "absolute_url": "https://seccol.com.br/faq.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Contatos",
+          "href": "contatos.html",
+          "absolute_url": "https://seccol.com.br/contatos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Iniciar Chat",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "DESENVOLVIDO POR VICTORREZENDE.COM.BR",
+          "href": "http://www.victorrezende.com.br",
+          "absolute_url": "http://www.victorrezende.com.br",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/faq.html#",
+          "external": false,
+          "title": ""
+        }
+      ],
+      "forms": []
+    },
+    {
+      "page": "index.html",
+      "source_url": "https://seccol.com.br/",
+      "sha256": "28de1f0a0d82704dd8b27e9bdb28d34b83e66d7fe884c78175bad26cb3d7841f",
+      "title": "SECCOL | Controle e Certificação - Uma empresa especializada em Controle de Contaminação Ambiental",
+      "meta": [
+        {
+          "key": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1"
+        },
+        {
+          "key": "author",
+          "content": "seccol.com.br"
+        },
+        {
+          "key": "description",
+          "content": "A Seccol é uma empresa especializada em Controle de Contaminação Ambiental presta serviços de manutenção, reforma, venda e certificação em Equipamentos e/ou Área Limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "seccol, controle e certificação, Gôiania, Goiás, Área limpa em Goiânia, Testes de área limpa, controle de contaminação ambiental, controle de contaminação ambiental em Goiânia. Certificação em área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "venda e certificação em equipamentos e área limpa, serviços de manutenção, refeorma e venda em equipamentos e área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Cabine de Segurança Biológica, cabine de segurança biológica Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Qualificação em Equipamento de Fluxo Unidirecional, fluxo laminar, fluxo unidirecional laminar."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Capela de Exaustão, capela de exaustão, Certificação em Área Limpa Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Elaboração e Execução de Projetos para Área Limpa e Centro Cirúrgico, manutenção e venda."
+        },
+        {
+          "key": "keywords",
+          "content": "Reprodução Assistida, análise laboratorial, oncologia, farmácia, centro cirúrgico, fertilização animal, instituto de pesquisa, nutrição parenteral e enteral."
+        },
+        {
+          "key": "keywords",
+          "content": "Contador eletrônico de Partículas, Fotômetro e Gerador de Aerosol “PAO”, Balometer, luxímetro, decibelímetro, alicate amperímetro, anemômetro, Termoanemômetro digital, Ampola de fumaça, Manômetro diferencial, Termo-higrômetro, Medidor de luz Ultravioleta."
+        }
+      ],
+      "content_blocks": [
+        {
+          "element": "li",
+          "text": "A Seccol"
+        },
+        {
+          "element": "li",
+          "text": "Em Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Serviços Técnicos e Testes Em Equipamentos Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "FAQ"
+        },
+        {
+          "element": "li",
+          "text": "Contatos"
+        },
+        {
+          "element": "li",
+          "text": "ESPECIALISTAS em Controle de Contaminação Ambiental"
+        },
+        {
+          "element": "li",
+          "text": "SERVIÇOS de manutenção, reforma, venda e certificação em todo o país"
+        },
+        {
+          "element": "li",
+          "text": "DESDE 2009 atuando com profissionais altamente capacitados"
+        },
+        {
+          "element": "h2",
+          "text": "Escolha Seccol"
+        },
+        {
+          "element": "p",
+          "text": "A Seccol trabalha com o objetivo de evitar uma parada prolongada nos processos de manipulação, de fabricação e de pesquisas das empresas assessoradas. Seu trabalho consiste em prevenção e em definição de prazos de substituição dos materiais sobressalentes, tais como: filtros absolutos “HEPA” e motores elétricos."
+        },
+        {
+          "element": "p",
+          "text": "É uma empresa devidamente registrada no Conselho Regional de Engenharia e Agronomia (CREA), na Sociedade Brasileira de Controle de Contaminação (SBCC) e na Vigilância Sanitária e Ambiental da Secretaria Municipal de Saúde de Goiânia."
+        },
+        {
+          "element": "h2",
+          "text": "Área de Atuação"
+        },
+        {
+          "element": "p",
+          "text": "Nos preocupamos em oferecer serviços com alto padrão de qualidade e segurança em diversos segmentos"
+        },
+        {
+          "element": "h3",
+          "text": "Reprodução Assistida"
+        },
+        {
+          "element": "h3",
+          "text": "Análise Laboratorial"
+        },
+        {
+          "element": "h3",
+          "text": "Oncologia"
+        },
+        {
+          "element": "h3",
+          "text": "Ind.Farmacêutica"
+        },
+        {
+          "element": "h3",
+          "text": "Centro Cirúrgico"
+        },
+        {
+          "element": "h3",
+          "text": "Fertilização Animal"
+        },
+        {
+          "element": "h3",
+          "text": "Instituto de Pesquisa"
+        },
+        {
+          "element": "h3",
+          "text": "Nutrição Parenteral e Enteral"
+        },
+        {
+          "element": "h3",
+          "text": "Alimento Químico"
+        },
+        {
+          "element": "h3",
+          "text": "Cosmético"
+        },
+        {
+          "element": "h3",
+          "text": "Empresa de injetáveis"
+        },
+        {
+          "element": "h3",
+          "text": "Empresa de alimentos"
+        },
+        {
+          "element": "h3",
+          "text": "Empresa de produtos químicos"
+        },
+        {
+          "element": "h3",
+          "text": "Indústria agropecuária"
+        },
+        {
+          "element": "h3",
+          "text": "Universidade"
+        },
+        {
+          "element": "h3",
+          "text": "Laboratório P3"
+        },
+        {
+          "element": "h1",
+          "text": "Estrutura"
+        },
+        {
+          "element": "p",
+          "text": "Conheça a Estrutura Seccol e saiba porque ser um de nossos parceiros"
+        },
+        {
+          "element": "h4",
+          "text": "Frota Caminhão Baú"
+        },
+        {
+          "element": "p",
+          "text": "Para equipamentos pesados"
+        },
+        {
+          "element": "h4",
+          "text": "Frota Pick-ups"
+        },
+        {
+          "element": "p",
+          "text": "Manutenção técnica básica"
+        },
+        {
+          "element": "h4",
+          "text": "Equipamentos"
+        },
+        {
+          "element": "p",
+          "text": "Mais modernos e seguros"
+        },
+        {
+          "element": "h4",
+          "text": "Administração"
+        },
+        {
+          "element": "p",
+          "text": "Escritório para administração geral"
+        },
+        {
+          "element": "h3",
+          "text": "Você mais perto da Seccol!"
+        },
+        {
+          "element": "p",
+          "text": "Entre em contato com um de nossos atendentes para dúvidas ou orçamentos. Teremos o maior prazer em lhe atender!"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/logo.png",
+          "alt": "Polo Logo"
+        },
+        {
+          "src": "images/home/slides/slide_1.jpg"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/slide_2.jpg"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/slide_3.jpg"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/slides/grafismo_quadrado.png"
+        },
+        {
+          "src": "images/home/1.png"
+        },
+        {
+          "src": "images/home/2.png"
+        },
+        {
+          "src": "images/home/3.png"
+        },
+        {
+          "src": "images/home/4.png"
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "A Seccol",
+          "href": "quem.html",
+          "absolute_url": "https://seccol.com.br/quem.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Serviços Técnicos e Testes",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Equipamentos",
+          "href": "teste-equipamento.html",
+          "absolute_url": "https://seccol.com.br/teste-equipamento.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Área Limpa",
+          "href": "area-limpa.html",
+          "absolute_url": "https://seccol.com.br/area-limpa.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Equipamentos",
+          "href": "equipamentos.html",
+          "absolute_url": "https://seccol.com.br/equipamentos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "faq.html",
+          "absolute_url": "https://seccol.com.br/faq.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Contatos",
+          "href": "contatos.html",
+          "absolute_url": "https://seccol.com.br/contatos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Iniciar Chat",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "DESENVOLVIDO POR VICTORREZENDE.COM.BR",
+          "href": "http://www.victorrezende.com.br",
+          "absolute_url": "http://www.victorrezende.com.br",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/#",
+          "external": false,
+          "title": ""
+        }
+      ],
+      "forms": []
+    },
+    {
+      "page": "quem.html",
+      "source_url": "https://seccol.com.br/quem.html",
+      "sha256": "f0e18301c91e6babe324f7ca29f935783f2a1d4614949bbe0fddc312fa2635eb",
+      "title": "SECCOL | Controle e Certificação - Uma empresa especializada em Controle de Contaminação Ambiental",
+      "meta": [
+        {
+          "key": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1"
+        },
+        {
+          "key": "author",
+          "content": "seccol.com.br"
+        },
+        {
+          "key": "description",
+          "content": "A Seccol é uma empresa especializada em Controle de Contaminação Ambiental presta serviços de manutenção, reforma, venda e certificação em Equipamentos e/ou Área Limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "seccol, controle e certificação, Gôiania, Goiás, Área limpa em Goiânia, Testes de área limpa, controle de contaminação ambiental, controle de contaminação ambiental em Goiânia. Certificação em área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "venda e certificação em equipamentos e área limpa, serviços de manutenção, refeorma e venda em equipamentos e área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Cabine de Segurança Biológica, cabine de segurança biológica Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Qualificação em Equipamento de Fluxo Unidirecional, fluxo laminar, fluxo unidirecional laminar."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Capela de Exaustão, capela de exaustão, Certificação em Área Limpa Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Elaboração e Execução de Projetos para Área Limpa e Centro Cirúrgico, manutenção e venda."
+        },
+        {
+          "key": "keywords",
+          "content": "Reprodução Assistida, análise laboratorial, oncologia, farmácia, centro cirúrgico, fertilização animal, instituto de pesquisa, nutrição parenteral e enteral."
+        },
+        {
+          "key": "keywords",
+          "content": "Contador eletrônico de Partículas, Fotômetro e Gerador de Aerosol “PAO”, Balometer, luxímetro, decibelímetro, alicate amperímetro, anemômetro, Termoanemômetro digital, Ampola de fumaça, Manômetro diferencial, Termo-higrômetro, Medidor de luz Ultravioleta."
+        }
+      ],
+      "content_blocks": [
+        {
+          "element": "li",
+          "text": "A Seccol"
+        },
+        {
+          "element": "li",
+          "text": "Em Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Serviços Técnicos e Testes Em Equipamentos Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "FAQ"
+        },
+        {
+          "element": "li",
+          "text": "Contatos"
+        },
+        {
+          "element": "h2",
+          "text": "SECCOL"
+        },
+        {
+          "element": "p",
+          "text": "Minimizando a geração e retenção de Partículas existentes no ambiente"
+        },
+        {
+          "element": "h2",
+          "text": "QUEM SOMOS"
+        },
+        {
+          "element": "h2",
+          "text": "Serviços"
+        },
+        {
+          "element": "h3",
+          "text": "Área Limpa"
+        },
+        {
+          "element": "p",
+          "text": "São áreas esterilizadas com controle ambiental utilizadas de forma a reduzir a introdução de contaminantes em seu interior."
+        },
+        {
+          "element": "h3",
+          "text": "Cabine de Segurança biológica"
+        },
+        {
+          "element": "p",
+          "text": "Usadas como contenção primária no trabalho com agentes de risco biológico, minimizando a exposição do produto e do ambiente."
+        },
+        {
+          "element": "h3",
+          "text": "Capela de Exaustão"
+        },
+        {
+          "element": "p",
+          "text": "Serve como uma barreira física entre as reações químicas e o ambiente de laboratório, oferecendo proteção."
+        },
+        {
+          "element": "h3",
+          "text": "Equipamento de Fluxo Unidirecional"
+        },
+        {
+          "element": "p",
+          "text": "Permite a manipulação de forma segura de materiais biológicos ou estéreis, que não podem sofrer contaminação."
+        },
+        {
+          "element": "h3",
+          "text": "Elaboração e Execução de Projetos para Área Limpa"
+        },
+        {
+          "element": "p",
+          "text": "Avaliação adequada dos espaços, definição dos fluxos de pessoal, elaboração de fluxogramas dos processos produtivos, etc."
+        },
+        {
+          "element": "h3",
+          "text": "Elaboração e Execução de Projetos para Centro Cirúrgico"
+        },
+        {
+          "element": "p",
+          "text": "Temos os melhoreses profissionais, com experiência de mais de 15 anos, para elaborar o projeto de seu Centro Cirúrgico."
+        },
+        {
+          "element": "h3",
+          "text": "Monitoramento de unidade de descontaminação/ventilação"
+        },
+        {
+          "element": "p",
+          "text": "Fazemos o monitoramento das unidades de descontaminação com base nas normas Nacionais e Internacionais."
+        },
+        {
+          "element": "h3",
+          "text": "Você mais perto da Seccol!"
+        },
+        {
+          "element": "p",
+          "text": "Entre em contato com um de nossos atendentes para dúvidas ou orçamentos. Teremos o maior prazer em lhe atender!"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/logo.png",
+          "alt": "Seccol"
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "A Seccol",
+          "href": "quem.html",
+          "absolute_url": "https://seccol.com.br/quem.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Serviços Técnicos e Testes",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/quem.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Equipamentos",
+          "href": "teste-equipamento.html",
+          "absolute_url": "https://seccol.com.br/teste-equipamento.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Área Limpa",
+          "href": "area-limpa.html",
+          "absolute_url": "https://seccol.com.br/area-limpa.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Equipamentos",
+          "href": "equipamentos.html",
+          "absolute_url": "https://seccol.com.br/equipamentos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "faq.html",
+          "absolute_url": "https://seccol.com.br/faq.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Contatos",
+          "href": "contatos.html",
+          "absolute_url": "https://seccol.com.br/contatos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/quem.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/quem.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/quem.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/quem.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/quem.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/quem.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/quem.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Iniciar Chat",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "DESENVOLVIDO POR VICTORREZENDE.COM.BR",
+          "href": "http://www.victorrezende.com.br",
+          "absolute_url": "http://www.victorrezende.com.br",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/quem.html#",
+          "external": false,
+          "title": ""
+        }
+      ],
+      "forms": []
+    },
+    {
+      "page": "teste-equipamento.html",
+      "source_url": "https://seccol.com.br/teste-equipamento.html",
+      "sha256": "63968de5d92d50d6652232455fd23da9858910feec9e12a257c65022e230f791",
+      "title": "SECCOL | Controle e Certificação - Uma empresa especializada em Controle de Contaminação Ambiental",
+      "meta": [
+        {
+          "key": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1"
+        },
+        {
+          "key": "author",
+          "content": "seccol.com.br"
+        },
+        {
+          "key": "description",
+          "content": "A Seccol é uma empresa especializada em Controle de Contaminação Ambiental presta serviços de manutenção, reforma, venda e certificação em Equipamentos e/ou Área Limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "seccol, controle e certificação, Gôiania, Goiás, Área limpa em Goiânia, Testes de área limpa, controle de contaminação ambiental, controle de contaminação ambiental em Goiânia. Certificação em área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "venda e certificação em equipamentos e área limpa, serviços de manutenção, refeorma e venda em equipamentos e área limpa."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Cabine de Segurança Biológica, cabine de segurança biológica Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Qualificação em Equipamento de Fluxo Unidirecional, fluxo laminar, fluxo unidirecional laminar."
+        },
+        {
+          "key": "keywords",
+          "content": "Certificação em Capela de Exaustão, capela de exaustão, Certificação em Área Limpa Goiânia."
+        },
+        {
+          "key": "keywords",
+          "content": "Elaboração e Execução de Projetos para Área Limpa e Centro Cirúrgico, manutenção e venda."
+        },
+        {
+          "key": "keywords",
+          "content": "Reprodução Assistida, análise laboratorial, oncologia, farmácia, centro cirúrgico, fertilização animal, instituto de pesquisa, nutrição parenteral e enteral."
+        },
+        {
+          "key": "keywords",
+          "content": "Contador eletrônico de Partículas, Fotômetro e Gerador de Aerosol “PAO”, Balometer, luxímetro, decibelímetro, alicate amperímetro, anemômetro, Termoanemômetro digital, Ampola de fumaça, Manômetro diferencial, Termo-higrômetro, Medidor de luz Ultravioleta."
+        }
+      ],
+      "content_blocks": [
+        {
+          "element": "li",
+          "text": "A Seccol"
+        },
+        {
+          "element": "li",
+          "text": "Em Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Serviços Técnicos e Testes Em Equipamentos Em Área Limpa"
+        },
+        {
+          "element": "li",
+          "text": "Equipamentos"
+        },
+        {
+          "element": "li",
+          "text": "FAQ"
+        },
+        {
+          "element": "li",
+          "text": "Contatos"
+        },
+        {
+          "element": "h4",
+          "text": "Serviços Técnicos e Testes em"
+        },
+        {
+          "element": "h1",
+          "text": "Equipamentos"
+        },
+        {
+          "element": "h1",
+          "text": "Serviços Técnicos e Testes"
+        },
+        {
+          "element": "h3",
+          "text": "Serviços Técnicos e Testes"
+        },
+        {
+          "element": "h5",
+          "text": "Velocidade e uniformidade do fluxo de ar"
+        },
+        {
+          "element": "h5",
+          "text": "Ensaio de velocidade do fluxo de ar de face (inflow)"
+        },
+        {
+          "element": "h5",
+          "text": "Diferença de pressão do sistema de filtragem HEPA/ULPA (perda de carga dos filtros)"
+        },
+        {
+          "element": "h5",
+          "text": "Ensaio para detecção de ponto de vazamentos em sistema de filtragem instalado HEPA/ULPA"
+        },
+        {
+          "element": "h5",
+          "text": "Ensaio de sentido e visualização do fluxo de ar (fumaça)"
+        },
+        {
+          "element": "h5",
+          "text": "Contagem de particulas em suspensão no ar"
+        },
+        {
+          "element": "h5",
+          "text": "Ensaio de avaliação dos alarmes da CSB"
+        },
+        {
+          "element": "h5",
+          "text": "Ensaio de intensidade de iluminação"
+        },
+        {
+          "element": "h5",
+          "text": "Ensaio de vibração"
+        },
+        {
+          "element": "h5",
+          "text": "Ensaio de ruído"
+        },
+        {
+          "element": "h5",
+          "text": "Ensaios adicionais"
+        },
+        {
+          "element": "h5",
+          "text": "Inspeção e/ou substituição de filtro(s) grosso(s) e de filtro(s) HEPA"
+        },
+        {
+          "element": "h5",
+          "text": "Balanceamento do sistema de insuflamento e de exaustão"
+        },
+        {
+          "element": "h5",
+          "text": "Limpeza da parte interna do equipamento"
+        },
+        {
+          "element": "h5",
+          "text": "Medição da eficiência de radiação de lâmpada(s) germicida(s) (ou) “ultravioleta(s)”"
+        },
+        {
+          "element": "h5",
+          "text": "Medição da pressão diferencial do(s) filtro(s) HEPA, verificando o grau de saturação"
+        },
+        {
+          "element": "h5",
+          "text": "Medição da tensão e da concorrente elétrica do motor"
+        },
+        {
+          "element": "h5",
+          "text": "Reparo no meio filtrante ou na estrtura do(s) filtro(s) HEPA, quando necessário"
+        },
+        {
+          "element": "h5",
+          "text": "Revisão do manômetro de pressão diferencial"
+        },
+        {
+          "element": "h5",
+          "text": "Revisão dos selos de vedação"
+        },
+        {
+          "element": "h5",
+          "text": "Verificação de componentes eletromecânicos"
+        },
+        {
+          "element": "h3",
+          "text": "Você mais perto da Seccol!"
+        },
+        {
+          "element": "p",
+          "text": "Entre em contato com um de nossos atendentes para dúvidas ou orçamentos. Teremos o maior prazer em lhe atender!"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/logo.png",
+          "alt": "Seccol"
+        },
+        {
+          "src": "images/scrolldown.png"
+        }
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "index.html",
+          "absolute_url": "https://seccol.com.br/index.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "A Seccol",
+          "href": "quem.html",
+          "absolute_url": "https://seccol.com.br/quem.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Serviços Técnicos e Testes",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/teste-equipamento.html#",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Equipamentos",
+          "href": "teste-equipamento.html",
+          "absolute_url": "https://seccol.com.br/teste-equipamento.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Em Área Limpa",
+          "href": "area-limpa.html",
+          "absolute_url": "https://seccol.com.br/area-limpa.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Equipamentos",
+          "href": "equipamentos.html",
+          "absolute_url": "https://seccol.com.br/equipamentos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "FAQ",
+          "href": "faq.html",
+          "absolute_url": "https://seccol.com.br/faq.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Contatos",
+          "href": "contatos.html",
+          "absolute_url": "https://seccol.com.br/contatos.html",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Conheça",
+          "href": "#section_equip",
+          "absolute_url": "https://seccol.com.br/teste-equipamento.html#section_equip",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#easy-fast",
+          "absolute_url": "https://seccol.com.br/teste-equipamento.html#easy-fast",
+          "external": false,
+          "title": ""
+        },
+        {
+          "text": "Iniciar Chat",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "DESENVOLVIDO POR VICTORREZENDE.COM.BR",
+          "href": "http://www.victorrezende.com.br",
+          "absolute_url": "http://www.victorrezende.com.br",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "absolute_url": "http://api.whatsapp.com/send?1=pt_BR&phone=5562982468283",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/seccolcertificacao/",
+          "absolute_url": "https://www.instagram.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/seccolcertificacao/",
+          "absolute_url": "https://www.facebook.com/seccolcertificacao/",
+          "external": true,
+          "title": ""
+        },
+        {
+          "text": "",
+          "href": "#",
+          "absolute_url": "https://seccol.com.br/teste-equipamento.html#",
+          "external": false,
+          "title": ""
+        }
+      ],
+      "forms": []
+    }
+  ]
+}
