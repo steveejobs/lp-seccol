@@ -3,7 +3,7 @@
 Documento vivo para orientar pessoas e agentes em contextos futuros. Atualizar este arquivo durante todo o projeto.
 
 Última atualização: 15 de agosto de 2026  
-Estado: site institucional integrado em oito rotas reais; home redesenhada com maior densidade e variedade compositiva; página autônoma de links refinada para uso mobile; contato com briefing guiado; conteúdo e funcionamento em validação final.
+Estado: site institucional integrado em oito rotas reais; home redesenhada com maior densidade e variedade compositiva; página autônoma de links refinada para uso mobile; contato com briefing guiado; conteúdo, funcionamento e produção validados.
 
 ## Objetivo
 
@@ -319,3 +319,5 @@ Continuar elevando a diferenciação visual das páginas internas prioritárias 
 - `prefers-reduced-motion` após as novas seções: aprovado.
 - Capturas finais de experiência: `artifacts/experience-v3/`.
 - `npm run check` após a migração de rotas e refinamentos: aprovado.
+- Deploy `9d4b0fc` publicado pela integração Git com status `Ready`; `/instagram`, `/contato` e `/areas-limpas` abertos e atualizados diretamente em produção com HTTP 200, metadados específicos, sem overflow ou erros de runtime.
+- Compatibilidade legada confirmada em produção: `/#/instagram` é normalizado para `/instagram`.
