@@ -3,7 +3,7 @@
 Documento vivo para orientar pessoas e agentes em contextos futuros. Atualizar este arquivo durante todo o projeto.
 
 Última atualização: 15 de agosto de 2026  
-Estado: site institucional integrado em oito rotas; home redesenhada com maior densidade e variedade compositiva; página autônoma de links refinada para uso mobile; conteúdo e funcionamento validados, revisão visual contínua.
+Estado: site institucional integrado em oito rotas reais; home redesenhada com maior densidade e variedade compositiva; página autônoma de links refinada para uso mobile; contato com briefing guiado; conteúdo e funcionamento em validação final.
 
 ## Objetivo
 
@@ -232,11 +232,11 @@ As imagens de referência visual foram geradas especificamente para a nova dire�
 
 ### 2026-08-15 — Páginas e regras editoriais
 
-Foram integradas oito rotas funcionais por hash para compatibilidade com hospedagem estática. Seções não usam tópicos antes das headlines. Imagens não recebem numeração, legendas pequenas ou descrições sobrepostas. As rotas possuem transição de entrada/saída e as seções usam o motion uniforme do projeto.
+Foram integradas oito rotas funcionais. Seções não usam tópicos antes das headlines. Imagens não recebem numeração, legendas pequenas ou descrições sobrepostas. As rotas possuem transição de entrada/saída e as seções usam o motion uniforme do projeto.
 
 ### 2026-08-15 — Página de links do Instagram
 
-A rota `#/instagram` foi criada como experiência autônoma, sem cabeçalho ou rodapé institucional, inspirada na hierarquia móvel das páginas de referência da SOS Ótica e Ótica Moderna. Ela reutiliza tema, logo e mídia já aprovados no projeto. Os destinos seguem o Instabio público da Seccol na ordem publicada: atendimento, website, Facebook e localização; o website antigo foi substituído pela home interna do site atual. Não foram adicionados destinos comerciais não confirmados.
+A rota `/instagram` foi criada como experiência autônoma, sem cabeçalho ou rodapé institucional, inspirada na hierarquia móvel das páginas de referência da SOS Ótica e Ótica Moderna. Ela reutiliza tema, logo e mídia já aprovados no projeto. Os destinos seguem os canais confirmados da Seccol: atendimento, website, Facebook, LinkedIn e localização; o website antigo foi substituído pela home interna do site atual.
 
 ### 2026-08-15 — Deploy na Vercel
 
@@ -254,9 +254,17 @@ As novas seções reutilizam o `Reveal` e o `MotionController`, com duração, d
 
 ### 2026-08-15 — LinkedIn e página mobile de links
 
-O usuário confirmou `https://www.linkedin.com/company/grupo-seccol/` como perfil oficial do Grupo Seccol. O destino foi registrado em `docs/source-of-truth.md`, adicionado ao rodapé institucional e ao `#/instagram`.
+O usuário confirmou `https://www.linkedin.com/company/grupo-seccol/` como perfil oficial do Grupo Seccol. O destino foi registrado em `docs/source-of-truth.md`, adicionado ao rodapé institucional e ao `/instagram`.
 
-A página `#/instagram` foi reconstruída como composição mobile-first de largura controlada, fundo escuro, mídia curta, hierarquia compacta e cinco links com alvos confortáveis. Desktop funciona apenas como moldura de apresentação da experiência móvel; a prioridade de decisão permanece entre 360 e 430 px.
+A página `/instagram` foi reconstruída como composição mobile-first de largura controlada, superfície branca, tipografia editorial, detalhes laranja, mídia curta e cinco links com alvos confortáveis. Desktop funciona apenas como moldura de apresentação da experiência móvel; a prioridade de decisão permanece entre 360 e 430 px.
+
+### 2026-08-15 — URLs, conversão e acabamento de experiência
+
+A navegação passou de hashes para caminhos reais, com metadados, Open Graph e canonical específicos por página. O `vercel.json` recebeu o rewrite de SPA necessário para abertura e atualização direta das rotas; links antigos com hash permanecem compatíveis e são normalizados.
+
+O WhatsApp da página `/instagram` foi unificado com o canal móvel institucional confirmado no banco de conteúdo. A página de contato ganhou um briefing guiado que monta a mensagem localmente e a abre no WhatsApp, sem persistir informações. O convite comercial duplicado no rodapé foi removido para que cada página termine com uma única decisão principal.
+
+As novas entradas reutilizam o sistema `Reveal` centralizado, com grupos curtos, deslocamento moderado e fallback para `prefers-reduced-motion`; nenhuma dependência foi adicionada.
 
 ### 2026-08-15 — Favicon da marca
 
@@ -264,7 +272,7 @@ O favicon passou a usar somente o símbolo de caixa e check do logo atual. O ati
 
 ## Próxima decisão
 
-Revisar com o usuário a nova densidade da home e, após aprovação, aplicar o mesmo nível de diferenciação visual às páginas internas prioritárias sem alterar fatos confirmados.
+Continuar elevando a diferenciação visual das páginas internas prioritárias e incorporar provas reais de projetos quando a Seccol disponibilizar material verificável.
 
 ## Pendências técnicas conhecidas
 
@@ -290,17 +298,24 @@ Revisar com o usuário a nova densidade da home e, após aprovação, aplicar o 
 - Capturas: `artifacts/hero-v2/`.
 - Relatório: `docs/qa-hero.md`.
 - Oito rotas integradas cobertas pela ferramenta de auditoria em 1366×768 e 390×844.
-- Página `#/instagram` validada isoladamente em 1366×768 e 390×844: um H1, quatro links com alvos de 74–76 px, sem cabeçalho/rodapé institucional, overflow, imagens quebradas ou erros de runtime.
+- Primeira versão da página de links validada isoladamente em 1366×768 e 390×844: um H1, quatro links com alvos de 74–76 px, sem cabeçalho/rodapé institucional, overflow, imagens quebradas ou erros de runtime.
 - `prefers-reduced-motion` da página de links: sem transformação e sem transição perceptível.
 - Capturas da página de links: `artifacts/instagram/`.
 - FAQ: abertura e fechamento aprovados.
-- Navegação por hash: aprovada em todas as rotas.
+- Navegação legada por hash: aprovada em todas as rotas antes da migração para URLs reais.
 - Capturas do site integrado: `artifacts/site-v2/`.
 - Relatório integrado: `docs/qa-site.md`.
 - Ferramentas Python: compilação aprovada.
 - Otimizador de imagens: teste funcional, com redução de 114,9 KB para 28,7 KB no asset de teste.
 - Deploy de produção na Vercel: instalação com `npm ci`, build Vite e alias `https://sivs-seccol.vercel.app` aprovados.
 - Home redesenhada validada nos sete viewports de controle: sem overflow, H1 cortado, imagens quebradas ou erros de runtime.
-- `#/instagram` validado em cinco viewports móveis: cinco links, incluindo LinkedIn, com alvos de 65–70 px e sem overflow ou erros de runtime.
+- `/instagram` validado em cinco viewports móveis: cinco links, incluindo LinkedIn, com alvos de 65–70 px e sem overflow ou erros de runtime.
 - Capturas do redesenho: `artifacts/redesign-review/` e `artifacts/home-redesign/`.
 - Favicon PNG/ICO: recorte do símbolo validado com transparência e integrado ao build.
+- URLs reais validadas diretamente em todas as oito rotas, em 1366×768 e 390×844: sem overflow, imagens quebradas ou erros de runtime.
+- Metadados específicos, canonical e normalização dos links antigos com hash: aprovados.
+- `/instagram` claro e mobile-first validado em 360×800 e 390×844, com cinco links e alvos confortáveis.
+- Briefing de contato validado com preenchimento real: mensagem codificada corretamente para o WhatsApp institucional e nenhum armazenamento local ou remoto.
+- `prefers-reduced-motion` após as novas seções: aprovado.
+- Capturas finais de experiência: `artifacts/experience-v3/`.
+- `npm run check` após a migração de rotas e refinamentos: aprovado.

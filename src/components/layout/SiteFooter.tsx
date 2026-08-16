@@ -5,14 +5,13 @@ import styles from './SiteLayout.module.css'
 export function SiteFooter() {
   return (
     <footer className={styles.footer}>
-      <div className={styles.footerLead}>
-        <h2>Converse com quem entende de ambientes críticos.</h2>
-        <a href={company.whatsapp} target="_blank" rel="noreferrer">Solicitar orçamento <span aria-hidden="true">→</span></a>
-      </div>
       <div className={styles.footerGrid}>
-        <RouteLink to="/" aria-label="Seccol — início">
-          <img src="./brand/seccol-logo.png" width="128" height="31" alt="Seccol Controle e Certificação" />
-        </RouteLink>
+        <div className={styles.footerBrand}>
+          <RouteLink to="/" aria-label="Seccol — início">
+            <img src="./brand/seccol-logo.png" width="128" height="31" alt="Seccol Controle e Certificação" />
+          </RouteLink>
+          <p>Controle e certificação para ambientes críticos.</p>
+        </div>
         <div>
           <a href={`mailto:${company.email}`}>{company.email}</a>
           <a href={`tel:+556232751272`}>{company.phone}</a>

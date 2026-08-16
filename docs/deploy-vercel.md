@@ -14,7 +14,7 @@ O projeto publica um build estático do Vite. A configuração em `vercel.json` 
 - diretório de saída: `dist`;
 - runtime: Node.js 24, declarado em `package.json`.
 
-As rotas do site usam hash (`#/...`), então não precisam de rewrites para `index.html`.
+As rotas do site usam URLs reais (`/a-seccol`, `/areas-limpas`, `/instagram` etc.). O `vercel.json` reescreve as requisições para `index.html`, permitindo abrir e atualizar qualquer rota diretamente sem erro 404. Os endereços antigos com hash continuam sendo normalizados para a URL equivalente.
 
 ## Primeiro deploy pelo GitHub
 

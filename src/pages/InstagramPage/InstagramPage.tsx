@@ -1,4 +1,5 @@
 import { RouteLink } from '../../app/router'
+import { company } from '../../content/siteContent'
 import styles from './InstagramPage.module.css'
 
 type LinkIconProps = { type: 'arrow' | 'facebook' | 'linkedin' | 'map' | 'whatsapp' }
@@ -29,14 +30,14 @@ const links = [
     kind: 'external' as const,
     title: 'Atendimento Seccol',
     description: 'Fale diretamente com nossa equipe',
-    href: 'https://wa.me/556232751272',
+    href: company.whatsapp,
     icon: 'whatsapp' as const,
     primary: true,
   },
   {
     kind: 'internal' as const,
-    title: 'Website',
-    description: 'Conheça o site atual da Seccol',
+    title: 'Site oficial',
+    description: 'Conheça serviços e atuação técnica',
     href: '/',
     icon: 'arrow' as const,
     primary: false,
@@ -72,19 +73,22 @@ export function InstagramPage() {
     <main className={styles.page}>
       <div className={styles.ambient} aria-hidden="true" />
       <section className={styles.card} aria-labelledby="instagram-page-title">
-        <div className={styles.media} aria-hidden="true">
-          <img src="./media/generated/instrument-calibration.webp" alt="" />
-          <span><b>Desde 2009</b> Precisão em ambientes críticos</span>
-        </div>
-
         <div className={styles.content}>
           <header className={styles.intro}>
-            <RouteLink className={styles.brand} to="/" aria-label="Seccol — ir para o site">
-              <img src="./brand/seccol-logo.png" width="128" height="31" alt="Seccol Controle e Certificação" />
-            </RouteLink>
+            <div className={styles.topline}>
+              <RouteLink className={styles.brand} to="/" aria-label="Seccol — ir para o site">
+                <img src="./brand/seccol-logo.png" width="128" height="31" alt="Seccol Controle e Certificação" />
+              </RouteLink>
+              <span className={styles.official}><i aria-hidden="true">✓</i> Links oficiais</span>
+            </div>
             <h1 id="instagram-page-title">Controle que você pode comprovar.</h1>
             <p>Certificação, manutenção e engenharia para equipamentos e áreas limpas em todo o país.</p>
           </header>
+
+          <div className={styles.media} aria-hidden="true">
+            <img src="./media/generated/instrument-calibration.webp" alt="" />
+            <span><b>Desde 2009</b> Precisão em ambientes críticos</span>
+          </div>
 
           <nav className={styles.links} aria-label="Links da Seccol">
             {links.map((link) => {
@@ -102,7 +106,7 @@ export function InstagramPage() {
             })}
           </nav>
 
-          <p className={styles.signature}>Seccol Controle e Certificação · Desde 2009</p>
+          <p className={styles.signature}>Seccol Controle e Certificação <span aria-hidden="true">•</span> Goiânia, GO</p>
         </div>
       </section>
     </main>

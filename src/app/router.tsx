@@ -4,8 +4,10 @@ import { RouterContext } from './routerContext'
 import { useRouter } from './useRouter'
 
 function readPath() {
-  const value = window.location.hash.replace(/^#/, '') || '/'
-  return value.startsWith('/') ? value : `/${value}`
+  const legacyHashPath = window.location.hash.match(/^#(\/.*)$/)?.[1]
+  const value = legacyHashPath ?? window.location.pathname ?? '/'
+  const normalized = value.length > 1 ? value.replace(/\/$/, '') : value
+  return normalized.startsWith('/') ? normalized : `/${normalized}`
 }
 
 export function RouterProvider({ children }: { children: ReactNode }) {
@@ -17,8 +19,12 @@ export function RouterProvider({ children }: { children: ReactNode }) {
       window.scrollTo({ top: 0, behavior: 'instant' })
     }
 
-    window.addEventListener('hashchange', syncPath)
-    return () => window.removeEventListener('hashchange', syncPath)
+    if (window.location.hash.startsWith('#/')) {
+      window.history.replaceState(null, '', readPath())
+    }
+
+    window.addEventListener('popstate', syncPath)
+    return () => window.removeEventListener('popstate', syncPath)
   }, [])
 
   const navigate = (nextPath: string) => {
@@ -28,7 +34,7 @@ export function RouterProvider({ children }: { children: ReactNode }) {
     }
 
     const update = () => {
-      window.history.pushState(null, '', `#${nextPath}`)
+      window.history.pushState(null, '', nextPath)
       setPath(nextPath)
       window.scrollTo({ top: 0, behavior: 'instant' })
     }
@@ -52,10 +58,10 @@ export function RouteLink({ to, onClick, ...props }: RouteLinkProps) {
 
   const handleClick = (event: MouseEvent<HTMLAnchorElement>) => {
     onClick?.(event)
-    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey) return
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || props.target === '_blank') return
     event.preventDefault()
     navigate(to)
   }
 
-  return <a href={`#${to}`} onClick={handleClick} {...props} />
+  return <a href={to} onClick={handleClick} {...props} />
 }

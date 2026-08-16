@@ -35,7 +35,7 @@ try {
       page.on('console', (message) => { if (message.type() === 'error') runtimeErrors.push(message.text()) })
       page.on('pageerror', (error) => runtimeErrors.push(error.message))
       page.on('requestfailed', (request) => runtimeErrors.push(`network: ${request.url()}`))
-      await page.goto(`${baseUrl}#${route}`, { waitUntil: 'networkidle' })
+      await page.goto(new URL(route, baseUrl).toString(), { waitUntil: 'networkidle' })
 
       const metrics = await page.evaluate(() => ({
         width: window.innerWidth,
@@ -75,7 +75,7 @@ try {
   }
 
   const reducedPage = await browser.newPage({ viewport: { width: 390, height: 844 }, reducedMotion: 'reduce' })
-  await reducedPage.goto(`${baseUrl}#/a-seccol`, { waitUntil: 'networkidle' })
+  await reducedPage.goto(new URL('/a-seccol', baseUrl).toString(), { waitUntil: 'networkidle' })
   const reducedMotionOk = await reducedPage.locator('[data-reveal]').evaluateAll((elements) => elements.every((element) => {
     const styles = getComputedStyle(element)
     return styles.opacity === '1' && styles.transform === 'none'

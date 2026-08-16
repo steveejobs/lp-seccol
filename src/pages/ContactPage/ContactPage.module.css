@@ -18,9 +18,53 @@
 .address { display: grid; grid-template-columns: 0.5fr 1fr; gap: var(--space-6); padding-top: var(--space-7); }
 .address h3 { font-size: var(--text-xl); }
 .address p { max-width: 40rem; color: var(--color-text-muted); font-size: var(--text-lg); }
+.briefSection {
+  display: grid;
+  grid-template-columns: minmax(20rem, 0.72fr) minmax(32rem, 1.28fr);
+  gap: clamp(3rem, 8vw, 9rem);
+  padding: var(--space-section) var(--gutter);
+  color: var(--color-panel-dark-text);
+  background: var(--color-panel-dark);
+}
+.briefIntro { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; }
+.briefIndex { padding-bottom: var(--space-2); border-bottom: 2px solid var(--color-accent); color: var(--color-panel-dark-muted); font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.12em; text-transform: uppercase; }
+.briefIntro h2 { max-width: 10ch; margin-top: var(--space-6); font-size: clamp(3rem, 5vw, 6rem); line-height: 0.93; letter-spacing: -0.06em; }
+.briefIntro > p { max-width: 34rem; margin-top: var(--space-5); color: var(--color-panel-dark-muted); font-size: var(--text-lg); }
+.briefAssurance { display: flex; align-items: center; gap: var(--space-3); margin-top: var(--space-6); color: var(--color-panel-dark-muted); font-size: var(--text-xs); }
+.briefAssurance > span { display: grid; width: 1.5rem; height: 1.5rem; place-items: center; border-radius: 50%; color: var(--color-on-accent); background: var(--color-accent); }
+.formFrame { align-self: center; }
+.briefForm { display: grid; gap: var(--space-5); padding: clamp(1.5rem, 4vw, 3rem); border-radius: var(--radius-lg); color: var(--color-text); background: var(--color-surface); box-shadow: 0 2rem 6rem rgb(0 0 0 / 24%); }
+.fieldRow { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); }
+.briefForm label { display: grid; gap: var(--space-2); }
+.briefForm label > span { font-size: var(--text-sm); font-weight: 750; }
+.briefForm input,
+.briefForm select,
+.briefForm textarea {
+  width: 100%;
+  min-height: 3.5rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  background: var(--color-canvas);
+  font: inherit;
+}
+.briefForm textarea { min-height: 8.5rem; resize: vertical; }
+.briefForm input:focus,
+.briefForm select:focus,
+.briefForm textarea:focus { border-color: var(--color-accent); outline: var(--focus-ring-width) solid color-mix(in srgb, var(--color-accent) 24%, transparent); outline-offset: 0; }
+.formFooter { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); }
+.formFooter small { color: var(--color-text-muted); font-size: var(--text-xs); }
+.formFooter button { display: inline-flex; min-height: 3.5rem; align-items: center; justify-content: center; gap: var(--space-4); padding-inline: var(--space-5); border-radius: var(--radius-sm); color: var(--color-on-accent); background: var(--color-accent); font-weight: 800; }
 @media (max-width: 600px) {
   .contactGrid { grid-template-columns: 1fr; }
   .contactGrid a, .contactGrid > div > div { min-height: 8rem; padding-inline: 0; border-right: 0; }
   .contactGrid .primary { padding-inline: var(--space-5); }
   .address { grid-template-columns: 1fr; }
+  .briefSection { grid-template-columns: 1fr; gap: var(--space-7); }
+  .briefIntro h2 { font-size: clamp(2.8rem, 14vw, 4.6rem); }
+  .fieldRow { grid-template-columns: 1fr; }
+  .briefForm { padding: var(--space-5); }
+  .formFooter { align-items: stretch; flex-direction: column; }
+  .formFooter button { width: 100%; }
 }

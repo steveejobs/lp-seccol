@@ -2,6 +2,7 @@ import { Reveal } from '../../components/motion/Reveal'
 import { PageIntro } from '../../components/sections/PageIntro'
 import styles from '../../components/sections/Sections.module.css'
 import { company } from '../../content/siteContent'
+import { ContactBrief } from './ContactBrief'
 import contactStyles from './ContactPage.module.css'
 
 export function ContactPage() {
@@ -18,6 +19,7 @@ export function ContactPage() {
         </div>
         <Reveal><div className={contactStyles.address}><h3>Endereço</h3><p>{company.address}</p></div></Reveal>
       </section>
+      <ContactBrief />
     </main>
   )
 }
