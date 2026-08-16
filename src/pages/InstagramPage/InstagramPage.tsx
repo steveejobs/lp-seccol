@@ -1,7 +1,7 @@
 import { RouteLink } from '../../app/router'
 import styles from './InstagramPage.module.css'
 
-type LinkIconProps = { type: 'arrow' | 'facebook' | 'map' | 'whatsapp' }
+type LinkIconProps = { type: 'arrow' | 'facebook' | 'linkedin' | 'map' | 'whatsapp' }
 
 function LinkIcon({ type }: LinkIconProps) {
   if (type === 'whatsapp') {
@@ -14,6 +14,9 @@ function LinkIcon({ type }: LinkIconProps) {
   }
   if (type === 'facebook') {
     return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4.3c-.5-.1-2.2-.3-4.1-.3C9 4 7 6.3 7 10.4V14H3v4h4v6h5v-6h4l.6-4H12v-3.2C12 9.6 12.4 8 14 8Z" /></svg>
+  }
+  if (type === 'linkedin') {
+    return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.5H3V20h3.5V8.5ZM4.8 3A2.1 2.1 0 1 0 4.8 7.2 2.1 2.1 0 0 0 4.8 3ZM20.5 13.4c0-3.5-1.9-5.2-4.4-5.2-2 0-3 1.1-3.5 1.9V8.5H9.1V20h3.5v-5.7c0-1.5.3-3 2.2-3 1.9 0 1.9 1.8 1.9 3.1V20h3.5l.3-6.6Z" /></svg>
   }
   if (type === 'map') {
     return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5.5-8 12-8 12S4 15.5 4 10a8 8 0 1 1 16 0Z" /><circle cx="12" cy="10" r="2.7" /></svg>
@@ -48,6 +51,14 @@ const links = [
   },
   {
     kind: 'external' as const,
+    title: 'LinkedIn',
+    description: 'Acompanhe o Grupo Seccol',
+    href: 'https://www.linkedin.com/company/grupo-seccol/',
+    icon: 'linkedin' as const,
+    primary: false,
+  },
+  {
+    kind: 'external' as const,
     title: 'Localização',
     description: 'Abra a rota no Google Maps',
     href: 'https://goo.gl/maps/VDEdZiviCbrzHzbJ8',
@@ -63,7 +74,7 @@ export function InstagramPage() {
       <section className={styles.card} aria-labelledby="instagram-page-title">
         <div className={styles.media} aria-hidden="true">
           <img src="./media/generated/instrument-calibration.webp" alt="" />
-          <span>Precisão em ambientes críticos</span>
+          <span><b>Desde 2009</b> Precisão em ambientes críticos</span>
         </div>
 
         <div className={styles.content}>
@@ -72,7 +83,7 @@ export function InstagramPage() {
               <img src="./brand/seccol-logo.png" width="128" height="31" alt="Seccol Controle e Certificação" />
             </RouteLink>
             <h1 id="instagram-page-title">Controle que você pode comprovar.</h1>
-            <p>Certificação, manutenção e engenharia para equipamentos e áreas limpas.</p>
+            <p>Certificação, manutenção e engenharia para equipamentos e áreas limpas em todo o país.</p>
           </header>
 
           <nav className={styles.links} aria-label="Links da Seccol">

@@ -31,3 +31,16 @@ Resultado: `validation: PASS` em todas as combinações.
 `artifacts/site-v2/` contém home, áreas limpas, FAQ e contato em desktop e mobile.
 
 Capturas estáticas comprovam composição e geometria final. A qualidade subjetiva das novas fotografias e o ritmo percebido das transições continuam sujeitos à avaliação humana.
+
+## Revisão de densidade visual e página de links
+
+Validação executada após o redesenho de 15 de agosto de 2026:
+
+- home com 9.197 px de altura em 1440×900, sete capítulos visuais e quatro imagens no total;
+- home sem overflow, H1 cortado, imagem quebrada ou erro de runtime nos viewports 1366×768, 1440×900, 360×800, 375×812, 390×844, 412×915 e 430×932;
+- CTA principal da hero com 56 px de altura e ainda dentro da primeira dobra nos cinco viewports móveis;
+- `prefers-reduced-motion` com conteúdo estático e visível;
+- `#/instagram` verificada em 360×800, 375×812, 390×844, 412×915 e 430×932;
+- cinco links no `#/instagram`, incluindo LinkedIn, com alvos entre 65 e 70 px;
+- página de links sem cabeçalho, rodapé institucional, overflow horizontal ou erro de runtime;
+- capturas de revisão em `artifacts/redesign-review/` e `artifacts/home-redesign/`.

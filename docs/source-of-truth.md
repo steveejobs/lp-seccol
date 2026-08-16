@@ -23,6 +23,11 @@ Inventários auditáveis:
 | Registros publicados | CREA, SBCC e Vigilância Sanitária e Ambiental da Secretaria Municipal de Saúde de Goiânia | `index.html`, `faq.html` |
 | WhatsApp | +55 62 98246-8283 | links publicados |
 | E-mail | contato@seccol.com.br | `contatos.html` |
+| LinkedIn | https://www.linkedin.com/company/grupo-seccol/ | atualização fornecida diretamente pelo usuário em 15 de agosto de 2026 |
+
+## Atualizações fornecidas pela empresa
+
+- 15 de agosto de 2026: o usuário confirmou `https://www.linkedin.com/company/grupo-seccol/` como perfil oficial a ser incluído no site e na página de links para Instagram.
 
 ## Claims permitidos no protótipo
 
@@ -41,4 +46,3 @@ Inventários auditáveis:
 - Depoimentos, marcas atendidas ou parcerias não autorizadas.
 - Certificações específicas não presentes na fonte.
 - Unidades e significado da leitura visível no instrumento da fotografia.
-

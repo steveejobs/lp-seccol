@@ -1,0 +1,356 @@
+.home {
+  overflow: clip;
+  background: var(--color-canvas);
+}
+
+.capabilities {
+  max-width: var(--content-wide);
+  margin-inline: auto;
+  padding: var(--space-section) var(--gutter);
+}
+
+.sectionLead,
+.protocolIntro,
+.operationsHeader {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.55fr);
+  gap: var(--space-6) var(--space-8);
+  align-items: end;
+}
+
+.sectionNumber {
+  grid-column: 1 / -1;
+  width: fit-content;
+  padding-bottom: var(--space-2);
+  border-bottom: 2px solid var(--color-accent);
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.14em;
+}
+
+.sectionLead h2,
+.protocolIntro h2,
+.measurementCopy h2,
+.deliverableHeadline h2,
+.operationsHeader h2,
+.structureCopy h2 {
+  max-width: 13ch;
+  font-size: clamp(3rem, 5.7vw, 6.6rem);
+  line-height: 0.92;
+  letter-spacing: -0.065em;
+}
+
+.sectionLead > p,
+.protocolIntro > p,
+.operationsHeader > p {
+  max-width: 34rem;
+  color: var(--color-text-muted);
+  font-size: var(--text-lg);
+}
+
+.capabilityGrid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  margin-top: var(--space-8);
+  border-top: 1px solid var(--color-border);
+  border-left: 1px solid var(--color-border);
+}
+
+.capabilityCard {
+  display: grid;
+  min-height: 19rem;
+  grid-column: span 4;
+  align-content: space-between;
+  gap: var(--space-5);
+  padding: var(--space-5);
+  border-right: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+  transition: background-color var(--motion-duration-ui) var(--motion-ease-ui);
+}
+
+.capabilityCard:nth-child(1),
+.capabilityCard:nth-child(5) { grid-column: span 5; }
+.capabilityCard:nth-child(2),
+.capabilityCard:nth-child(6) { grid-column: span 7; }
+
+.capabilityCard > span,
+.protocolStep > span,
+.instrumentItem > span,
+.segmentGrid span {
+  color: var(--color-accent);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.08em;
+}
+
+.capabilityCard h3 {
+  max-width: 18ch;
+  margin-top: auto;
+  font-size: clamp(1.65rem, 2.2vw, 2.65rem);
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.capabilityCard p {
+  max-width: 38ch;
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.inlineAction { margin-top: var(--space-6); }
+.inlineAction a {
+  display: inline-flex;
+  min-height: var(--target-min);
+  align-items: center;
+  gap: var(--space-4);
+  border-bottom: 1px solid currentColor;
+  font-weight: 800;
+  text-decoration: none;
+}
+.inlineAction a span { color: var(--color-accent); }
+
+.protocol {
+  padding: var(--space-section) var(--gutter);
+  color: var(--color-panel-dark-text);
+  background:
+    linear-gradient(135deg, transparent 0 66%, rgb(255 255 255 / 3%) 66% 66.1%, transparent 66.1%),
+    var(--color-panel-dark);
+}
+
+.protocol > * { width: min(100%, var(--content-wide)); margin-inline: auto; }
+.protocol .sectionNumber { color: var(--color-panel-dark-muted); }
+.protocolIntro > p { color: var(--color-panel-dark-muted); }
+
+.protocolGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: var(--space-8);
+  border-top: 1px solid rgb(255 255 255 / 18%);
+  border-left: 1px solid rgb(255 255 255 / 18%);
+}
+
+.protocolStep {
+  display: grid;
+  min-height: 22rem;
+  align-content: end;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  border-right: 1px solid rgb(255 255 255 / 18%);
+  border-bottom: 1px solid rgb(255 255 255 / 18%);
+}
+
+.protocolStep > span { margin-bottom: auto; }
+.protocolStep h3 { font-size: var(--text-xl); }
+.protocolStep p { color: var(--color-panel-dark-muted); font-size: var(--text-sm); }
+
+.measurement {
+  display: grid;
+  min-height: 62rem;
+  grid-template-columns: minmax(28rem, 1.05fr) minmax(30rem, 0.95fr);
+  background: var(--color-surface-subtle);
+}
+
+.measurementMedia {
+  position: relative;
+  display: grid;
+  min-height: 62rem;
+  grid-template-columns: 1fr 0.7fr;
+  grid-template-rows: 1fr 0.72fr;
+  gap: var(--space-3);
+  padding: var(--space-3);
+}
+
+.primaryMedia,
+.secondaryMedia { min-height: 0; overflow: hidden; }
+.primaryMedia { grid-row: 1 / -1; }
+.primaryMedia img,
+.secondaryMedia img,
+.structureMedia img { width: 100%; height: 100%; object-fit: cover; filter: saturate(0.72) contrast(1.04); }
+.secondaryMedia img { object-position: 58% center; }
+
+.mediaNote {
+  display: grid;
+  align-content: end;
+  gap: var(--space-2);
+  padding: var(--space-5);
+  color: var(--color-panel-dark-text);
+  background: var(--color-panel-dark);
+}
+.mediaNote strong { max-width: 9ch; font-size: var(--text-xl); line-height: 1; }
+.mediaNote span { max-width: 24ch; color: var(--color-panel-dark-muted); font-size: var(--text-xs); }
+
+.measurementCopy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--space-section) var(--gutter);
+}
+.measurementCopy > p,
+.deliverableHeadline > p,
+.structureCopy > p { max-width: 38rem; margin-top: var(--space-6); color: var(--color-text-muted); font-size: var(--text-lg); }
+.measurementCopy .sectionNumber,
+.deliverableHeadline .sectionNumber,
+.structureCopy .sectionNumber { margin-bottom: var(--space-6); }
+
+.instrumentList { margin-top: var(--space-7); border-top: 1px solid var(--color-border); }
+.instrumentItem {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: var(--space-4);
+  padding-block: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+.instrumentItem h3 { font-size: var(--text-md); }
+.instrumentItem p { max-width: 48ch; margin-top: var(--space-1); color: var(--color-text-muted); font-size: var(--text-xs); }
+
+.deliverables {
+  display: grid;
+  max-width: var(--content-wide);
+  grid-template-columns: minmax(24rem, 0.78fr) minmax(32rem, 1.22fr);
+  align-items: center;
+  gap: clamp(3rem, 8vw, 9rem);
+  margin-inline: auto;
+  padding: var(--space-section) var(--gutter);
+}
+
+.documentStack { position: relative; min-height: 38rem; }
+.certificateCard,
+.reportCard {
+  position: absolute;
+  display: flex;
+  width: min(80%, 34rem);
+  aspect-ratio: 1 / 1.24;
+  flex-direction: column;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+}
+.certificateCard { z-index: 1; top: 0; left: 0; background: var(--color-surface); transform: rotate(-2deg); }
+.reportCard { right: 0; bottom: 0; color: var(--color-panel-dark-text); background: var(--color-panel-dark); transform: rotate(2deg); }
+.certificateCard > span,
+.reportCard > span { font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.1em; text-transform: uppercase; }
+.certificateCard > strong,
+.reportCard > strong { max-width: 8ch; margin-top: auto; font-size: clamp(2.5rem, 4vw, 4.7rem); line-height: 0.94; letter-spacing: -0.055em; }
+.certificateCard p,
+.reportCard p { max-width: 27ch; margin-top: var(--space-4); color: var(--color-text-muted); font-size: var(--text-sm); }
+.reportCard p { color: var(--color-panel-dark-muted); }
+.certificateCard i { margin-top: var(--space-6); color: var(--color-accent); font-family: var(--font-mono); font-size: var(--text-sm); font-style: normal; font-weight: 800; letter-spacing: 0.15em; }
+.reportCard > div { display: grid; gap: var(--space-2); margin-top: var(--space-6); }
+.reportCard b { height: 1px; background: rgb(255 255 255 / 20%); }
+.reportCard b:nth-child(2) { width: 82%; }
+.reportCard b:nth-child(3) { width: 67%; }
+.reportCard b:nth-child(4) { width: 74%; }
+
+.operations {
+  padding: var(--space-section) var(--gutter);
+  color: var(--color-on-accent);
+  background: var(--color-accent-hover);
+}
+.operations > * { width: min(100%, var(--content-wide)); margin-inline: auto; }
+.operations .sectionNumber { color: rgb(255 255 255 / 72%); border-color: currentColor; }
+.operationsHeader > p { color: rgb(255 255 255 / 76%); }
+
+.segmentGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: var(--space-8);
+  padding: 0;
+  border-top: 1px solid rgb(255 255 255 / 28%);
+  list-style: none;
+}
+.segmentGrid li {
+  display: grid;
+  min-height: 7rem;
+  grid-template-columns: 2rem 1fr;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border-right: 1px solid rgb(255 255 255 / 28%);
+  border-bottom: 1px solid rgb(255 255 255 / 28%);
+  font-weight: 750;
+}
+.segmentGrid li:nth-child(3n) { border-right: 0; }
+.segmentGrid span { color: rgb(255 255 255 / 64%); }
+
+.structure {
+  display: grid;
+  min-height: 55rem;
+  grid-template-columns: minmax(30rem, 1.12fr) minmax(28rem, 0.88fr);
+  color: var(--color-panel-dark-text);
+  background: var(--color-panel-dark);
+}
+.structureMedia { position: relative; min-height: 100%; overflow: hidden; }
+.structureMedia::after { position: absolute; inset: 0; background: linear-gradient(180deg, transparent 65%, rgb(0 0 0 / 48%)); content: ''; }
+.structureMedia > span { position: absolute; z-index: 1; bottom: var(--space-5); left: var(--space-5); color: rgb(255 255 255 / 64%); font-size: var(--text-xs); }
+.structureCopy { display: flex; flex-direction: column; justify-content: center; padding: var(--space-section) var(--gutter); }
+.structureCopy .sectionNumber,
+.structureCopy > p { color: var(--color-panel-dark-muted); }
+.evidenceGrid { display: grid; margin-top: var(--space-7); border-top: 1px solid rgb(255 255 255 / 18%); }
+.evidenceItem { display: grid; grid-template-columns: minmax(8rem, 0.5fr) 1fr; align-items: center; gap: var(--space-4); padding-block: var(--space-4); border-bottom: 1px solid rgb(255 255 255 / 18%); }
+.evidenceItem strong { color: var(--color-accent); font-size: var(--text-xl); line-height: 1; }
+.evidenceItem span { color: var(--color-panel-dark-muted); font-size: var(--text-sm); }
+.structure .inlineAction a { color: var(--color-panel-dark-text); }
+
+@media (hover: hover) {
+  .capabilityCard:hover { background: var(--color-accent-soft); }
+  .inlineAction a:hover span { transform: translateX(3px); }
+  .inlineAction a span { transition: transform var(--motion-duration-ui) var(--motion-ease-ui); }
+}
+
+@media (max-width: 1040px) {
+  .capabilityCard,
+  .capabilityCard:nth-child(n) { grid-column: span 6; }
+  .protocolGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .protocolStep { min-height: 17rem; }
+  .measurement { min-height: auto; grid-template-columns: 1fr; }
+  .measurementMedia { min-height: 48rem; }
+  .deliverables { grid-template-columns: 1fr; }
+  .deliverableHeadline { max-width: 54rem; }
+  .documentStack { width: min(100%, 48rem); margin-inline: auto; }
+  .structure { grid-template-columns: 1fr; }
+  .structureMedia { min-height: 62svh; }
+}
+
+@media (max-width: 700px) {
+  .sectionLead,
+  .protocolIntro,
+  .operationsHeader { grid-template-columns: 1fr; align-items: start; }
+  .sectionLead h2,
+  .protocolIntro h2,
+  .measurementCopy h2,
+  .deliverableHeadline h2,
+  .operationsHeader h2,
+  .structureCopy h2 { font-size: clamp(2.8rem, 14vw, 4.8rem); }
+  .capabilityGrid { grid-template-columns: 1fr; margin-top: var(--space-7); }
+  .capabilityCard,
+  .capabilityCard:nth-child(n) { min-height: 15rem; grid-column: 1; }
+  .protocolGrid { grid-template-columns: 1fr; }
+  .protocolStep { min-height: 15rem; }
+  .measurementMedia { min-height: 38rem; grid-template-columns: 1fr 0.72fr; grid-template-rows: 1fr 0.62fr; }
+  .measurementCopy { padding-block: var(--space-9); }
+  .instrumentItem { padding-block: var(--space-5); }
+  .deliverables { grid-template-columns: 1fr; gap: var(--space-7); }
+  .documentStack { min-height: 31rem; }
+  .certificateCard,
+  .reportCard { width: 82%; }
+  .segmentGrid { grid-template-columns: 1fr; }
+  .segmentGrid li { min-height: 5rem; border-right: 0; }
+  .structure { min-height: auto; }
+  .structureMedia { min-height: 55svh; }
+  .structureCopy { padding-block: var(--space-9); }
+}
+
+@media (max-width: 390px) {
+  .measurementMedia { min-height: 33rem; }
+  .mediaNote { padding: var(--space-4); }
+  .documentStack { min-height: 28rem; }
+  .certificateCard,
+  .reportCard { padding: var(--space-5); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .capabilityCard,
+  .inlineAction a span { transition: none; }
+}

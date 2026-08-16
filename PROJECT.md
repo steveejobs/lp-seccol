@@ -3,7 +3,7 @@
 Documento vivo para orientar pessoas e agentes em contextos futuros. Atualizar este arquivo durante todo o projeto.
 
 Última atualização: 15 de agosto de 2026  
-Estado: site institucional integrado em oito rotas, incluindo a página autônoma de links para Instagram; direção “Engenharia em evidência” aplicada, conteúdo e funcionamento validados, revisão visual contínua.
+Estado: site institucional integrado em oito rotas; home redesenhada com maior densidade e variedade compositiva; página autônoma de links refinada para uso mobile; conteúdo e funcionamento validados, revisão visual contínua.
 
 ## Objetivo
 
@@ -246,9 +246,21 @@ A tentativa anterior apontava para `steveejobs/SIVS-Seccol`, enquanto o remoto d
 
 O primeiro deploy corrigido foi publicado com sucesso em `https://sivs-seccol.vercel.app` a partir deste workspace. A Vercel confirmou instalação limpa e build de produção sem erros. A integração Git do projeto `sivs-seccol` também foi substituída com sucesso e agora aponta para `steveejobs/lp-seccol`, permitindo deploys automáticos por push na branch de produção.
 
+### 2026-08-15 — Redesenho de densidade e ritmo da home
+
+A home deixou de depender de seções genéricas com altura mínima de viewport e passou a ter sete capítulos visuais: hero, capacidades, protocolo técnico, instrumentação, entregáveis, operações atendidas e estrutura, seguidos pelo convite comercial. O redesenho mantém apenas quatro fotografias e obtém variedade por composição, escala, contraste, tipografia, documentos abstratos e grids específicos.
+
+As novas seções reutilizam o `Reveal` e o `MotionController`, com duração, deslocamento e stagger centralizados. O componente `Reveal` passou a aceitar atributos HTML sem criar uma nova infraestrutura de motion. Não foi adicionada dependência.
+
+### 2026-08-15 — LinkedIn e página mobile de links
+
+O usuário confirmou `https://www.linkedin.com/company/grupo-seccol/` como perfil oficial do Grupo Seccol. O destino foi registrado em `docs/source-of-truth.md`, adicionado ao rodapé institucional e ao `#/instagram`.
+
+A página `#/instagram` foi reconstruída como composição mobile-first de largura controlada, fundo escuro, mídia curta, hierarquia compacta e cinco links com alvos confortáveis. Desktop funciona apenas como moldura de apresentação da experiência móvel; a prioridade de decisão permanece entre 360 e 430 px.
+
 ## Próxima decisão
 
-Revisar as páginas completas com o usuário e refinar ritmo, densidade de conteúdo e escolha das fotografias sem alterar fatos confirmados.
+Revisar com o usuário a nova densidade da home e, após aprovação, aplicar o mesmo nível de diferenciação visual às páginas internas prioritárias sem alterar fatos confirmados.
 
 ## Pendências técnicas conhecidas
 
@@ -284,3 +296,6 @@ Revisar as páginas completas com o usuário e refinar ritmo, densidade de conte
 - Ferramentas Python: compilação aprovada.
 - Otimizador de imagens: teste funcional, com redução de 114,9 KB para 28,7 KB no asset de teste.
 - Deploy de produção na Vercel: instalação com `npm ci`, build Vite e alias `https://sivs-seccol.vercel.app` aprovados.
+- Home redesenhada validada nos sete viewports de controle: sem overflow, H1 cortado, imagens quebradas ou erros de runtime.
+- `#/instagram` validado em cinco viewports móveis: cinco links, incluindo LinkedIn, com alvos de 65–70 px e sem overflow ou erros de runtime.
+- Capturas do redesenho: `artifacts/redesign-review/` e `artifacts/home-redesign/`.

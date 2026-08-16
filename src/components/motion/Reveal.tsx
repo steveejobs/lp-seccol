@@ -1,6 +1,6 @@
-import type { CSSProperties, ElementType, ReactNode } from 'react'
+import type { CSSProperties, ElementType, HTMLAttributes, ReactNode } from 'react'
 
-type RevealProps = {
+type RevealProps = Omit<HTMLAttributes<HTMLElement>, 'children' | 'className' | 'style'> & {
   as?: ElementType
   children: ReactNode
   className?: string
@@ -20,11 +20,13 @@ export function Reveal({
   index = 0,
   repeat = false,
   variant = 'lift',
+  ...props
 }: RevealProps) {
   const style: RevealStyle = { '--reveal-index': index }
 
   return (
     <Component
+      {...props}
       className={className}
       data-reveal={variant}
       data-reveal-repeat={repeat ? 'true' : undefined}

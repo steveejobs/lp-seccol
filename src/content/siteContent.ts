@@ -7,6 +7,7 @@ export const company = {
   hours: 'Segunda à sexta, das 08h às 18h',
   instagram: 'https://www.instagram.com/seccolcertificacao/',
   facebook: 'https://www.facebook.com/seccolcertificacao/',
+  linkedin: 'https://www.linkedin.com/company/grupo-seccol/',
 } as const
 
 export const services = [

@@ -25,6 +25,7 @@ export function SiteFooter() {
         <div>
           <a href={company.instagram} target="_blank" rel="noreferrer">Instagram</a>
           <a href={company.facebook} target="_blank" rel="noreferrer">Facebook</a>
+          <a href={company.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </div>
       <p className={styles.copyright}>Seccol Controle e Certificação · Desde 2009</p>
