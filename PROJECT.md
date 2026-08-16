@@ -258,6 +258,10 @@ O usuário confirmou `https://www.linkedin.com/company/grupo-seccol/` como perfi
 
 A página `#/instagram` foi reconstruída como composição mobile-first de largura controlada, fundo escuro, mídia curta, hierarquia compacta e cinco links com alvos confortáveis. Desktop funciona apenas como moldura de apresentação da experiência móvel; a prioridade de decisão permanece entre 360 e 430 px.
 
+### 2026-08-15 — Favicon da marca
+
+O favicon passou a usar somente o símbolo de caixa e check do logo atual. O ativo foi extraído deterministicamente dos pixels originais, sem redesenho, e publicado em PNG transparente de 32×32 px e ICO com camadas de 16×16 e 32×32 px. A tentativa de edição generativa foi rejeitada na inspeção por alterar acabamento e geometria do símbolo.
+
 ## Próxima decisão
 
 Revisar com o usuário a nova densidade da home e, após aprovação, aplicar o mesmo nível de diferenciação visual às páginas internas prioritárias sem alterar fatos confirmados.
@@ -299,3 +303,4 @@ Revisar com o usuário a nova densidade da home e, após aprovação, aplicar o 
 - Home redesenhada validada nos sete viewports de controle: sem overflow, H1 cortado, imagens quebradas ou erros de runtime.
 - `#/instagram` validado em cinco viewports móveis: cinco links, incluindo LinkedIn, com alvos de 65–70 px e sem overflow ou erros de runtime.
 - Capturas do redesenho: `artifacts/redesign-review/` e `artifacts/home-redesign/`.
+- Favicon PNG/ICO: recorte do símbolo validado com transparência e integrado ao build.

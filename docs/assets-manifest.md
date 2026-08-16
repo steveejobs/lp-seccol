@@ -16,6 +16,7 @@ As quatro imagens foram geradas pelo modo integrado da skill `imagegen` em 15 de
 | Original | Publicado | Estado |
 |---|---|---|
 | `reference/site-original/images/logo.png` | `public/brand/seccol-logo.png` | transparência externa removida; baixa resolução; substituir por vetor oficial quando disponível |
+| `public/brand/seccol-logo.png` | `public/favicon.png` e `public/favicon.ico` | recorte exato de 22×20 px do símbolo de caixa e check, centralizado em canvas transparente de 32×32 px |
 
 ## Regras
 
