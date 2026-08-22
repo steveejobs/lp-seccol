@@ -2,7 +2,7 @@
 
 Documento vivo para orientar pessoas e agentes em contextos futuros. Atualizar este arquivo durante todo o projeto.
 
-Última atualização: 21 de agosto de 2026
+Última atualização: 22 de agosto de 2026
 
 Estado: site institucional integrado em oito rotas reais; home e páginas internas orientadas à prevenção de não conformidades; sistema editorial com evidências e conversão unificada; página autônoma de links com galeria humana, imóvel, mapa e rota por coordenadas; jornada de diagnóstico conectada com segurança ao CRM do Sistema Seccol; conteúdo e funcionamento validados localmente.
 
@@ -110,7 +110,7 @@ Componentes devem consumir tokens semânticos como `--color-text` e `--color-acc
 - Deslocamento: 10 px no desktop e 6 px no mobile.
 - Stagger: 40 ms por item, limitado a 180 ms.
 - Propriedades principais: `opacity` e `transform`.
-- Entrada e saída repetida são opt-in por componente.
+- Entrada e saída repetida são o padrão dos componentes `Reveal`; blocos que precisam permanecer estáticos podem optar por execução única.
 - Sem JavaScript, os elementos permanecem visíveis.
 
 Arquivos centrais:
@@ -177,7 +177,7 @@ A pasta correta é `tools/` — interpretação do nome “tous” mencionado no
 - `trim_transparency.py`: remove margens transparentes sem alterar os pixels visíveis.
 - `requirements.txt`: dependências das ferramentas.
 - `capture_ui.mjs`: validação dos sete viewports de controle da home.
-- `capture_site.mjs`: auditoria das oito rotas em 1366, 390 e 360 px, FAQ, jornada completa de diagnóstico, imagens, navegação, runtime e reduced motion.
+- `capture_site.mjs`: auditoria das oito rotas em 1366, 390 e 360 px, FAQ, jornada completa de diagnóstico, retorno de motion por scroll, estabilidade de layout, galeria, imagens, navegação, runtime e reduced motion.
 
 Novos scripts devem oferecer ajuda por CLI, validar caminhos, evitar sobrescrita por padrão e relatar claramente o que modificaram.
 
@@ -300,6 +300,12 @@ As páginas internas deixaram de repetir blocos genéricos de altura integral e 
 
 A página institucional passou a usar uma fotografia real da equipe fornecida na galeria e uma faixa de registros publicados. A direção visual aprovada da hero da home foi preservada; apenas seu CTA foi alinhado ao diagnóstico. As novas composições reutilizam `Reveal`, duração de 620 ms e tokens existentes, sem biblioteca ou dependência adicional.
 
+### 2026-08-22 — Motion editorial recorrente
+
+O sistema `Reveal` passou a executar entrada, saída e retorno por scroll nos principais títulos, textos, cards, mídias e decisões do site. Dois `IntersectionObserver` compartilhados criam uma faixa de histerese: a entrada acontece dentro de 9% das bordas da viewport e a saída somente quando o elemento ultrapassa a faixa de 6%. Essa diferença impede disparos antecipados, oscilação ao inverter o scroll e conteúdo invisível em áreas relevantes da tela.
+
+As variações `lift`, `card`, `media` e as duas direções complementares da galeria compartilham 620 ms, o mesmo easing, deslocamento máximo de 10 px no desktop e 6 px no mobile. A galeria anima cada moldura individualmente com diferença lateral de apenas 6 px; as imagens não recebem zoom ou transformação direta. Todas as saídas usam somente opacidade e transform, preservando dimensões e fluxo do layout. A hero manteve seu timing próprio aprovado e cabeçalho/navegação permanecem estáveis.
+
 ## Próxima decisão
 
 Incorporar casos de sucesso verificáveis, com autorização de clientes, contexto, desafio, intervenção e resultado mensurável, quando a Seccol disponibilizar esse material.
@@ -362,3 +368,4 @@ Incorporar casos de sucesso verificáveis, com autorização de clientes, contex
 - `npm run check` final aprovado: 48 módulos, CSS de 62,07 kB (11,40 kB gzip) e JavaScript de 249,97 kB (76,76 kB gzip).
 - Após a unificação editorial, `npm run check` foi aprovado com 48 módulos, CSS de 66,93 kB (12,02 kB gzip) e JavaScript de 253,42 kB (77,64 kB gzip).
 - As oito rotas passaram em 1366×768, 390×844 e 360×800: um H1, imagens íntegras, zero overflow e zero erro de runtime; FAQ, diagnóstico completo com protocolo simulado e `prefers-reduced-motion` também foram aprovados por `tools/capture_site.mjs`.
+- Em 22 de agosto de 2026, após o motion editorial recorrente, `npm run check` foi aprovado com 48 módulos, CSS de 67,65 kB (12,16 kB gzip) e JavaScript de 254,20 kB (77,88 kB gzip). A auditoria final aprovou as 24 combinações de rota e viewport, `scroll-motion`, estabilidade de layout, galeria alternada 8/7 e `prefers-reduced-motion`; capturas em `artifacts/motion-review-final/`.

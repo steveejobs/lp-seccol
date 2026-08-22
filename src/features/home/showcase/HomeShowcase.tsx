@@ -30,7 +30,7 @@ export function HomeShowcase() {
 
         <div className={styles.capabilityGrid}>
           {services.slice(0, 6).map((service, index) => (
-            <Reveal className={styles.capabilityCard} index={index} key={service.title}>
+            <Reveal className={styles.capabilityCard} index={index} variant="card" key={service.title}>
               <span>0{index + 1}</span>
               <h3>{service.title}</h3>
               <p>{service.text}</p>
@@ -50,7 +50,7 @@ export function HomeShowcase() {
         </div>
         <div className={styles.protocolGrid}>
           {protocol.map((step, index) => (
-            <Reveal className={styles.protocolStep} index={index} key={step.number}>
+            <Reveal className={styles.protocolStep} index={index} variant="card" key={step.number}>
               <span>{step.number}</span>
               <h3>{step.title}</h3>
               <p>{step.text}</p>
@@ -61,10 +61,10 @@ export function HomeShowcase() {
 
       <section className={styles.measurement} aria-labelledby="measurement-title">
         <div className={styles.measurementMedia}>
-          <Reveal variant="fade" className={styles.primaryMedia}>
+          <Reveal variant="media" className={styles.primaryMedia}>
             <img src="./media/generated/instrument-calibration.webp" width="1536" height="1024" alt="Instrumentos preparados para medição técnica" loading="lazy" />
           </Reveal>
-          <Reveal variant="fade" className={styles.secondaryMedia} index={1}>
+          <Reveal variant="media" className={styles.secondaryMedia} index={1}>
             <img src="./media/generated/cleanroom-certification.webp" width="1536" height="1024" alt="Medição sendo realizada em uma área limpa" loading="lazy" />
           </Reveal>
           <Reveal className={styles.mediaNote} index={2}>
@@ -79,7 +79,7 @@ export function HomeShowcase() {
           <Reveal as="p" index={1}>Cada variável exige uma ferramenta adequada. A Seccol publica instrumentação para partículas, vazão, pressão, temperatura, umidade, iluminação, ruído e radiação UV-C.</Reveal>
           <div className={styles.instrumentList}>
             {instruments.slice(0, 5).map((instrument, index) => (
-              <Reveal className={styles.instrumentItem} index={index} key={instrument.title}>
+              <Reveal className={styles.instrumentItem} index={index} variant="card" key={instrument.title}>
                 <span>{String(index + 1).padStart(2, '0')}</span>
                 <div><h3>{instrument.title}</h3><p>{instrument.text}</p></div>
               </Reveal>
@@ -98,13 +98,13 @@ export function HomeShowcase() {
           <Reveal as="p" index={1}>Ao final do trabalho, os clientes recebem documentação com o que foi verificado, ajustado e recomendado.</Reveal>
         </div>
         <div className={styles.documentStack}>
-          <Reveal className={styles.certificateCard}>
+          <Reveal className={styles.certificateCard} variant="card">
             <span>Documento 01</span>
             <strong>Certificado</strong>
             <p>Descrições das solicitações das normas exigidas pela ANVISA e SBCC.</p>
             <i aria-hidden="true">SECCOL</i>
           </Reveal>
-          <Reveal className={styles.reportCard} index={1}>
+          <Reveal className={styles.reportCard} index={1} variant="card">
             <span>Documento 02</span>
             <strong>Relatório técnico</strong>
             <p>Registro detalhado de testes, ajustes e recomendações técnicas.</p>
@@ -127,7 +127,7 @@ export function HomeShowcase() {
       </section>
 
       <section className={styles.structure} aria-labelledby="structure-title">
-        <Reveal variant="fade" className={styles.structureMedia}>
+        <Reveal variant="media" className={styles.structureMedia}>
           <img src="./media/generated/technical-team.webp" width="1536" height="1024" alt="Profissionais preparando uma inspeção técnica" loading="lazy" />
           <span>Imagem de direção visual</span>
         </Reveal>
@@ -137,7 +137,7 @@ export function HomeShowcase() {
           <Reveal as="p" index={1}>Frota para equipamentos pesados, pick-ups para manutenção técnica, instrumentação e estrutura administrativa em Goiânia.</Reveal>
           <div className={styles.evidenceGrid}>
             {evidence.map((item, index) => (
-              <Reveal className={styles.evidenceItem} index={index} key={item.value}>
+              <Reveal className={styles.evidenceItem} index={index} variant="card" key={item.value}>
                 <strong>{item.value}</strong><span>{item.label}</span>
               </Reveal>
             ))}

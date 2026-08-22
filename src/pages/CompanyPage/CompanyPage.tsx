@@ -22,7 +22,7 @@ export function CompanyPage() {
       <section className={`${styles.section} ${styles.dark}`}>
         <div className={styles.sectionHeader}><Reveal><h2>Serviços para ambientes e equipamentos críticos.</h2></Reveal></div>
         <div className={styles.itemGrid}>
-          {services.map((service, index) => <Reveal className={styles.item} index={index} key={service.title}><h3>{service.title}</h3><p>{service.text}</p></Reveal>)}
+          {services.map((service, index) => <Reveal className={styles.item} index={index} variant="card" key={service.title}><h3>{service.title}</h3><p>{service.text}</p></Reveal>)}
         </div>
       </section>
       <ActionSection title="Apresente seu ambiente à equipe Seccol." description="A conversa começa pelo processo, pelo equipamento e pelo risco que você precisa compreender." />

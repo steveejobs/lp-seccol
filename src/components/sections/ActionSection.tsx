@@ -15,7 +15,7 @@ export function ActionSection({ title = 'Leve precisão técnica para o seu ambi
         <Reveal><h2>{title}</h2></Reveal>
         <Reveal as="p" index={1}>{description}</Reveal>
       </div>
-      <Reveal className={styles.actionChoices} index={2}>
+      <Reveal className={styles.actionChoices} index={2} variant="card">
         <RouteLink className={styles.actionPrimary} to="/contato">Iniciar diagnóstico <span aria-hidden="true">→</span></RouteLink>
         <a className={styles.actionSecondary} href={company.whatsapp} target="_blank" rel="noreferrer">Falar pelo WhatsApp</a>
       </Reveal>

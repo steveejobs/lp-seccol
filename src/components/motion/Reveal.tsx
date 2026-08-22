@@ -6,7 +6,7 @@ type RevealProps = Omit<HTMLAttributes<HTMLElement>, 'children' | 'className' | 
   className?: string
   index?: number
   repeat?: boolean
-  variant?: 'lift' | 'fade'
+  variant?: 'lift' | 'fade' | 'card' | 'media' | 'gallery-left' | 'gallery-right'
 }
 
 type RevealStyle = CSSProperties & {
@@ -18,7 +18,7 @@ export function Reveal({
   children,
   className,
   index = 0,
-  repeat = false,
+  repeat = true,
   variant = 'lift',
   ...props
 }: RevealProps) {

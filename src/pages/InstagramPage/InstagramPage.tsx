@@ -87,7 +87,7 @@ export function InstagramPage() {
       <div className={styles.ambient} aria-hidden="true" />
       <section className={styles.card} aria-labelledby="instagram-page-title">
         <div className={styles.content}>
-          <header className={styles.intro}>
+          <Reveal as="header" className={styles.intro}>
             <div className={styles.topline}>
               <RouteLink className={styles.brand} to="/" aria-label="Seccol — ir para o site">
                 <img src="./brand/seccol-logo.png" width="128" height="31" alt="Seccol Controle e Certificação" />
@@ -96,15 +96,15 @@ export function InstagramPage() {
             </div>
             <h1 id="instagram-page-title">Controle que protege sua operação.</h1>
             <p>Testes, manutenção e certificação para identificar desvios antes que uma fiscalização ou falha interrompa seu processo.</p>
-          </header>
+          </Reveal>
 
-          <div className={styles.media} aria-hidden="true">
+          <Reveal className={styles.media} variant="media" aria-hidden="true">
             <img src="./media/generated/instrument-calibration.webp" alt="" />
             <span><b>Desde 2009</b> Precisão em ambientes críticos</span>
-          </div>
+          </Reveal>
 
           <nav className={styles.links} aria-label="Links da Seccol">
-            {links.map((link) => {
+            {links.map((link, index) => {
               const content = (
                 <>
                   <span className={styles.icon} data-icon={link.icon}><LinkIcon type={link.icon} /></span>
@@ -113,9 +113,13 @@ export function InstagramPage() {
                 </>
               )
 
-              return link.kind === 'internal'
-                ? <RouteLink className={styles.link} to={link.href} key={link.title}>{content}</RouteLink>
-                : <a className={`${styles.link} ${link.primary ? styles.primary : ''}`} href={link.href} key={link.title} target="_blank" rel="noreferrer">{content}</a>
+              return (
+                <Reveal className={styles.linkMotion} variant="card" index={index} key={link.title}>
+                  {link.kind === 'internal'
+                    ? <RouteLink className={styles.link} to={link.href}>{content}</RouteLink>
+                    : <a className={`${styles.link} ${link.primary ? styles.primary : ''}`} href={link.href} target="_blank" rel="noreferrer">{content}</a>}
+                </Reveal>
+              )
             })}
           </nav>
 
@@ -127,10 +131,10 @@ export function InstagramPage() {
               <h2 id="location-title">Um ponto de encontro para um trabalho que vai longe.</h2>
               <p>Estamos em Goiânia e atendemos operações em todo o país.</p>
             </Reveal>
-            <Reveal as="figure" variant="fade" className={styles.building}>
+            <Reveal as="figure" variant="media" className={styles.building}>
               <img src="./location/seccol-building.webp" width="616" height="1020" alt="Fachada do Edifício FF, imóvel onde está localizada a Seccol" loading="lazy" />
             </Reveal>
-            <Reveal variant="fade" className={styles.mapFrame}>
+            <Reveal variant="media" className={styles.mapFrame}>
               <iframe
                 title="Mapa com a localização da Seccol em Goiânia"
                 src="https://www.google.com/maps?q=-16.6974441,-49.2870744&z=17&output=embed"
@@ -146,7 +150,7 @@ export function InstagramPage() {
             </Reveal>
           </section>
 
-          <p className={styles.signature}>Seccol Controle e Certificação <span aria-hidden="true">•</span> Goiânia, GO</p>
+          <Reveal as="p" className={styles.signature}>Seccol Controle e Certificação <span aria-hidden="true">•</span> Goiânia, GO</Reveal>
         </div>
       </section>
     </main>

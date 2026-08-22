@@ -13,8 +13,8 @@ Objetivo: transformar o protótipo aprovado em um site institucional multipágin
 | FAQ | `FaqPage.tsx`, `Accordion.tsx` | `/faq` | abrir/fechar automatizado |
 | Contato | `ContactPage.tsx`, `ContactBrief.tsx`, `api/leads.ts` | `/contato`, `/api/leads` | diagnóstico no primeiro bloco, quatro etapas, revisão, CRM com protocolo e canais alternativos posteriores |
 | Sistema editorial | `PageIntro.tsx`, `ActionSection.tsx`, `Sections.module.css` | rotas institucionais | sinais factuais, índices numerados, alturas naturais e decisão principal consistente |
-| Instagram | `InstagramPage.tsx` | `/instagram` | experiência autônoma validada em 360 e 390 px |
-| Motion | `MotionController.tsx`, `theme/motion.css` | todas | entrada, saída, fallback e reduced motion |
+| Instagram | `InstagramPage.tsx`, `TeamGallery.tsx` | `/instagram` | links, mídias e 15 fotos com motion individual complementar em 360 e 390 px |
+| Motion | `Reveal.tsx`, `MotionController.tsx`, `theme/motion.css` | todas | entrada, saída e retorno por scroll com histerese, variantes editoriais, layout estável e reduced motion |
 | Mídia | `assets/generated-originals/`, `public/media/generated/` | todas | quatro originais e quatro WebP rastreáveis |
 | QA | `tools/capture_site.mjs`, `tools/capture_ui.mjs` | todas | 1366, 390 e 360 px, FAQ, diagnóstico, runtime e reduced motion |
 

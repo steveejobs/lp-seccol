@@ -26,7 +26,7 @@ export function PageIntro({ title, description, image, imageAlt, imageWidth = 15
           {signals.map((signal, index) => <span key={signal}><i aria-hidden="true">0{index + 1}</i>{signal}</span>)}
         </Reveal>
       </div>
-      <Reveal className={styles.pageIntroMedia} variant="fade">
+      <Reveal className={styles.pageIntroMedia} variant="media">
         <img src={image} width={imageWidth} height={imageHeight} alt={imageAlt} fetchPriority="high" />
       </Reveal>
     </section>

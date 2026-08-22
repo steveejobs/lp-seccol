@@ -11,7 +11,7 @@ export function InstrumentsPage() {
       <section className={styles.section}>
         <div className={styles.sectionHeader}><Reveal><h2>Equipamentos de medição e verificação.</h2></Reveal><Reveal index={1}><p>Os instrumentos sujeitos à calibração são descritos pela empresa como calibrados anualmente.</p></Reveal></div>
         <div className={styles.itemGrid}>
-          {instruments.map((instrument, index) => <Reveal className={styles.item} index={index} key={instrument.title}><h3>{instrument.title}</h3><p>{instrument.text}</p></Reveal>)}
+          {instruments.map((instrument, index) => <Reveal className={styles.item} index={index} variant="card" key={instrument.title}><h3>{instrument.title}</h3><p>{instrument.text}</p></Reveal>)}
         </div>
       </section>
       <ActionSection title="Defina a instrumentação necessária para o seu processo." description="Comece pela variável, pelo ambiente ou pelo desvio. A instrumentação vem depois da leitura correta do cenário." />

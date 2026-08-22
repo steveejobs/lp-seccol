@@ -175,7 +175,7 @@ export function ContactBrief() {
           </Reveal>
         </aside>
 
-        <Reveal className={styles.formFrame} variant="fade">
+        <Reveal className={styles.formFrame} variant="card">
           <form className={styles.briefForm} onSubmit={submitBrief} aria-busy={submission.status === 'submitting'} noValidate>
             <label className={styles.honeypot} aria-hidden="true"><span>Website</span><input name="website" tabIndex={-1} autoComplete="off" value={website} onChange={(event) => setWebsite(event.target.value)} /></label>
 

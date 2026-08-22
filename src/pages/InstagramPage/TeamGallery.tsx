@@ -67,26 +67,32 @@ export function TeamGallery() {
         <p>Encontros, aprendizado e relações que mantêm nosso trabalho em movimento.</p>
       </Reveal>
 
-      <Reveal variant="fade" className={styles.galleryGrid}>
+      <div className={styles.galleryGrid}>
         {images.map((image, index) => (
-          <button
-            className={styles.galleryItem}
+          <Reveal
+            className={styles.galleryMotionItem}
+            variant={index % 2 === 0 ? 'gallery-left' : 'gallery-right'}
+            index={index % 4}
             key={image.src}
-            type="button"
-            onClick={() => setActiveIndex(index)}
-            aria-label={`Abrir foto ${index + 1} de ${images.length}: ${image.alt}`}
           >
-            <img
-              src={image.src}
-              width={image.width}
-              height={image.height}
-              alt={image.alt}
-              loading="lazy"
-              decoding="async"
-            />
-          </button>
+            <button
+              className={styles.galleryItem}
+              type="button"
+              onClick={() => setActiveIndex(index)}
+              aria-label={`Abrir foto ${index + 1} de ${images.length}: ${image.alt}`}
+            >
+              <img
+                src={image.src}
+                width={image.width}
+                height={image.height}
+                alt={image.alt}
+                loading="lazy"
+                decoding="async"
+              />
+            </button>
+          </Reveal>
         ))}
-      </Reveal>
+      </div>
 
       <dialog
         className={styles.lightbox}

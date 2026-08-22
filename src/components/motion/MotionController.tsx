@@ -7,6 +7,8 @@ type MotionControllerProps = {
 
 const visibleState = 'visible'
 const hiddenState = 'hidden'
+const entryMargin = '-9% 0px -9% 0px'
+const exitMargin = '-6% 0px -6% 0px'
 
 export function MotionController({ children, routeKey }: MotionControllerProps) {
   useEffect(() => {
@@ -21,34 +23,53 @@ export function MotionController({ children, routeKey }: MotionControllerProps) 
       return
     }
 
-    const observer = new IntersectionObserver(
+    const entryObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           const target = entry.target as HTMLElement
           if (entry.isIntersecting) {
             target.dataset.revealState = visibleState
             if (target.dataset.revealRepeat !== 'true') {
-              observer.unobserve(target)
+              entryObserver.unobserve(target)
             }
-          } else if (target.dataset.revealRepeat === 'true') {
-            target.dataset.revealState = hiddenState
           }
         })
       },
       {
-        rootMargin: '0px 0px -8% 0px',
-        threshold: 0.12,
+        rootMargin: entryMargin,
+        threshold: 0,
+      },
+    )
+
+    const exitObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const target = entry.target as HTMLElement
+          if (entry.isIntersecting || target.dataset.revealRepeat !== 'true') return
+
+          const rootTop = entry.rootBounds?.top ?? 0
+          target.dataset.revealEdge = entry.boundingClientRect.bottom <= rootTop ? 'above' : 'below'
+          target.dataset.revealState = hiddenState
+        })
+      },
+      {
+        rootMargin: exitMargin,
+        threshold: 0,
       },
     )
 
     revealTargets.forEach((target) => {
+      const bounds = target.getBoundingClientRect()
+      target.dataset.revealEdge = bounds.bottom < 0 ? 'above' : 'below'
       target.dataset.revealState = hiddenState
-      observer.observe(target)
+      entryObserver.observe(target)
+      if (target.dataset.revealRepeat === 'true') exitObserver.observe(target)
     })
     root.classList.add('motion-ready')
 
     return () => {
-      observer.disconnect()
+      entryObserver.disconnect()
+      exitObserver.disconnect()
       root.classList.remove('motion-ready')
     }
   }, [routeKey])

@@ -13,7 +13,7 @@ export function CleanRoomsPage() {
           <Reveal><h2>Certificado e relatório técnico ao final do trabalho.</h2></Reveal>
           <Reveal index={1}><p>Os clientes recebem certificado com as descrições das solicitações das normas exigidas pela ANVISA e SBCC, além de relatório detalhado dos testes, ajustes e recomendações técnicas.</p></Reveal>
         </div>
-        <Reveal variant="fade"><img src="./media/generated/hero-technical.webp" width="1536" height="1024" alt="Execução de medição técnica em equipamento controlado" loading="lazy" /></Reveal>
+        <Reveal variant="media"><img src="./media/generated/hero-technical.webp" width="1536" height="1024" alt="Execução de medição técnica em equipamento controlado" loading="lazy" /></Reveal>
       </section>
       <section className={styles.section}>
         <div className={styles.sectionHeader}><Reveal><h2>Testes em áreas limpas.</h2></Reveal><Reveal index={1}><p>O conjunto publicado observa integridade dos filtros, comportamento do ar e condições ambientais entre salas.</p></Reveal></div>

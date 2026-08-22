@@ -79,3 +79,14 @@ Validação executada após o redesenho de 15 de agosto de 2026:
 - auditor permanente ampliado para 1366×768, 390×844 e 360×800 nas oito rotas, incluindo percurso das quatro etapas e protocolo simulado do CRM;
 - nenhum pacote ou biblioteca de animação foi adicionado; novas entradas reutilizam o sistema de 620 ms e respeitam `prefers-reduced-motion`.
 - resultado final: `npm run check` e `validation: PASS`; 24 combinações de rota e viewport sem overflow, imagem quebrada ou erro de runtime.
+
+## Motion recorrente e galeria — 22 de agosto de 2026
+
+- `Reveal` configurado para entrada, saída e retorno por scroll nos principais grupos de conteúdo;
+- entrada observada na faixa interna de 9% da viewport e saída na faixa de 6%, evitando oscilação e disparo fora do campo de atenção;
+- `offsetHeight` do elemento e `scrollHeight` da página comparados antes e depois da saída para confirmar preservação do espaço do layout;
+- cards, mídias e texto compartilham 620 ms e o mesmo easing, com variações apenas de opacidade, deslocamento e escala entre `.992` e `.995`;
+- galeria com oito itens `gallery-left` e sete `gallery-right`, alternados e limitados a 6 px laterais, sem transformar diretamente as fotografias;
+- cabeçalho e navegação mantidos estáticos; hero preservada com timing próprio;
+- `prefers-reduced-motion` continua revelando todo o conteúdo imediatamente;
+- resultado final: `scroll-motion=PASS`, `gallery-motion=PASS (8/7)`, `reduced-motion=PASS` e `validation: PASS`; capturas em `artifacts/motion-review-final/`.

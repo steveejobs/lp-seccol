@@ -1,7 +1,10 @@
 /* Elements remain visible without JavaScript. MotionController opts in safely. */
 .motion-ready [data-reveal] {
-  opacity: 0;
-  transform: translate3d(0, var(--motion-distance-section), 0) scale(0.995);
+  --reveal-x: 0px;
+  --reveal-y: var(--motion-distance-section);
+  --reveal-scale: 0.995;
+  opacity: 0.22;
+  transform: translate3d(var(--reveal-x), var(--reveal-y), 0) scale(var(--reveal-scale));
   transition:
     opacity var(--motion-duration-section) var(--motion-ease-section),
     transform var(--motion-duration-section) var(--motion-ease-section);
@@ -10,13 +13,45 @@
 }
 
 .motion-ready [data-reveal='fade'] {
+  opacity: 0.18;
   transform: none;
+}
+
+.motion-ready [data-reveal='card'] {
+  --reveal-scale: 0.992;
+  opacity: 0.18;
+}
+
+.motion-ready [data-reveal='media'] {
+  --reveal-scale: 0.992;
+  opacity: 0.14;
+}
+
+.motion-ready [data-reveal='gallery-left'] {
+  --reveal-x: -6px;
+  --reveal-scale: 0.992;
+  opacity: 0.16;
+}
+
+.motion-ready [data-reveal='gallery-right'] {
+  --reveal-x: 6px;
+  --reveal-scale: 0.992;
+  opacity: 0.16;
+}
+
+.motion-ready [data-reveal-edge='above'] {
+  --reveal-y: calc(var(--motion-distance-section) * -1);
 }
 
 .motion-ready [data-reveal-state='visible'] {
   opacity: 1;
   transform: none;
   will-change: auto;
+}
+
+.motion-ready [data-reveal]:focus-within {
+  opacity: 1;
+  transform: none;
 }
 
 [data-page-transition] {

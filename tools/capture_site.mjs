@@ -72,6 +72,18 @@ try {
         }
       }
 
+      if (route === '/instagram' && shouldCapture) {
+        const galleryImage = page.locator('[data-reveal="gallery-left"]').first()
+        await galleryImage.scrollIntoViewIfNeeded()
+        await galleryImage.waitFor({ state: 'visible' })
+        await page.waitForTimeout(700)
+        try {
+          await page.screenshot({ path: resolve(output, `${viewport.name}-instagram-gallery.png`), fullPage: false, animations: 'allow', timeout: 15_000 })
+        } catch (error) {
+          violations.push(`${label}: captura da galeria indisponível (${error.name})`)
+        }
+      }
+
       if (route === '/contato') {
         await page.route('**/api/leads', async (routeRequest) => {
           await routeRequest.fulfill({
@@ -101,6 +113,40 @@ try {
       await page.close()
     }
   }
+
+  const motionPage = await browser.newPage({ viewport: { width: 1366, height: 768 }, reducedMotion: 'no-preference' })
+  await motionPage.goto(new URL('/a-seccol', baseUrl).toString(), { waitUntil: 'networkidle' })
+  const motionTarget = motionPage.locator('[data-reveal-repeat="true"]').first()
+  await motionTarget.waitFor({ state: 'visible' })
+  const initialMotionLayout = await motionTarget.evaluate((element) => ({
+    height: element.offsetHeight,
+    pageHeight: document.documentElement.scrollHeight,
+  }))
+  await motionPage.evaluate(() => window.scrollTo({ top: window.innerHeight * 1.5, behavior: 'instant' }))
+  await motionPage.waitForTimeout(120)
+  const exitState = await motionTarget.getAttribute('data-reveal-state')
+  const exitMotionLayout = await motionTarget.evaluate((element) => ({
+    height: element.offsetHeight,
+    pageHeight: document.documentElement.scrollHeight,
+  }))
+  await motionPage.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }))
+  await motionPage.waitForTimeout(120)
+  const returnState = await motionTarget.getAttribute('data-reveal-state')
+  const layoutStable = initialMotionLayout.height === exitMotionLayout.height && initialMotionLayout.pageHeight === exitMotionLayout.pageHeight
+  console.log(`scroll-motion=${exitState === 'hidden' && returnState === 'visible' && layoutStable ? 'PASS' : 'FAIL'}`)
+  if (exitState !== 'hidden') violations.push('motion: elemento não executou saída após deixar a viewport')
+  if (returnState !== 'visible') violations.push('motion: elemento não retornou ao reentrar na viewport')
+  if (!layoutStable) violations.push('motion: entrada ou saída alterou o espaço do layout')
+  await motionPage.close()
+
+  const galleryMotionPage = await browser.newPage({ viewport: { width: 390, height: 844 }, reducedMotion: 'no-preference' })
+  await galleryMotionPage.goto(new URL('/instagram', baseUrl).toString(), { waitUntil: 'networkidle' })
+  const galleryLeftCount = await galleryMotionPage.locator('[data-reveal="gallery-left"]').count()
+  const galleryRightCount = await galleryMotionPage.locator('[data-reveal="gallery-right"]').count()
+  const galleryMotionOk = galleryLeftCount > 0 && Math.abs(galleryLeftCount - galleryRightCount) <= 1
+  console.log(`gallery-motion=${galleryMotionOk ? 'PASS' : 'FAIL'} (${galleryLeftCount}/${galleryRightCount})`)
+  if (!galleryMotionOk) violations.push('gallery-motion: variações complementares não foram aplicadas às imagens')
+  await galleryMotionPage.close()
 
   const reducedPage = await browser.newPage({ viewport: { width: 390, height: 844 }, reducedMotion: 'reduce' })
   await reducedPage.goto(new URL('/a-seccol', baseUrl).toString(), { waitUntil: 'networkidle' })
