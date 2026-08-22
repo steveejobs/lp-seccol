@@ -24,10 +24,15 @@ Inventários auditáveis:
 | WhatsApp | +55 62 98246-8283 | links publicados |
 | E-mail | contato@seccol.com.br | `contatos.html` |
 | LinkedIn | https://www.linkedin.com/company/grupo-seccol/ | atualização fornecida diretamente pelo usuário em 15 de agosto de 2026 |
+| Instagram | https://www.instagram.com/seccolcertificacao/ | confirmado diretamente pelo usuário em 21 de agosto de 2026 |
+| Facebook | https://www.facebook.com/seccolcertificacao/ | confirmado diretamente pelo usuário em 21 de agosto de 2026 |
+| WhatsApp | https://api.whatsapp.com/send?1=pt_BR&phone=5562982468283 | confirmado diretamente pelo usuário em 21 de agosto de 2026 |
+| Localização Google | https://share.google/aPoTZCEr6pHrHb6mt | confirmado diretamente pelo usuário em 21 de agosto de 2026; ponto validado em `-16.6974441, -49.2870744` |
 
 ## Atualizações fornecidas pela empresa
 
 - 15 de agosto de 2026: o usuário confirmou `https://www.linkedin.com/company/grupo-seccol/` como perfil oficial a ser incluído no site e na página de links para Instagram.
+- 21 de agosto de 2026: o usuário confirmou os destinos oficiais de Instagram, Facebook, WhatsApp e Google, além de fornecer a fotografia do imóvel identificado como sede da Seccol.
 
 ## Claims permitidos no protótipo
 

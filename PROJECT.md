@@ -2,8 +2,9 @@
 
 Documento vivo para orientar pessoas e agentes em contextos futuros. Atualizar este arquivo durante todo o projeto.
 
-Última atualização: 15 de agosto de 2026  
-Estado: site institucional integrado em oito rotas reais; home redesenhada com maior densidade e variedade compositiva; página autônoma de links refinada para uso mobile; contato com briefing guiado; conteúdo, funcionamento e produção validados.
+Última atualização: 21 de agosto de 2026
+
+Estado: site institucional integrado em oito rotas reais; home com posicionamento orientado à prevenção de não conformidades; página autônoma de links com galeria humana, imóvel, mapa e rota por coordenadas; jornada de diagnóstico conectada com segurança ao CRM do Sistema Seccol; conteúdo e funcionamento validados localmente.
 
 ## Objetivo
 
@@ -35,6 +36,7 @@ O novo site não será uma reforma do código antigo. Informações e imagens pu
 - Playwright Core reutilizando o Edge local para validação visual responsiva.
 - Python e Pillow para ferramentas de tratamento de assets.
 - Vercel como hospedagem do build estático, com configuração versionada em `vercel.json` e Node.js 24.
+- Vercel Function em `api/leads.ts` como adaptador server-side do formulário para o CRM, sem segredo no bundle do navegador.
 
 Fontes oficiais consultadas na definição da stack:
 
@@ -270,6 +272,28 @@ As novas entradas reutilizam o sistema `Reveal` centralizado, com grupos curtos,
 
 O favicon passou a usar somente o símbolo de caixa e check do logo atual. O ativo foi extraído deterministicamente dos pixels originais, sem redesenho, e publicado em PNG transparente de 32×32 px e ICO com camadas de 16×16 e 32×32 px. A tentativa de edição generativa foi rejeitada na inspeção por alterar acabamento e geometria do símbolo.
 
+### 2026-08-21 — Clareza comercial e risco de não conformidade
+
+A mensagem principal passou a explicitar a dor de não conformidades, fiscalização e paralisação operacional. A redação evita prometer que a Seccol impede sanções ou garante conformidade: o benefício publicado é identificar desvios, orientar correções e produzir evidências técnicas antes da fiscalização, coerente com o objetivo confirmado de prevenção e redução de paradas prolongadas.
+
+### 2026-08-21 — Galeria humana e localização no `/instagram`
+
+O usuário confirmou Instagram, Facebook, WhatsApp e o ponto da empresa no Google, validado nas coordenadas `-16.6974441, -49.2870744`. O `/instagram` passou a oferecer seis destinos oficiais, rota direta por coordenadas, mapa incorporado e fotografia do imóvel sem recorte.
+
+A galeria usa 15 cenas visualmente únicas entre 18 arquivos fornecidos; duas duplicações por hash e uma repetição visual em resolução diferente foram excluídas da interface. A ordem é embaralhada por visita, as proporções são preservadas e uma lightbox nativa oferece abertura, avanço, retorno, Escape e fechamento pelo fundo. A nova seção reutiliza `Reveal`, `MotionController` e os tokens existentes; nenhuma dependência foi adicionada.
+
+### 2026-08-21 — Formulário integrado ao CRM
+
+O briefing da rota `/contato` deixou de apenas preparar uma mensagem de WhatsApp e passou a enviar o lead à função server-side `/api/leads`. A função aceita somente requisições JSON da mesma origem, valida campos, consentimento, honeypot e tempo de preenchimento, preserva página, referência e UTMs e encaminha um evento `lead.created` assinado por HMAC-SHA256 ao Sistema Seccol. Credenciais permanecem somente nas variáveis protegidas da Vercel; nenhuma dependência foi adicionada.
+
+O navegador recebe apenas sucesso e protocolo. Indisponibilidade do CRM apresenta fallback explícito para o WhatsApp com o mesmo briefing, sem declarar que o lead foi registrado. O contrato, as variáveis e um prompt reutilizável de manutenção estão em `docs/crm-integration.md`.
+
+### 2026-08-21 — Contato como experiência de diagnóstico
+
+O formulário convencional foi substituído por uma jornada de quatro etapas: sinal percebido, contexto operacional, identificação do contato e revisão da leitura. A interface oferece escolhas visuais, progresso, leitura dinâmica do cenário, retorno a etapas concluídas, validação contextual e confirmação final com protocolo. Em falha, todo o conteúdo permanece disponível e pode ser levado ao WhatsApp.
+
+O momento operacional selecionado é incorporado ao campo de contexto já aceito pelo CRM, preservando o contrato assinado e evitando mudança desnecessária no schema do SIVS. A transição entre etapas usa apenas opacidade e deslocamento de 8 px durante 620 ms, conforme os tokens existentes; `prefers-reduced-motion` remove a animação. Nenhuma dependência foi adicionada.
+
 ## Próxima decisão
 
 Continuar elevando a diferenciação visual das páginas internas prioritárias e incorporar provas reais de projetos quando a Seccol disponibilizar material verificável.
@@ -281,6 +305,7 @@ Continuar elevando a diferenciação visual das páginas internas prioritárias 
 - Definir família tipográfica final somente após aprovação da direção de arte.
 - Criar variantes responsivas e política final de preload da imagem após aprovação do asset principal.
 - Substituir fotografias geradas por ensaio próprio da Seccol quando houver material atual com qualidade equivalente.
+- Configurar `SIVS_CRM_BASE_URL` e `SIVS_WEBSITE_LEADS_SECRET` na Vercel e o mesmo segredo com a empresa de destino no Dokploy antes de publicar a integração.
 
 ## Última validação
 
@@ -321,3 +346,11 @@ Continuar elevando a diferenciação visual das páginas internas prioritárias 
 - `npm run check` após a migração de rotas e refinamentos: aprovado.
 - Deploy `9d4b0fc` publicado pela integração Git com status `Ready`; `/instagram`, `/contato` e `/areas-limpas` abertos e atualizados diretamente em produção com HTTP 200, metadados específicos, sem overflow ou erros de runtime.
 - Compatibilidade legada confirmada em produção: `/#/instagram` é normalizado para `/instagram`.
+- Em 21 de agosto de 2026, a nova copy, os seis destinos do `/instagram`, a galeria humana e a localização foram validados em 1366×900, 390×844 e 360×800: um H1, 15 imagens visualmente únicas, mapa incorporado, rota por coordenadas, alvos de 66–70 px, ausência de overflow, imagens quebradas e erros de runtime.
+- A lightbox foi aprovada com abertura, navegação por setas, contador, Escape e fechamento; `prefers-reduced-motion` manteve todos os elementos visíveis e sem transformação.
+- `npm run check` aprovado após a integração, com CSS de 49,10 kB (9,42 kB gzip) e JavaScript de 239,00 kB (73,51 kB gzip).
+- Em 21 de agosto de 2026, `npm run check` foi aprovado após a integração do formulário com o CRM: 48 módulos, CSS de 50,42 kB (9,63 kB gzip) e JavaScript de 242,24 kB (74,50 kB gzip).
+- O proxy `/api/leads` foi validado com CRM local simulado, confirmando bloqueio por origem, assinatura HMAC exata, evento `lead.created` e retorno somente do protocolo; o formulário foi aprovado em desktop e mobile nos fluxos de sucesso e fallback para WhatsApp, sem overflow nem erro de runtime.
+- A jornada de diagnóstico foi validada em 1366×900, 390×844 e 360×800: seleção e avanço por teclado, erros acessíveis, revisão, payload com momento operacional, protocolo, fallback preservando dados, alvo principal de 56 px, ausência de overflow e zero erro de runtime.
+- A aplicação da skill `animate-new-sections-cleanly` manteve a entrada de etapa em 620 ms com 8 px de deslocamento e grupos inteiros; sob `prefers-reduced-motion`, a duração computada caiu para `0.01 ms` e nenhum conteúdo foi ocultado.
+- `npm run check` final aprovado: 48 módulos, CSS de 62,07 kB (11,40 kB gzip) e JavaScript de 249,97 kB (76,76 kB gzip).

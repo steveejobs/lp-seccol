@@ -24,8 +24,8 @@ export function HomeShowcase() {
       <section className={styles.capabilities} aria-labelledby="capabilities-title">
         <div className={styles.sectionLead}>
           <Reveal className={styles.sectionNumber} aria-hidden="true">01</Reveal>
-          <Reveal as="h2" id="capabilities-title">Prevenção antes que o processo pare.</Reveal>
-          <Reveal as="p" index={1}>A Seccol atua para reduzir paradas prolongadas em processos de manipulação, fabricação e pesquisa, combinando engenharia, manutenção e certificação.</Reveal>
+          <Reveal as="h2" id="capabilities-title">O desvio precisa aparecer antes da fiscalização.</Reveal>
+          <Reveal as="p" index={1}>Problemas de fluxo, pressão, filtragem e manutenção nem sempre são visíveis — mas podem expor uma operação a não conformidades e paralisações. A Seccol mede, intervém e documenta para que sua empresa possa agir antes.</Reveal>
         </div>
 
         <div className={styles.capabilityGrid}>

@@ -1,8 +1,10 @@
 import { RouteLink } from '../../app/router'
+import { Reveal } from '../../components/motion/Reveal'
 import { company } from '../../content/siteContent'
 import styles from './InstagramPage.module.css'
+import { TeamGallery } from './TeamGallery'
 
-type LinkIconProps = { type: 'arrow' | 'facebook' | 'linkedin' | 'map' | 'whatsapp' }
+type LinkIconProps = { type: 'arrow' | 'facebook' | 'instagram' | 'linkedin' | 'map' | 'whatsapp' }
 
 function LinkIcon({ type }: LinkIconProps) {
   if (type === 'whatsapp') {
@@ -15,6 +17,9 @@ function LinkIcon({ type }: LinkIconProps) {
   }
   if (type === 'facebook') {
     return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4.3c-.5-.1-2.2-.3-4.1-.3C9 4 7 6.3 7 10.4V14H3v4h4v6h5v-6h4l.6-4H12v-3.2C12 9.6 12.4 8 14 8Z" /></svg>
+  }
+  if (type === 'instagram') {
+    return <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" /></svg>
   }
   if (type === 'linkedin') {
     return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.5H3V20h3.5V8.5ZM4.8 3A2.1 2.1 0 1 0 4.8 7.2 2.1 2.1 0 0 0 4.8 3ZM20.5 13.4c0-3.5-1.9-5.2-4.4-5.2-2 0-3 1.1-3.5 1.9V8.5H9.1V20h3.5v-5.7c0-1.5.3-3 2.2-3 1.9 0 1.9 1.8 1.9 3.1V20h3.5l.3-6.6Z" /></svg>
@@ -44,9 +49,17 @@ const links = [
   },
   {
     kind: 'external' as const,
+    title: 'Instagram',
+    description: 'Acompanhe a Seccol de perto',
+    href: company.instagram,
+    icon: 'instagram' as const,
+    primary: false,
+  },
+  {
+    kind: 'external' as const,
     title: 'Fan page Seccol',
     description: 'Acompanhe a Seccol no Facebook',
-    href: 'https://www.facebook.com/seccolcertificacao',
+    href: company.facebook,
     icon: 'facebook' as const,
     primary: false,
   },
@@ -54,7 +67,7 @@ const links = [
     kind: 'external' as const,
     title: 'LinkedIn',
     description: 'Acompanhe o Grupo Seccol',
-    href: 'https://www.linkedin.com/company/grupo-seccol/',
+    href: company.linkedin,
     icon: 'linkedin' as const,
     primary: false,
   },
@@ -62,7 +75,7 @@ const links = [
     kind: 'external' as const,
     title: 'Localização',
     description: 'Abra a rota no Google Maps',
-    href: 'https://goo.gl/maps/VDEdZiviCbrzHzbJ8',
+    href: 'https://www.google.com/maps/dir/?api=1&destination=-16.6974441%2C-49.2870744',
     icon: 'map' as const,
     primary: false,
   },
@@ -81,8 +94,8 @@ export function InstagramPage() {
               </RouteLink>
               <span className={styles.official}><i aria-hidden="true">✓</i> Links oficiais</span>
             </div>
-            <h1 id="instagram-page-title">Controle que você pode comprovar.</h1>
-            <p>Certificação, manutenção e engenharia para equipamentos e áreas limpas em todo o país.</p>
+            <h1 id="instagram-page-title">Controle que protege sua operação.</h1>
+            <p>Testes, manutenção e certificação para identificar desvios antes que uma fiscalização ou falha interrompa seu processo.</p>
           </header>
 
           <div className={styles.media} aria-hidden="true">
@@ -94,7 +107,7 @@ export function InstagramPage() {
             {links.map((link) => {
               const content = (
                 <>
-                  <span className={styles.icon}><LinkIcon type={link.icon} /></span>
+                  <span className={styles.icon} data-icon={link.icon}><LinkIcon type={link.icon} /></span>
                   <span className={styles.linkCopy}><strong>{link.title}</strong><small>{link.description}</small></span>
                   <span className={styles.arrow}><LinkIcon type="arrow" /></span>
                 </>
@@ -105,6 +118,33 @@ export function InstagramPage() {
                 : <a className={`${styles.link} ${link.primary ? styles.primary : ''}`} href={link.href} key={link.title} target="_blank" rel="noreferrer">{content}</a>
             })}
           </nav>
+
+          <TeamGallery />
+
+          <section className={styles.locationSection} aria-labelledby="location-title">
+            <Reveal className={styles.locationHeader}>
+              <span>Nossa base</span>
+              <h2 id="location-title">Um ponto de encontro para um trabalho que vai longe.</h2>
+              <p>Estamos em Goiânia e atendemos operações em todo o país.</p>
+            </Reveal>
+            <Reveal as="figure" variant="fade" className={styles.building}>
+              <img src="./location/seccol-building.webp" width="616" height="1020" alt="Fachada do Edifício FF, imóvel onde está localizada a Seccol" loading="lazy" />
+            </Reveal>
+            <Reveal variant="fade" className={styles.mapFrame}>
+              <iframe
+                title="Mapa com a localização da Seccol em Goiânia"
+                src="https://www.google.com/maps?q=-16.6974441,-49.2870744&z=17&output=embed"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+            </Reveal>
+            <Reveal>
+              <a className={styles.routeAction} href="https://www.google.com/maps/dir/?api=1&destination=-16.6974441%2C-49.2870744" target="_blank" rel="noreferrer">
+                Traçar rota até a Seccol <span aria-hidden="true">→</span>
+              </a>
+            </Reveal>
+          </section>
 
           <p className={styles.signature}>Seccol Controle e Certificação <span aria-hidden="true">•</span> Goiânia, GO</p>
         </div>

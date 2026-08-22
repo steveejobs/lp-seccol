@@ -1,9 +1,9 @@
 export const heroContent = {
-  title: 'Controle e certificação para ambientes críticos.',
+  title: 'Antecipe não conformidades. Proteja sua operação.',
   description:
-    'Manutenção, reforma, venda e certificação em equipamentos e áreas limpas, com atuação em todo o país.',
+    'Testes, manutenção e certificação em áreas limpas e equipamentos críticos para identificar desvios e produzir evidências técnicas antes da fiscalização.',
   primaryAction: {
-    label: 'Solicitar orçamento',
+    label: 'Solicitar avaliação técnica',
     href: 'https://api.whatsapp.com/send?1=pt_BR&phone=5562982468283',
   },
   secondaryAction: {

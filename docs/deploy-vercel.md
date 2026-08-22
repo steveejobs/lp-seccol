@@ -26,6 +26,17 @@ As rotas do site usam URLs reais (`/a-seccol`, `/areas-limpas`, `/instagram` etc
 
 O primeiro deploy corrigido foi feito pela CLI a partir deste workspace e vinculado ao projeto `sivs-seccol`. A integração Git do projeto também foi atualizada para `steveejobs/lp-seccol`; depois que esta configuração estiver na branch `main`, novos pushes gerarão deploys automáticos.
 
+## Integração do formulário com o CRM
+
+O diretório `api/` contém a função server-side que recebe o formulário e o encaminha de forma assinada ao Sistema Seccol. Antes do deploy, configure na Vercel, para Production e Preview quando aplicável:
+
+```text
+SIVS_CRM_BASE_URL=https://oziresmoreira.online
+SIVS_WEBSITE_LEADS_SECRET=<mesmo segredo configurado no Dokploy>
+```
+
+Essas variáveis são exclusivas do servidor e não devem receber o prefixo `VITE_`. O contrato completo e o teste de ponta a ponta estão descritos em `docs/crm-integration.md`.
+
 ## Diagnóstico
 
 Antes de publicar, executar:

@@ -23,7 +23,7 @@ const pages: Record<string, { title: string; description: string; content: React
   '/instrumentos': { title: 'Instrumentação Técnica — Seccol', description: 'Instrumentos para medir partículas, vazão, pressão, temperatura, umidade, iluminação, ruído e radiação UV-C.', content: <InstrumentsPage /> },
   '/faq': { title: 'Dúvidas Frequentes — Seccol', description: 'Respostas sobre a atuação, os serviços, os registros e as certificações realizadas pela Seccol.', content: <FaqPage /> },
   '/contato': { title: 'Solicite uma Avaliação Técnica — Seccol', description: 'Descreva seu ambiente ou equipamento e inicie uma conversa técnica com a equipe Seccol.', content: <ContactPage /> },
-  '/instagram': { title: 'Links Oficiais — Seccol', description: 'Acesse os canais oficiais de atendimento, site, LinkedIn, Facebook e localização da Seccol.', content: <InstagramPage />, standalone: true },
+  '/instagram': { title: 'Links Oficiais — Seccol', description: 'Acesse os canais oficiais, conheça nossa equipe e encontre a Seccol em Goiânia.', content: <InstagramPage />, standalone: true },
 }
 
 function RoutedSite() {

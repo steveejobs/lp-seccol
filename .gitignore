@@ -12,6 +12,8 @@ dist
 dist-ssr
 .vercel
 *.local
+.env
+!.env.example
 artifacts
 optimized-images
 prototype-anterior

@@ -97,8 +97,9 @@
 .icon { display: grid; width: 2.5rem; height: 2.5rem; place-items: center; border-radius: 50%; color: var(--color-accent); background: var(--color-accent-soft); }
 .primary .icon { color: var(--color-on-accent); background: rgb(255 255 255 / 18%); }
 .icon svg { width: 1.2rem; height: 1.2rem; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-.link:nth-child(3) .icon svg,
-.link:nth-child(4) .icon svg { fill: currentColor; stroke: none; }
+.icon[data-icon='facebook'] svg,
+.icon[data-icon='linkedin'] svg { fill: currentColor; stroke: none; }
+.icon[data-icon='instagram'] svg { fill: none; stroke: currentColor; }
 .linkCopy { display: grid; min-width: 0; gap: 0.08rem; }
 .linkCopy strong { font-size: var(--text-sm); line-height: 1.2; }
 .linkCopy small { overflow: hidden; color: var(--color-text-muted); font-size: 0.68rem; line-height: 1.35; text-overflow: ellipsis; white-space: nowrap; }
@@ -106,12 +107,134 @@
 .arrow { display: grid; place-items: center; color: var(--color-text-muted); }
 .primary .arrow { color: var(--color-on-accent); }
 .arrow svg { width: 1.1rem; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.locationSection,
+.gallerySection {
+  margin-top: clamp(3rem, 10vw, 4.5rem);
+  padding-top: clamp(2rem, 7vw, 3rem);
+  border-top: 1px solid var(--color-border);
+}
+.locationSection { display: grid; gap: var(--space-4); }
+.locationHeader,
+.galleryHeader { display: grid; gap: var(--space-3); }
+.locationHeader > span,
+.galleryHeader > span {
+  color: var(--color-accent-hover);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+.locationHeader h2,
+.galleryHeader h2 {
+  max-width: 12ch;
+  font-size: clamp(2.15rem, 9vw, 3.25rem);
+  line-height: 0.97;
+  letter-spacing: -0.055em;
+  text-wrap: balance;
+}
+.locationHeader p,
+.galleryHeader p { max-width: 34rem; color: var(--color-text-muted); font-size: var(--text-sm); }
+.building {
+  margin-top: var(--space-3);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface-subtle);
+}
+.building img { display: block; width: 100%; height: auto; }
+.mapFrame {
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface-subtle);
+}
+.mapFrame iframe { width: 100%; height: 100%; border: 0; }
+.routeAction {
+  display: inline-flex;
+  width: 100%;
+  min-height: 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--color-text);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  background: var(--color-surface);
+  font-size: var(--text-sm);
+  font-weight: 800;
+  text-decoration: none;
+  transition: color var(--motion-duration-ui) var(--motion-ease-ui), background-color var(--motion-duration-ui) var(--motion-ease-ui), transform var(--motion-duration-ui) var(--motion-ease-ui);
+}
+.routeAction span { font-size: 1.15rem; transition: transform var(--motion-duration-ui) var(--motion-ease-ui); }
+.galleryGrid { columns: 2; column-gap: var(--space-3); margin-top: var(--space-5); }
+.galleryItem {
+  display: block;
+  width: 100%;
+  margin: 0 0 var(--space-3);
+  padding: 0;
+  break-inside: avoid;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-subtle);
+  box-shadow: 0 0.5rem 1.5rem rgb(23 24 22 / 7%);
+  cursor: zoom-in;
+  transition: border-color var(--motion-duration-ui) var(--motion-ease-ui), box-shadow var(--motion-duration-ui) var(--motion-ease-ui), transform var(--motion-duration-ui) var(--motion-ease-ui);
+}
+.galleryItem img { display: block; width: 100%; height: auto; }
+.lightbox {
+  width: min(92vw, 74rem);
+  max-width: none;
+  height: min(92svh, 58rem);
+  max-height: none;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-lg);
+  color: var(--white);
+  background: rgb(10 11 10 / 96%);
+  box-shadow: 0 2rem 8rem rgb(0 0 0 / 48%);
+}
+.lightbox::backdrop { background: rgb(9 10 9 / 86%); }
+.lightboxContent { position: relative; display: grid; width: 100%; height: 100%; place-items: center; padding: clamp(3.75rem, 8vw, 5rem); }
+.lightboxContent img { display: block; width: auto; max-width: 100%; height: auto; max-height: 100%; object-fit: contain; }
+.lightboxContent > p { position: absolute; bottom: var(--space-4); left: 50%; margin: 0; color: rgb(255 255 255 / 62%); font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.08em; transform: translateX(-50%); }
+.lightboxContent > p span { color: var(--color-accent); }
+.lightboxClose,
+.lightboxControl {
+  position: absolute;
+  z-index: 1;
+  display: grid;
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+  place-items: center;
+  border: 1px solid rgb(255 255 255 / 20%);
+  border-radius: 50%;
+  color: var(--white);
+  background: rgb(255 255 255 / 8%);
+  font: inherit;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.lightboxClose { top: var(--space-4); right: var(--space-4); font-size: 1.75rem; font-weight: 300; }
+.lightboxControl { top: 50%; transform: translateY(-50%); }
+.lightboxPrevious { left: var(--space-4); }
+.lightboxNext { right: var(--space-4); }
 .signature { margin-top: var(--space-5); color: var(--color-text-muted); font-size: 0.65rem; text-align: center; }
 .signature span { margin-inline: var(--space-1); color: var(--color-accent); }
 
 @media (hover: hover) {
   .link:hover { border-color: color-mix(in srgb, var(--color-accent) 45%, transparent); background: var(--color-accent-soft); box-shadow: var(--shadow-soft); transform: translateY(-2px); }
   .primary:hover { border-color: var(--color-accent-hover); background: var(--color-accent-hover); }
+  .routeAction:hover { color: var(--color-on-accent); background: var(--color-text); transform: translateY(-2px); }
+  .routeAction:hover span { transform: translateX(3px); }
+  .galleryItem:hover { border-color: color-mix(in srgb, var(--color-accent) 48%, transparent); box-shadow: 0 1rem 2.5rem rgb(23 24 22 / 13%); transform: translateY(-3px); }
+  .lightboxClose:hover,
+  .lightboxControl:hover { background: rgb(255 255 255 / 17%); }
 }
 
 @media (max-width: 560px) {
@@ -126,8 +249,16 @@
   .official { padding-inline: var(--space-2); }
   .media { height: 8.5rem; }
   .link { min-height: 4.15rem; }
+  .galleryGrid { column-gap: var(--space-2); }
+  .galleryItem { margin-bottom: var(--space-2); }
+  .lightbox { width: 100vw; height: 100svh; border-radius: 0; }
+  .lightboxContent { padding: 4.5rem var(--space-3) 5rem; }
+  .lightboxControl { top: auto; bottom: var(--space-3); transform: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .link { transition: none; }
+  .link,
+  .routeAction,
+  .routeAction span,
+  .galleryItem { transition: none; }
 }

@@ -11,7 +11,7 @@ Objetivo: transformar o protótipo aprovado em um site institucional multipágin
 | Áreas limpas | `CleanRoomsPage.tsx` | `/areas-limpas` | onze testes, certificado e relatório |
 | Instrumentos | `InstrumentsPage.tsx` | `/instrumentos` | doze instrumentos publicados |
 | FAQ | `FaqPage.tsx`, `Accordion.tsx` | `/faq` | abrir/fechar automatizado |
-| Contato | `ContactPage.tsx`, `ContactBrief.tsx` | `/contato` | canais reais e briefing direcionado para WhatsApp |
+| Contato | `ContactPage.tsx`, `ContactBrief.tsx`, `api/leads.ts` | `/contato`, `/api/leads` | diagnóstico em quatro etapas, revisão, CRM com protocolo e fallback para WhatsApp |
 | Instagram | `InstagramPage.tsx` | `/instagram` | experiência autônoma validada em 360 e 390 px |
 | Motion | `MotionController.tsx`, `theme/motion.css` | todas | entrada, saída, fallback e reduced motion |
 | Mídia | `assets/generated-originals/`, `public/media/generated/` | todas | quatro originais e quatro WebP rastreáveis |
@@ -28,6 +28,6 @@ Objetivo: transformar o protótipo aprovado em um site institucional multipágin
 
 ## Fora do escopo atual
 
-- Backend de formulário, CMS, mapa incorporado e analytics.
+- CMS e analytics.
 - Ensaios fotográficos documentais da equipe e instalações reais.
 - Prerender/SSG.

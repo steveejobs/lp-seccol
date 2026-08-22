@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "oxlint src vite.config.ts",
+    "lint": "oxlint src api vite.config.ts",
     "typecheck": "tsc -b --pretty false",
     "check": "npm run lint && npm run typecheck && npm run build",
     "preview": "vite preview"
