@@ -68,3 +68,14 @@ Validação executada após o redesenho de 15 de agosto de 2026:
 - motion de etapa confirmado em 620 ms no modo normal e `0.01 ms` sob `prefers-reduced-motion`;
 - auditoria integrada das oito rotas aprovada em 1366×768 e 390×844, sem overflow, imagem quebrada ou erro de runtime;
 - capturas de início, revisão e sucesso em `artifacts/contact-journey/`.
+
+## Refinamento editorial de todas as rotas — 21 de agosto de 2026
+
+- introduções internas verificadas com CTA de diagnóstico, três sinais factuais e uma única headline principal;
+- listas extensas de testes e instrumentos reorganizadas em índices numerados de três, duas e uma coluna conforme o viewport;
+- encerramentos institucionais verificados com CRM como decisão primária e WhatsApp como alternativa;
+- `/contato` abre diretamente na jornada e exibe canais diretos apenas depois do diagnóstico;
+- fotografia real da equipe e faixa de registros publicados inspecionadas em `/a-seccol`;
+- auditor permanente ampliado para 1366×768, 390×844 e 360×800 nas oito rotas, incluindo percurso das quatro etapas e protocolo simulado do CRM;
+- nenhum pacote ou biblioteca de animação foi adicionado; novas entradas reutilizam o sistema de 620 ms e respeitam `prefers-reduced-motion`.
+- resultado final: `npm run check` e `validation: PASS`; 24 combinações de rota e viewport sem overflow, imagem quebrada ou erro de runtime.

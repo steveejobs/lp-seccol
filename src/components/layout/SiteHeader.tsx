@@ -42,8 +42,8 @@ export function SiteHeader() {
             {link.label}
           </RouteLink>
         ))}
-        <RouteLink className={styles.contactLink} to="/contato">Contato</RouteLink>
-        <a className={styles.mobileWhatsApp} href={company.whatsapp} target="_blank" rel="noreferrer">Solicitar orçamento</a>
+        <RouteLink className={styles.contactLink} to="/contato" aria-current={path === '/contato' ? 'page' : undefined}>Diagnóstico</RouteLink>
+        <a className={styles.mobileWhatsApp} href={company.whatsapp} target="_blank" rel="noreferrer">Falar no WhatsApp</a>
       </nav>
     </header>
   )

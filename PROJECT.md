@@ -4,7 +4,7 @@ Documento vivo para orientar pessoas e agentes em contextos futuros. Atualizar e
 
 Última atualização: 21 de agosto de 2026
 
-Estado: site institucional integrado em oito rotas reais; home com posicionamento orientado à prevenção de não conformidades; página autônoma de links com galeria humana, imóvel, mapa e rota por coordenadas; jornada de diagnóstico conectada com segurança ao CRM do Sistema Seccol; conteúdo e funcionamento validados localmente.
+Estado: site institucional integrado em oito rotas reais; home e páginas internas orientadas à prevenção de não conformidades; sistema editorial com evidências e conversão unificada; página autônoma de links com galeria humana, imóvel, mapa e rota por coordenadas; jornada de diagnóstico conectada com segurança ao CRM do Sistema Seccol; conteúdo e funcionamento validados localmente.
 
 ## Objetivo
 
@@ -177,7 +177,7 @@ A pasta correta é `tools/` — interpretação do nome “tous” mencionado no
 - `trim_transparency.py`: remove margens transparentes sem alterar os pixels visíveis.
 - `requirements.txt`: dependências das ferramentas.
 - `capture_ui.mjs`: validação dos sete viewports de controle da home.
-- `capture_site.mjs`: auditoria das sete rotas em desktop/mobile, FAQ, imagens, navegação, runtime e reduced motion.
+- `capture_site.mjs`: auditoria das oito rotas em 1366, 390 e 360 px, FAQ, jornada completa de diagnóstico, imagens, navegação, runtime e reduced motion.
 
 Novos scripts devem oferecer ajuda por CLI, validar caminhos, evitar sobrescrita por padrão e relatar claramente o que modificaram.
 
@@ -294,9 +294,15 @@ O formulário convencional foi substituído por uma jornada de quatro etapas: si
 
 O momento operacional selecionado é incorporado ao campo de contexto já aceito pelo CRM, preservando o contrato assinado e evitando mudança desnecessária no schema do SIVS. A transição entre etapas usa apenas opacidade e deslocamento de 8 px durante 620 ms, conforme os tokens existentes; `prefers-reduced-motion` remove a animação. Nenhuma dependência foi adicionada.
 
+### 2026-08-21 — Sistema editorial e conversão unificada
+
+As páginas internas deixaram de repetir blocos genéricos de altura integral e passaram a usar introduções editoriais densas, três sinais factuais, índices técnicos numerados e seções de decisão coerentes. O CRM é agora o caminho primário de conversão na home, nas introduções e nos encerramentos; WhatsApp permanece como alternativa explícita. A rota `/contato` começa diretamente pelo diagnóstico e apresenta os canais diretos somente depois da experiência, sem repetir o endereço já presente no rodapé.
+
+A página institucional passou a usar uma fotografia real da equipe fornecida na galeria e uma faixa de registros publicados. A direção visual aprovada da hero da home foi preservada; apenas seu CTA foi alinhado ao diagnóstico. As novas composições reutilizam `Reveal`, duração de 620 ms e tokens existentes, sem biblioteca ou dependência adicional.
+
 ## Próxima decisão
 
-Continuar elevando a diferenciação visual das páginas internas prioritárias e incorporar provas reais de projetos quando a Seccol disponibilizar material verificável.
+Incorporar casos de sucesso verificáveis, com autorização de clientes, contexto, desafio, intervenção e resultado mensurável, quando a Seccol disponibilizar esse material.
 
 ## Pendências técnicas conhecidas
 
@@ -354,3 +360,5 @@ Continuar elevando a diferenciação visual das páginas internas prioritárias 
 - A jornada de diagnóstico foi validada em 1366×900, 390×844 e 360×800: seleção e avanço por teclado, erros acessíveis, revisão, payload com momento operacional, protocolo, fallback preservando dados, alvo principal de 56 px, ausência de overflow e zero erro de runtime.
 - A aplicação da skill `animate-new-sections-cleanly` manteve a entrada de etapa em 620 ms com 8 px de deslocamento e grupos inteiros; sob `prefers-reduced-motion`, a duração computada caiu para `0.01 ms` e nenhum conteúdo foi ocultado.
 - `npm run check` final aprovado: 48 módulos, CSS de 62,07 kB (11,40 kB gzip) e JavaScript de 249,97 kB (76,76 kB gzip).
+- Após a unificação editorial, `npm run check` foi aprovado com 48 módulos, CSS de 66,93 kB (12,02 kB gzip) e JavaScript de 253,42 kB (77,64 kB gzip).
+- As oito rotas passaram em 1366×768, 390×844 e 360×800: um H1, imagens íntegras, zero overflow e zero erro de runtime; FAQ, diagnóstico completo com protocolo simulado e `prefers-reduced-motion` também foram aprovados por `tools/capture_site.mjs`.

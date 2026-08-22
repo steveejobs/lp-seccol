@@ -22,8 +22,9 @@ const routes = [
 const viewports = [
   { name: 'desktop', width: 1366, height: 768 },
   { name: 'mobile', width: 390, height: 844 },
+  { name: 'narrow', width: 360, height: 800 },
 ]
-const screenshotRoutes = new Set(['/', '/areas-limpas', '/faq', '/contato', '/instagram'])
+const screenshotRoutes = new Set(routes)
 const violations = []
 const browser = await chromium.launch({ executablePath, headless: true })
 
@@ -68,6 +69,33 @@ try {
           await page.screenshot({ path: resolve(output, `${viewport.name}-${fileName}.png`), fullPage: false, animations: 'disabled', timeout: 15_000 })
         } catch (error) {
           violations.push(`${label}: captura indisponível (${error.name})`)
+        }
+      }
+
+      if (route === '/contato') {
+        await page.route('**/api/leads', async (routeRequest) => {
+          await routeRequest.fulfill({
+            status: 201,
+            contentType: 'application/json',
+            body: JSON.stringify({ ok: true, protocol: 'SECCOL-QA-001' }),
+          })
+        })
+        await page.locator('input[name="need"]').first().evaluate((input) => input.click())
+        await page.getByRole('button', { name: /continuar/i }).click()
+        await page.locator('input[name="moment"]').first().evaluate((input) => input.click())
+        await page.locator('textarea[name="details"]').fill('Validação automatizada do contexto operacional.')
+        await page.getByRole('button', { name: /continuar/i }).click()
+        await page.locator('input[name="name"]').fill('Equipe QA')
+        await page.locator('input[name="phone"]').fill('(62) 99999-9999')
+        await page.locator('input[name="location"]').fill('Goiânia, GO')
+        await page.getByRole('button', { name: /continuar/i }).click()
+        await page.locator('input[name="consent"]').evaluate((input) => input.click())
+        await page.getByRole('button', { name: /enviar para a equipe/i }).click()
+        const protocol = page.getByText('SECCOL-QA-001')
+        try {
+          await protocol.waitFor({ state: 'visible', timeout: 5_000 })
+        } catch {
+          violations.push(`${label}: jornada de diagnóstico não confirmou o protocolo`)
         }
       }
       await page.close()

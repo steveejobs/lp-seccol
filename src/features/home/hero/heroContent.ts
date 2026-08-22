@@ -3,8 +3,8 @@ export const heroContent = {
   description:
     'Testes, manutenção e certificação em áreas limpas e equipamentos críticos para identificar desvios e produzir evidências técnicas antes da fiscalização.',
   primaryAction: {
-    label: 'Solicitar avaliação técnica',
-    href: 'https://api.whatsapp.com/send?1=pt_BR&phone=5562982468283',
+    label: 'Iniciar diagnóstico técnico',
+    href: '/contato',
   },
   secondaryAction: {
     label: 'Ver evidências técnicas',

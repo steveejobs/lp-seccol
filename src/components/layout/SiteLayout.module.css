@@ -87,6 +87,9 @@
 .footerBrand p { max-width: 18rem; color: rgb(255 255 255 / 56%); font-size: var(--text-sm); }
 .footerGrid a { width: fit-content; text-decoration: none; }
 .footerGrid img { width: 8rem; filter: brightness(0) invert(1); }
+.footerLabel { margin-bottom: var(--space-2); color: rgb(255 255 255 / 92%); font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.08em; text-transform: uppercase; }
+.footerGrid .footerDiagnostic { display: inline-flex; min-height: var(--target-min); align-items: center; gap: var(--space-3); margin-top: var(--space-3); border-bottom: 1px solid rgb(255 255 255 / 35%); color: var(--white); font-weight: 800; }
+.footerDiagnostic span { color: var(--color-accent); }
 .copyright { max-width: var(--content-wide); margin-inline: auto; color: rgb(255 255 255 / 45%); font-size: var(--text-xs); }
 
 @media (max-width: 1040px) {

@@ -1,24 +1,39 @@
-.contactSection { align-content: center; }
-.contactGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--color-border); }
-.contactGrid a,
-.contactGrid > div > div {
+.contactPage { overflow: clip; }
+.contactAlternatives {
   display: grid;
-  min-height: 10rem;
-  align-content: center;
-  gap: var(--space-2);
-  padding: var(--space-5);
-  border-right: 1px solid var(--color-border);
-  border-bottom: 1px solid var(--color-border);
-  text-decoration: none;
+  max-width: var(--content-wide);
+  grid-template-columns: minmax(20rem, 0.7fr) minmax(32rem, 1.3fr);
+  gap: clamp(3rem, 8vw, 9rem);
+  margin-inline: auto;
+  padding: var(--space-section) var(--gutter);
 }
-.contactGrid > div:nth-child(even) > * { border-right: 0; }
-.contactGrid strong { font-size: var(--text-xl); }
-.contactGrid span { color: var(--color-text-muted); }
-.contactGrid .primary { color: var(--white); background: var(--color-accent); }
-.contactGrid .primary span { color: rgb(255 255 255 / 78%); }
-.address { display: grid; grid-template-columns: 0.5fr 1fr; gap: var(--space-6); padding-top: var(--space-7); }
-.address h3 { font-size: var(--text-xl); }
-.address p { max-width: 40rem; color: var(--color-text-muted); font-size: var(--text-lg); }
+.alternativeIntro { display: grid; align-content: start; gap: var(--space-5); }
+.alternativeIntro h2 { max-width: 10ch; font-size: clamp(3rem, 5vw, 5.8rem); line-height: 0.94; letter-spacing: -0.06em; }
+.alternativeIntro > p { max-width: 34rem; color: var(--color-text-muted); font-size: var(--text-lg); }
+.serviceHours { display: grid; gap: var(--space-1); margin-top: var(--space-4); padding-top: var(--space-4); border-top: 1px solid var(--color-border); }
+.serviceHours span,
+.channelList a > span { color: var(--color-text-muted); font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.08em; text-transform: uppercase; }
+.channelList { border-top: 1px solid var(--color-border); }
+.channelList a {
+  display: grid;
+  min-height: 8rem;
+  grid-template-columns: 1fr auto;
+  align-content: center;
+  gap: var(--space-2) var(--space-4);
+  padding: var(--space-5);
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+  text-decoration: none;
+  transition:
+    color var(--motion-duration-ui) var(--motion-ease-ui),
+    background-color var(--motion-duration-ui) var(--motion-ease-ui);
+}
+.channelList a > span { grid-column: 1; }
+.channelList a strong { grid-column: 1; font-size: var(--text-xl); overflow-wrap: anywhere; }
+.channelList a i { grid-column: 2; grid-row: 1 / 3; align-self: center; color: var(--color-accent); font-size: var(--text-xl); font-style: normal; }
+.channelList .channelPrimary { color: var(--color-on-accent); background: var(--color-accent); }
+.channelList .channelPrimary > span,
+.channelList .channelPrimary i { color: rgb(255 255 255 / 76%); }
 
 .briefSection {
   position: relative;
@@ -64,7 +79,7 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
-.briefIntro h2 {
+.briefIntro h1 {
   max-width: 10ch;
   margin-top: var(--space-6);
   font-size: clamp(3rem, 4.5vw, 5.8rem);
@@ -203,8 +218,8 @@
   letter-spacing: 0.09em;
   text-transform: uppercase;
 }
-.stepPanel > h3,
-.successExperience h3 {
+.stepPanel > h2,
+.successExperience h2 {
   max-width: 15ch;
   margin-top: var(--space-3);
   font-size: clamp(2.15rem, 3.8vw, 4.25rem);
@@ -406,6 +421,8 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
+  .channelList a:hover { color: var(--color-on-accent); background: var(--color-panel-dark); }
+  .channelList .channelPrimary:hover { background: var(--color-accent-hover); }
   .optionCard:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--color-accent) 42%, var(--color-border)); }
   .continueButton:hover { background: var(--color-accent-hover); }
   .backButton:not(:disabled):hover,
@@ -413,9 +430,10 @@
 }
 
 @media (max-width: 980px) {
+  .contactAlternatives { grid-template-columns: 1fr; }
   .journeyShell { grid-template-columns: 1fr; }
   .briefIntro { position: static; }
-  .briefIntro h2 { max-width: 13ch; }
+  .briefIntro h1 { max-width: 13ch; }
   .journeyMap ol { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-2); }
   .journeyMap li:not(:last-child)::after { top: 1.75rem; right: -0.5rem; bottom: auto; left: calc(50% + 1.1rem); width: auto; height: 1px; }
   .journeyMap button { grid-template-columns: 1fr; justify-items: center; gap: var(--space-2); text-align: center; }
@@ -423,24 +441,23 @@
 }
 
 @media (max-width: 600px) {
-  .contactGrid { grid-template-columns: 1fr; }
-  .contactGrid a,
-  .contactGrid > div > div { min-height: 8rem; padding-inline: 0; border-right: 0; }
-  .contactGrid .primary { padding-inline: var(--space-5); }
-  .address { grid-template-columns: 1fr; }
-  .briefSection { padding-block: var(--space-8); }
-  .journeyShell { gap: var(--space-7); }
-  .briefIntro h2 { margin-top: var(--space-5); font-size: clamp(2.65rem, 13.5vw, 4.25rem); }
+  .contactAlternatives { gap: var(--space-7); padding-block: var(--space-9); }
+  .alternativeIntro h2 { font-size: clamp(2.65rem, 13vw, 4.1rem); }
+  .channelList a { min-height: 7rem; padding-inline: 0; }
+  .channelList .channelPrimary { padding-inline: var(--space-4); }
+  .briefSection { padding-block: var(--space-6) var(--space-8); }
+  .journeyShell { gap: var(--space-6); }
+  .briefIntro h1 { margin-top: var(--space-5); font-size: clamp(2.5rem, 11.5vw, 3.7rem); }
   .briefIntro > p { font-size: var(--text-md); }
-  .journeyMap { margin-top: var(--space-6); }
+  .journeyMap,
+  .liveReading { display: none; }
   .journeyMap button strong { font-size: 0.68rem; }
   .journeyMap button > span { width: 2rem; height: 2rem; }
   .journeyMap li:not(:last-child)::after { top: 1rem; left: calc(50% + 1rem); }
-  .liveReading { margin-top: var(--space-6); padding: var(--space-4); }
   .briefForm { min-height: 43rem; padding: var(--space-4); border-radius: var(--radius-md); }
-  .stepPanel { padding-top: var(--space-6); }
-  .stepPanel > h3,
-  .successExperience h3 { font-size: clamp(2rem, 10vw, 3rem); }
+  .stepPanel { padding-top: var(--space-5); }
+  .stepPanel > h2,
+  .successExperience h2 { font-size: clamp(2rem, 10vw, 3rem); }
   .optionGrid { grid-template-columns: 1fr; margin-top: var(--space-6); }
   .optionCard { min-height: 5.75rem; }
   .fieldRow,

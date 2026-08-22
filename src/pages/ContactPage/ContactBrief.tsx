@@ -151,8 +151,8 @@ export function ContactBrief() {
       <div className={styles.journeyShell}>
         <aside className={styles.briefIntro}>
           <Reveal className={styles.briefIndex}>Diagnóstico inicial</Reveal>
-          <Reveal as="h2" id="brief-title">Comece pelo que está tirando sua tranquilidade.</Reveal>
-          <Reveal as="p" index={1}>Em poucos passos, transforme uma preocupação técnica em um contexto claro para a equipe Seccol.</Reveal>
+          <Reveal as="h1" id="brief-title">Antes que um desvio avance, organize o que está acontecendo.</Reveal>
+          <Reveal as="p" index={1}>Você não precisa conhecer o termo técnico. Comece pelo sinal percebido e entregue à equipe um contexto claro desde o primeiro contato.</Reveal>
 
           <Reveal className={styles.journeyMap} index={2}>
             <p className={styles.mapLabel}>Seu percurso</p>
@@ -183,7 +183,7 @@ export function ContactBrief() {
               <div className={styles.successExperience} role="status">
                 <span className={styles.successMark} aria-hidden="true">✓</span>
                 <p className={styles.stepEyebrow}>Contexto entregue</p>
-                <h3>Agora a equipe não recebe apenas um contato. Recebe a história por trás dele.</h3>
+                <h2>Agora a equipe não recebe apenas um contato. Recebe a história por trás dele.</h2>
                 <p>Seu diagnóstico inicial já está disponível no CRM da Seccol para triagem.</p>
                 <div className={styles.protocolCard}>
                   <span>Protocolo de entrada</span>
@@ -200,7 +200,7 @@ export function ContactBrief() {
 
                 <div className={styles.stepPanel} ref={stepPanel} tabIndex={-1} key={step}>
                   <p className={styles.stepEyebrow}>{step === 0 ? 'Não precisa saber o nome técnico exato' : step === 1 ? 'A urgência muda a conversa' : step === 2 ? 'Uma pessoa, não um número' : 'Tudo organizado antes do envio'}</p>
-                  <h3>{journeySteps[step].title}</h3>
+                  <h2>{journeySteps[step].title}</h2>
                   {step === 0 && (
                     <fieldset className={styles.optionGrid}>
                       <legend className={styles.srOnly}>Selecione sua necessidade</legend>

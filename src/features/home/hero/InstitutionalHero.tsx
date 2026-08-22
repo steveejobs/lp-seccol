@@ -1,3 +1,4 @@
+import { RouteLink } from '../../../app/router'
 import { EvidenceStrip } from './EvidenceStrip'
 import { heroContent } from './heroContent'
 import styles from './InstitutionalHero.module.css'
@@ -16,12 +17,10 @@ export function InstitutionalHero() {
           <div className={styles.decision}>
             <p className={styles.description}>{heroContent.description}</p>
             <div className={styles.actions}>
-              <a
+              <RouteLink
                 className={styles.primaryAction}
                 data-primary-cta
-                href={heroContent.primaryAction.href}
-                target="_blank"
-                rel="noreferrer"
+                to={heroContent.primaryAction.href}
               >
                 {heroContent.primaryAction.label}
                 <svg aria-hidden="true" viewBox="0 0 20 20" width="20" height="20">
@@ -32,7 +31,7 @@ export function InstitutionalHero() {
                     strokeWidth="1.5"
                   />
                 </svg>
-              </a>
+              </RouteLink>
               <a className={styles.secondaryAction} href={heroContent.secondaryAction.href}>
                 {heroContent.secondaryAction.label}
               </a>
